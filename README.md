@@ -1,3 +1,4 @@
+
 # Módulo de Ventas - Spring Boot
 
 ## Descripción
@@ -25,4 +26,5 @@ El sistema permite administrar productos, categorías, clientes, empleados, vent
 Nombre de la base de datos: fernandez
 
 ## Estudiante: 
-Michale Julian Fernandez Camarena
+Michael Julian Fernandez Camarena
+
