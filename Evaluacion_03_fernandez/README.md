@@ -172,5 +172,3 @@ La lectura, el registro, la edición, la eliminación, los filtros y la actualiz
 
 - [Instrucciones detalladas del frontend](frontend-veterinaria/README.md).
 - [Resultados de verificación y puntos pendientes](frontend-veterinaria/VERIFICACION.md).
-
-El alcance se mantiene sencillo: propietarios, mascotas y consultas, sin autenticación, roles, pagos, inventario ni módulos adicionales.
