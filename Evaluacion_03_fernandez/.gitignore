@@ -1,0 +1,38 @@
+# Dependencias, compilados y cachés
+node_modules/
+target/
+dist/
+build/
+.gradle/
+.npm-cache/
+.cache/
+.vite/
+coverage/
+*.class
+*.log
+
+# Archivos locales de IDE y del sistema
+.idea/
+.vscode/
+.settings/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.factorypath
+.DS_Store
+desktop.ini
+
+# Entornos locales y credenciales
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Capturas y perfiles generados por las pruebas del navegador
+frontend-veterinaria/tests/artifacts/
