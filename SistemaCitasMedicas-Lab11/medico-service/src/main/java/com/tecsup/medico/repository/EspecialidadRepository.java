@@ -1,0 +1,4 @@
+package com.tecsup.medico.repository;
+import com.tecsup.medico.model.Especialidad;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface EspecialidadRepository extends JpaRepository<Especialidad, Integer> {}
