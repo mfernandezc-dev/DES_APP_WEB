@@ -1,0 +1,91 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lab 14 - Resultados reales</title>
+<style>body{font:16px system-ui;background:#f4f6f8;color:#172536;max-width:1280px;margin:30px auto;padding:0 24px}
+section{background:white;border:1px solid #ccd6df;border-radius:8px;margin:22px 0;padding:22px}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#edf2f5;padding:12px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6df;padding:9px;text-align:left}
+code{overflow-wrap:anywhere}h1,h2{color:#125272}
+aside{background:#fff4d6;border-left:4px solid #9a6700;padding:12px 18px}
+figure{margin:20px 0}img{display:block;max-width:100%;height:auto}figcaption{margin-top:8px}
+@media(max-width:700px){body{padding:0 12px}section{padding:12px}table{display:block;overflow-x:auto}}
+</style></head><body>
+<h1>Laboratorio 14 — Resultados de pruebas reales</h1>
+<p>Informe de resultados registrados, con fuentes JSON y enlaces a capturas originales. Esta página no es una interfaz de Postman ni una captura en vivo de los servicios.
+La sesión posterior con capturas directas y el recorrido inicial se presentan por separado, conservando sus cifras originales.</p>
+<aside><strong>Cómo interpretar la evidencia</strong>
+<ul>
+<li><strong>Capturas de ejecución:</strong> las dos imágenes de consola enlazadas debajo documentan solicitudes HTTP reales, sus respuestas y extractos originales de logs de esa ejecución.</li>
+<li><strong>Captura de informe:</strong> <a href="retry/informe-resultados.png">informe-resultados.png</a> muestra la versión anterior de este informe con los resultados iniciales; no es una pantalla del backend ni se actualiza al editar este HTML.</li>
+<li><strong>Resultados JSON:</strong> conservan respuestas, tiempos y registros; no son capturas de pantalla. Las envolturas <code>value</code> y <code>Count</code> de algunos archivos corresponden a serialización de PowerShell, <strong>no al contrato HTTP original</strong>.</li>
+<li><strong>Diagramas:</strong> el Mermaid del <a href="../README.md">README</a> explica la arquitectura; no acredita ejecución.</li>
+</ul>
+<p><strong>HTTP 200 con fallback no significa éxito de la dependencia:</strong> el consumidor devolvió una respuesta degradada controlada. La corrección visual de «Categoría» en esta página no modifica los JSON originales.</p></aside>
+<section><h2>Actividad final: capturas directas de ejecución</h2>
+<p>Sesión del 21/11/2026, entre las 19:07 y 19:09 (-05:00), contra servicios Java y MySQL reales. Endpoint: <code>GET http://localhost:8085/api/pedidos?detallado=true</code>. Son capturas nativas de la consola que ejecutó los GET y presentó resultados y logs, no de Postman ni de este informe.</p>
+<h3>Retry Pedido → Cliente</h3>
+<p>Cabecera <code>X-Lab-Cliente-Delay-Ms: 5000</code>. Tres intentos, demora de 5000 ms registrada en Cliente, fallback de Cliente y Producto normal. HTTP <strong>200</strong> en <strong>10114 ms</strong>; seis comprobaciones aprobadas.</p>
+<p>Fuentes: <a href="actividad-final/cliente-retry-ejecucion.json">resultados y logs de Retry</a>; <a href="actividad-final/cliente-retry-ejecucion.png.json">metadatos y SHA-256 de la captura</a>.</p>
+<figure><a href="actividad-final/cliente-retry-ejecucion.png"><img src="actividad-final/cliente-retry-ejecucion.png" width="993" height="839" alt="Captura real de consola: URL, cabecera de demora de Cliente, HTTP 200 con fallback, tres intentos y logs de 5000 ms"></a><figcaption>Captura directa de ejecución Retry. El HTTP 200 contiene fallback de Cliente, no una respuesta exitosa de esa dependencia.</figcaption></figure>
+<h3>Bulkhead Pedido → Producto</h3>
+<p>Cabecera <code>X-Lab-Producto-Delay-Ms: 10000</code>. Cuatro GET concurrentes: dos productos reales en <strong>10146/10141 ms</strong> y dos fallbacks en <strong>1139/1142 ms</strong>. Cuatro HTTP <strong>200</strong>, máximo de <strong>dos llamadas activas</strong>, dos rechazos <code>productoBulkhead is full</code>; siete comprobaciones aprobadas.</p>
+<p>Fuentes: <a href="actividad-final/producto-bulkhead-ejecucion.json">resultados y logs de Bulkhead</a>; <a href="actividad-final/producto-bulkhead-ejecucion.png.json">metadatos y SHA-256 de la captura</a>.</p>
+<figure><a href="actividad-final/producto-bulkhead-ejecucion.png"><img src="actividad-final/producto-bulkhead-ejecucion.png" width="993" height="839" alt="Captura real de consola: cuatro GET concurrentes, dos respuestas de Producto, dos fallbacks y máximo de dos llamadas activas"></a><figcaption>Captura directa de ejecución Bulkhead. Solo dos consultas a Producto fueron admitidas; los otros dos HTTP 200 contienen fallback por saturación.</figcaption></figure>
+<p><strong>Trece comprobaciones aprobaron</strong> entre ambos escenarios. Son independientes de las doce aserciones Postman del recorrido anterior.</p>
+<p>El <a href="actividad-final/estado-final-capturas-20261121-190923.json">cierre satisfactorio registrado</a> dejó los servicios de negocio en DEV, sin LAB y con <code>ddl-auto=validate</code>; los listados consultados permanecieron iguales. Las cabeceras artificiales ya no causaron demora (23/37/25 ms en Categoría/Producto/Cliente); Pedido sin cabeceras devolvió datos reales en 54 ms. El <a href="actividad-final/estado-final-capturas-20261121-190620.json">intento previo interrumpido</a> se conserva como trazabilidad: no acredita éxito ni es el cierre vigente.</p>
+<p><code>GET /api/pedidos</code> conserva el listado original; <code>detallado=true</code> activa la composición resiliente. LAB es exclusivo de simulaciones temporales. No hubo despliegue PROD; la causa histórica del HTTP 500 sigue sin confirmar. El estado de cierre es histórico, no una consulta en vivo al abrir este informe. Véanse <a href="RESULTADOS.md">los resultados y pendientes académicos</a>.</p>
+</section>
+<h2>Recorrido inicial: resultados originales conservados</h2>
+<section><h2>Retry Categoria</h2><p>Fuente: <a href="retry/categoria-no-disponible.json">retry/categoria-no-disponible.json</a></p><p>Intentos observados: <strong>3</strong>. Duracion: 4340 ms.</p><pre>{
+  &quot;categoria&quot;: {
+    &quot;estado&quot;: &quot;NO DISPONIBLE&quot;,
+    &quot;id&quot;: 1,
+    &quot;nombre&quot;: &quot;Categoría temporal no disponible&quot;
+  },
+  &quot;categoriaId&quot;: 1,
+  &quot;id&quot;: 1,
+  &quot;nombre&quot;: &quot;Laptop&quot;,
+  &quot;precio&quot;: 2500.0,
+  &quot;stock&quot;: 10
+}</pre><h3>Extracto real de consola</h3><pre>2026-11-21T18:09:31.858-05:00  INFO 24604 --- [producto-service] [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+Hibernate: select p1_0.id,p1_0.categoria_id,p1_0.nombre,p1_0.precio,p1_0.stock from producto p1_0 where p1_0.id=?
+Llamando a categoria-service...
+2026-11-21T18:09:31.955-05:00  INFO 24604 --- [producto-service] [           main] com.tecsup.ProductoServiceApplication    : Started ProductoServiceApplication in 14.218 seconds (process running for 14.907)
+Llamando a categoria-service...
+Llamando a categoria-service...
+Circuit Breaker fallback activado: Connection refused executing GET http://categoria-service/api/categorias/1</pre></section><section><h2>Bulkhead Categoria</h2><p>Fuente: <a href="bulkhead/categoria-concurrente.json">bulkhead/categoria-concurrente.json</a></p><table><tr><th>Solicitud</th><th>HTTP</th><th>ms</th><th>Respuesta real</th></tr><tr><td>0</td><td>200</td><td>10023</td><td><code>{&quot;categoria&quot;:{&quot;estado&quot;:&quot;ACTIVO&quot;,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptops&quot;},&quot;categoriaId&quot;:1,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptop&quot;,&quot;precio&quot;:2500.0,&quot;stock&quot;:10}</code></td></tr><tr><td>1</td><td>200</td><td>1010</td><td><code>{&quot;categoria&quot;:{&quot;estado&quot;:&quot;NO DISPONIBLE&quot;,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Categoría temporal no disponible&quot;},&quot;categoriaId&quot;:1,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptop&quot;,&quot;precio&quot;:2500.0,&quot;stock&quot;:10}</code></td></tr><tr><td>2</td><td>200</td><td>1010</td><td><code>{&quot;categoria&quot;:{&quot;estado&quot;:&quot;NO DISPONIBLE&quot;,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Categoría temporal no disponible&quot;},&quot;categoriaId&quot;:1,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptop&quot;,&quot;precio&quot;:2500.0,&quot;stock&quot;:10}</code></td></tr><tr><td>3</td><td>200</td><td>10020</td><td><code>{&quot;categoria&quot;:{&quot;estado&quot;:&quot;ACTIVO&quot;,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptops&quot;},&quot;categoriaId&quot;:1,&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptop&quot;,&quot;precio&quot;:2500.0,&quot;stock&quot;:10}</code></td></tr></table><h3>Extracto real de consola</h3><pre>2026-11-21T18:10:04.011-05:00  INFO 11584 --- [categoria-service] [nio-8082-exec-4] com.tecsup.config.LabDelayFilter         : LAB demora=10000ms activas=2
+2026-11-21T18:10:04.011-05:00  INFO 11584 --- [categoria-service] [nio-8082-exec-2] com.tecsup.config.LabDelayFilter         : LAB demora=10000ms activas=1
+Hibernate: select c1_0.id,c1_0.estado,c1_0.nombre from categoria c1_0 where c1_0.id=?
+Hibernate: select c1_0.id,c1_0.estado,c1_0.nombre from categoria c1_0 where c1_0.id=?
+2026-11-21T18:10:14.019-05:00  INFO 11584 --- [categoria-service] [nio-8082-exec-2] com.tecsup.config.LabDelayFilter         : LAB fin activas=1
+2026-11-21T18:10:14.019-05:00  INFO 11584 --- [categoria-service] [nio-8082-exec-4] com.tecsup.config.LabDelayFilter         : LAB fin activas=0</pre></section><section><h2>Retry Cliente</h2><p>Fuente: <a href="actividad-final/cliente-retry.json">actividad-final/cliente-retry.json</a></p><p>Intentos observados: <strong>3</strong>. Duracion: 10079 ms.</p><pre>{
+  &quot;value&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;cantidad&quot;: 1,
+      &quot;estado&quot;: &quot;PENDIENTE&quot;,
+      &quot;cliente&quot;: {
+        &quot;id&quot;: 1,
+        &quot;nombre&quot;: &quot;Cliente temporalmente no disponible&quot;,
+        &quot;apellido&quot;: null
+      },
+      &quot;producto&quot;: {
+        &quot;id&quot;: 1,
+        &quot;nombre&quot;: &quot;Laptop&quot;,
+        &quot;precio&quot;: 2500.0
+      }
+    }
+  ],
+  &quot;Count&quot;: 1
+}</pre><h3>Extracto real de consola</h3><pre>Hibernate: select p1_0.id_pedido,p1_0.estado,p1_0.fecha,p1_0.id_cliente,p1_0.total from pedido p1_0
+Hibernate: select d1_0.id_pedido,d1_0.id_detalle,d1_0.cantidad,d1_0.id_producto,d1_0.precio from detalle_pedido d1_0 where d1_0.id_pedido=?
+Intento HTTP hacia cliente-service, id=1
+Intento HTTP hacia cliente-service, id=1
+Intento HTTP hacia cliente-service, id=1
+Retry cliente agotado: RetryableException
+Consultando producto-service...</pre></section><section><h2>Bulkhead Producto</h2><p>Fuente: <a href="actividad-final/producto-bulkhead.json">actividad-final/producto-bulkhead.json</a></p><table><tr><th>Solicitud</th><th>HTTP</th><th>ms</th><th>Respuesta real</th></tr><tr><td>0</td><td>200</td><td>10046</td><td><code>[{&quot;id&quot;:1,&quot;cantidad&quot;:1,&quot;estado&quot;:&quot;PENDIENTE&quot;,&quot;cliente&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Carlos&quot;,&quot;apellido&quot;:&quot;Ramirez&quot;},&quot;producto&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptop&quot;,&quot;precio&quot;:2500.0}}]</code></td></tr><tr><td>1</td><td>200</td><td>1033</td><td><code>[{&quot;id&quot;:1,&quot;cantidad&quot;:1,&quot;estado&quot;:&quot;PENDIENTE&quot;,&quot;cliente&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Carlos&quot;,&quot;apellido&quot;:&quot;Ramirez&quot;},&quot;producto&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Producto temporalmente no disponible&quot;,&quot;precio&quot;:null}}]</code></td></tr><tr><td>2</td><td>200</td><td>10046</td><td><code>[{&quot;id&quot;:1,&quot;cantidad&quot;:1,&quot;estado&quot;:&quot;PENDIENTE&quot;,&quot;cliente&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Carlos&quot;,&quot;apellido&quot;:&quot;Ramirez&quot;},&quot;producto&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Laptop&quot;,&quot;precio&quot;:2500.0}}]</code></td></tr><tr><td>3</td><td>200</td><td>1033</td><td><code>[{&quot;id&quot;:1,&quot;cantidad&quot;:1,&quot;estado&quot;:&quot;PENDIENTE&quot;,&quot;cliente&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Carlos&quot;,&quot;apellido&quot;:&quot;Ramirez&quot;},&quot;producto&quot;:{&quot;id&quot;:1,&quot;nombre&quot;:&quot;Producto temporalmente no disponible&quot;,&quot;precio&quot;:null}}]</code></td></tr></table><h3>Extracto real de consola</h3><pre>2026-11-21T18:10:24.193-05:00  INFO 4568 --- [producto-service] [nio-8083-exec-6] com.tecsup.config.LabDelayFilter         : LAB demora=10000ms activas=1
+2026-11-21T18:10:24.194-05:00  INFO 4568 --- [producto-service] [nio-8083-exec-2] com.tecsup.config.LabDelayFilter         : LAB demora=10000ms activas=2
+Hibernate: select p1_0.id,p1_0.categoria_id,p1_0.nombre,p1_0.precio,p1_0.stock from producto p1_0 where p1_0.id=?
+Hibernate: select p1_0.id,p1_0.categoria_id,p1_0.nombre,p1_0.precio,p1_0.stock from producto p1_0 where p1_0.id=?
+Llamando a categoria-service...
+Llamando a categoria-service...
+2026-11-21T18:10:34.219-05:00  INFO 4568 --- [producto-service] [nio-8083-exec-6] com.tecsup.config.LabDelayFilter         : LAB fin activas=1
+2026-11-21T18:10:34.220-05:00  INFO 4568 --- [producto-service] [nio-8083-exec-2] com.tecsup.config.LabDelayFilter         : LAB fin activas=0</pre></section></body></html>

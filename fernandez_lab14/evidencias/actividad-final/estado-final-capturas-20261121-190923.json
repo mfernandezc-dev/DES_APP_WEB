@@ -1,0 +1,176 @@
+{
+  "Timestamp": "2026-11-21T19:09:18.487772-05:00",
+  "ScenarioError": null,
+  "RestorationErrors": [],
+  "NormalPedido": {
+    "Url": "http://localhost:8085/api/pedidos?detallado=true",
+    "Method": "GET",
+    "Headers": {},
+    "Status": 200,
+    "Milliseconds": 718,
+    "BodyRaw": "[{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Carlos\",\"apellido\":\"Ramirez\"},\"producto\":{\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0}}]",
+    "Body": [
+      {
+        "id": 1,
+        "cantidad": 1,
+        "estado": "PENDIENTE",
+        "cliente": {
+          "id": 1,
+          "nombre": "Carlos",
+          "apellido": "Ramirez"
+        },
+        "producto": {
+          "id": 1,
+          "nombre": "Laptop",
+          "precio": 2500.0
+        }
+      }
+    ]
+  },
+  "BusinessDataUnchanged": true,
+  "ArtificialDelayDisabledChecks": [
+    {
+      "Url": "http://localhost:8082/api/categorias/1",
+      "Method": "GET",
+      "Headers": {
+        "X-Lab-Categoria-Delay-Ms": "10000"
+      },
+      "Status": 200,
+      "Milliseconds": 23,
+      "BodyRaw": "{\"id\":1,\"nombre\":\"Laptops\",\"estado\":\"ACTIVO\"}",
+      "Body": {
+        "id": 1,
+        "nombre": "Laptops",
+        "estado": "ACTIVO"
+      },
+      "DelayDisabled": true
+    },
+    {
+      "Url": "http://localhost:8083/api/productos/1",
+      "Method": "GET",
+      "Headers": {
+        "X-Lab-Producto-Delay-Ms": "10000"
+      },
+      "Status": 200,
+      "Milliseconds": 37,
+      "BodyRaw": "{\"categoria\":{\"estado\":\"ACTIVO\",\"id\":1,\"nombre\":\"Laptops\"},\"categoriaId\":1,\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0,\"stock\":10}",
+      "Body": {
+        "categoria": {
+          "estado": "ACTIVO",
+          "id": 1,
+          "nombre": "Laptops"
+        },
+        "categoriaId": 1,
+        "id": 1,
+        "nombre": "Laptop",
+        "precio": 2500.0,
+        "stock": 10
+      },
+      "DelayDisabled": true
+    },
+    {
+      "Url": "http://localhost:8084/api/clientes/1",
+      "Method": "GET",
+      "Headers": {
+        "X-Lab-Cliente-Delay-Ms": "10000"
+      },
+      "Status": 200,
+      "Milliseconds": 25,
+      "BodyRaw": "{\"apellido\":\"Ramirez\",\"direccion\":\"Lima\",\"estado\":\"ACTIVO\",\"id\":1,\"nombre\":\"Carlos\",\"nro_dni\":\"12345678\"}",
+      "Body": {
+        "apellido": "Ramirez",
+        "direccion": "Lima",
+        "estado": "ACTIVO",
+        "id": 1,
+        "nombre": "Carlos",
+        "nro_dni": "12345678"
+      },
+      "DelayDisabled": true
+    }
+  ],
+  "NoSimulationHeaderPedido": {
+    "Url": "http://localhost:8085/api/pedidos?detallado=true",
+    "Method": "GET",
+    "Headers": {},
+    "Status": 200,
+    "Milliseconds": 54,
+    "BodyRaw": "[{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Carlos\",\"apellido\":\"Ramirez\"},\"producto\":{\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0}}]",
+    "Body": [
+      {
+        "id": 1,
+        "cantidad": 1,
+        "estado": "PENDIENTE",
+        "cliente": {
+          "id": 1,
+          "nombre": "Carlos",
+          "apellido": "Ramirez"
+        },
+        "producto": {
+          "id": 1,
+          "nombre": "Laptop",
+          "precio": 2500.0
+        }
+      }
+    ]
+  },
+  "Processes": [
+    {
+      "Port": 8888,
+      "PID": 20528,
+      "Java": "C:\\Users\\USER\\.jdks\\openjdk-27.0.1.0.2\\bin\\java.exe"
+    },
+    {
+      "Port": 8761,
+      "PID": 16544,
+      "Java": "C:\\Users\\USER\\.jdks\\openjdk-27.0.1.0.2\\bin\\java.exe"
+    },
+    {
+      "Port": 8082,
+      "PID": 21060,
+      "Java": "C:\\Users\\USER\\.jdks\\openjdk-27.0.1.0.2\\bin\\java.exe",
+      "Arguments": [
+        "--spring.profiles.active=dev",
+        "--spring.jpa.hibernate.ddl-auto=validate",
+        "--logging.file.name=../.runtime/categoria-service.log"
+      ]
+    },
+    {
+      "Port": 8083,
+      "PID": 4104,
+      "Java": "C:\\Users\\USER\\.jdks\\openjdk-27.0.1.0.2\\bin\\java.exe",
+      "Arguments": [
+        "--spring.profiles.active=dev",
+        "--spring.jpa.hibernate.ddl-auto=validate",
+        "--logging.file.name=../.runtime/producto-service.log"
+      ]
+    },
+    {
+      "Port": 8084,
+      "PID": 20620,
+      "Java": "C:\\Users\\USER\\.jdks\\openjdk-27.0.1.0.2\\bin\\java.exe",
+      "Arguments": [
+        "--spring.profiles.active=dev",
+        "--spring.jpa.hibernate.ddl-auto=validate",
+        "--logging.file.name=../.runtime/cliente-service.log"
+      ]
+    },
+    {
+      "Port": 8085,
+      "PID": 10084,
+      "Java": "C:\\Users\\USER\\.jdks\\openjdk-27.0.1.0.2\\bin\\java.exe",
+      "Arguments": [
+        "--spring.profiles.active=dev",
+        "--spring.jpa.hibernate.ddl-auto=validate",
+        "--logging.file.name=../.runtime/pedido-service.log"
+      ]
+    }
+  ],
+  "LabDisabled": true,
+  "AllSixPortsPresent": true,
+  "IndexUnchanged": true,
+  "ProtectedFileChanges": [],
+  "Branch": "main",
+  "HEADUnchanged": true,
+  "StagedCount": 57,
+  "Scope": "Two final activity tests only; original evidence, Java, README and informe preserved"
+}

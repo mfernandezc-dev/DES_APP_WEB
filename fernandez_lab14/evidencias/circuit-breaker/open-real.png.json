@@ -1,0 +1,7 @@
+﻿{
+    "Browser":  "Chrome headless",
+    "Timestamp":  "2026-11-21T18:12:25.0854596-05:00",
+    "Url":  "http://localhost:8084/actuator/circuitbreakers",
+    "Bytes":  13643,
+    "Image":  "circuit-breaker/open-real.png"
+}

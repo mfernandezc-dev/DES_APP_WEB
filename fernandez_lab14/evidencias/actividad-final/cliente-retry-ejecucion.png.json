@@ -1,0 +1,14 @@
+{
+  "Tool": "Windows PrintWindow (native console)",
+  "Timestamp": "2026-11-21T19:08:12.034310-05:00",
+  "Width": 993,
+  "Height": 839,
+  "SHA256": "46ff9f6ce17db59da3c77c0e96580281f8e0973d27fe7c4ee4205518fbd9d46f",
+  "Scenario": "retry",
+  "Url": "http://localhost:8085/api/pedidos?detallado=true",
+  "Header": {
+    "X-Lab-Cliente-Delay-Ms": "5000"
+  },
+  "Results": "cliente-retry-ejecucion.json",
+  "AllAssertionsPassed": true
+}

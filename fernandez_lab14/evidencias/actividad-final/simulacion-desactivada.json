@@ -1,0 +1,20 @@
+﻿[
+    {
+        "Url":  "http://localhost:8082/api/categorias/1",
+        "Status":  200,
+        "Milliseconds":  63,
+        "DelayHeaderIgnored":  true
+    },
+    {
+        "Url":  "http://localhost:8083/api/productos/1",
+        "Status":  200,
+        "Milliseconds":  36,
+        "DelayHeaderIgnored":  true
+    },
+    {
+        "Url":  "http://localhost:8084/api/clientes/1",
+        "Status":  200,
+        "Milliseconds":  25,
+        "DelayHeaderIgnored":  true
+    }
+]

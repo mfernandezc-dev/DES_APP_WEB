@@ -1,0 +1,66 @@
+﻿{
+    "Before":  {
+                   "value":  [
+                                 {
+                                     "detalles":  [
+                                                      {
+                                                          "cantidad":  1,
+                                                          "idDetalle":  1,
+                                                          "idProducto":  1,
+                                                          "precio":  null
+                                                      }
+                                                  ],
+                                     "estado":  "PENDIENTE",
+                                     "fecha":  "2026-11-21",
+                                     "idCliente":  1,
+                                     "idPedido":  1,
+                                     "total":  null
+                                 }
+                             ],
+                   "Count":  1
+               },
+    "Timestamp":  "2026-11-21T18:04:07.4081776-05:00",
+    "Unchanged":  true,
+    "Cases":  [
+                  {
+                      "Payload":  {
+                                      "clienteId":  9223372036854775807,
+                                      "cantidad":  1,
+                                      "productoId":  1
+                                  },
+                      "ConfirmedMissing":  true,
+                      "Status":  500,
+                      "Body":  null
+                  },
+                  {
+                      "Payload":  {
+                                      "clienteId":  1,
+                                      "cantidad":  1,
+                                      "productoId":  9223372036854775807
+                                  },
+                      "ConfirmedMissing":  true,
+                      "Status":  500,
+                      "Body":  null
+                  }
+              ],
+    "After":  {
+                  "value":  [
+                                {
+                                    "detalles":  [
+                                                     {
+                                                         "cantidad":  1,
+                                                         "idDetalle":  1,
+                                                         "idProducto":  1,
+                                                         "precio":  null
+                                                     }
+                                                 ],
+                                    "estado":  "PENDIENTE",
+                                    "fecha":  "2026-11-21",
+                                    "idCliente":  1,
+                                    "idPedido":  1,
+                                    "total":  null
+                                }
+                            ],
+                  "Count":  1
+              }
+}

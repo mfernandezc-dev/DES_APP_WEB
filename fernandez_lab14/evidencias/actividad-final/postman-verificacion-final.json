@@ -1,0 +1,128 @@
+﻿[
+    {
+        "Url":  "http://localhost:8085/api/pedidos/1",
+        "Timestamp":  "2026-11-21T23:14:14.544Z",
+        "Status":  200,
+        "Milliseconds":  71,
+        "Tests":  {
+                      "total":  4,
+                      "passed":  4,
+                      "failed":  0,
+                      "results":  [
+                                      {
+                                          "name":  "HTTP 200",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Pedido original preservado",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Cliente real sin fallback",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Producto real sin fallback",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      }
+                                  ]
+                  },
+        "BodyRaw":  "{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Carlos\",\"apellido\":\"Ramirez\"},\"producto\":{\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0}}"
+    },
+    {
+        "Url":  "http://localhost:8084/api/clientes/pedidos/1",
+        "Timestamp":  "2026-11-21T23:14:16.757Z",
+        "Status":  200,
+        "Milliseconds":  64,
+        "Tests":  {
+                      "total":  4,
+                      "passed":  4,
+                      "failed":  0,
+                      "results":  [
+                                      {
+                                          "name":  "HTTP 200",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Pedido original preservado",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Cliente real sin fallback",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Producto real sin fallback",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      }
+                                  ]
+                  },
+        "BodyRaw":  "{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Carlos\",\"apellido\":\"Ramirez\"},\"producto\":{\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0}}"
+    },
+    {
+        "Url":  "http://localhost:8085/api/pedidos?detallado=true",
+        "Timestamp":  "2026-11-21T23:14:18.690Z",
+        "Status":  200,
+        "Milliseconds":  63,
+        "Tests":  {
+                      "total":  4,
+                      "passed":  4,
+                      "failed":  0,
+                      "results":  [
+                                      {
+                                          "name":  "HTTP 200",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Pedido original preservado",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Cliente real sin fallback",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      },
+                                      {
+                                          "name":  "Producto real sin fallback",
+                                          "passed":  true,
+                                          "consoleLogs":  [
+
+                                                          ]
+                                      }
+                                  ]
+                  },
+        "BodyRaw":  "[{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Carlos\",\"apellido\":\"Ramirez\"},\"producto\":{\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0}}]"
+    }
+]

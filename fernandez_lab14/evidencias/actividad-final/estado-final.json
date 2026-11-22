@@ -1,0 +1,80 @@
+﻿{
+    "Timestamp":  "2026-11-21T18:18:04.1758667-05:00",
+    "Circuits":  [
+                     {
+                         "Port":  8083,
+                         "Name":  "categoriaService",
+                         "State":  "CLOSED"
+                     },
+                     {
+                         "Port":  8084,
+                         "Name":  "pedidoService",
+                         "State":  "CLOSED"
+                     },
+                     {
+                         "Port":  8085,
+                         "Name":  "productoService",
+                         "State":  "CLOSED"
+                     }
+                 ],
+    "Feign":  {
+                  "id":  1,
+                  "cantidad":  1,
+                  "estado":  "PENDIENTE",
+                  "cliente":  {
+                                  "id":  1,
+                                  "nombre":  "Carlos",
+                                  "apellido":  "Ramirez"
+                              },
+                  "producto":  {
+                                   "id":  1,
+                                   "nombre":  "Laptop",
+                                   "precio":  2500.0
+                               }
+              },
+    "Processes":  [
+                      {
+                          "Port":  8082,
+                          "PID":  4800,
+                          "Profiles":  "dev",
+                          "DdlAuto":  "validate",
+                          "ObservedCommand":  "java_command: com.tecsup.CategoriaServiceApplication --spring.profiles.active=dev --spring.jpa.hibernate.ddl-auto=validate --logging.file.name=../.runtime/categoria-service.log"
+                      },
+                      {
+                          "Port":  8083,
+                          "PID":  28328,
+                          "Profiles":  "dev",
+                          "DdlAuto":  "validate",
+                          "ObservedCommand":  "java_command: com.tecsup.ProductoServiceApplication --spring.profiles.active=dev --spring.jpa.hibernate.ddl-auto=validate --logging.file.name=../.runtime/producto-service.log"
+                      },
+                      {
+                          "Port":  8084,
+                          "PID":  24652,
+                          "Profiles":  "dev",
+                          "DdlAuto":  "validate",
+                          "ObservedCommand":  "java_command: com.tecsup.ClienteServiceApplication --spring.profiles.active=dev --spring.jpa.hibernate.ddl-auto=validate --logging.file.name=../.runtime/cliente-service.log"
+                      },
+                      {
+                          "Port":  8085,
+                          "PID":  29976,
+                          "Profiles":  "dev",
+                          "DdlAuto":  "validate",
+                          "ObservedCommand":  "java_command: com.tecsup.PedidoServiceApplication --spring.profiles.active=dev --spring.jpa.hibernate.ddl-auto=validate --logging.file.name=../.runtime/pedido-service.log"
+                      }
+                  ],
+    "Directa":  {
+                    "id":  1,
+                    "cantidad":  1,
+                    "estado":  "PENDIENTE",
+                    "cliente":  {
+                                    "id":  1,
+                                    "nombre":  "Carlos",
+                                    "apellido":  "Ramirez"
+                                },
+                    "producto":  {
+                                     "id":  1,
+                                     "nombre":  "Laptop",
+                                     "precio":  2500.0
+                                 }
+                }
+}

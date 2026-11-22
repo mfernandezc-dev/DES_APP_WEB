@@ -1,0 +1,9 @@
+﻿PASS: Comunicacion directa y Feign con datos reales
+cliente-service iniciado: PID=25568, perfiles=dev,lab, ddl-auto=validate
+pedido-service detenido (solo proceso identificado).
+PASS: Cliente usa fallback con Pedido detenido
+PASS: Circuito pedidoService OPEN
+pedido-service iniciado: PID=14708, perfiles=dev,lab, ddl-auto=validate
+PASS: Feign recuperado tras reiniciar Pedido
+producto-service iniciado: PID=18560, perfiles=dev,lab, ddl-auto=validate
+categoria-service detenido (solo proceso identificado).

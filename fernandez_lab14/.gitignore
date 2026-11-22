@@ -1,0 +1,8 @@
+**/target/
+**/.idea/
+**/*.iml
+.runtime/
+**/*.log
+**/.env
+**/.env.*
+!**/.env.example

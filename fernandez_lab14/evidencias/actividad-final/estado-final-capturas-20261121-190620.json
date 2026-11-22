@@ -1,0 +1,12 @@
+{
+  "Timestamp": "2026-11-21T19:03:48.313464-05:00",
+  "ScenarioError": "RuntimeError(\"http://localhost:8082/actuator/info: <HTTPError 404: ''>\")",
+  "RestorationErrors": [],
+  "FinalVerificationError": "RuntimeError(\"http://localhost:8085/api/pedidos?detallado=true: URLError(ConnectionRefusedError(10061, 'No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión', None, 10061, None))\")",
+  "IndexUnchanged": true,
+  "ProtectedFileChanges": [],
+  "Branch": "main",
+  "HEADUnchanged": true,
+  "StagedCount": 57,
+  "Scope": "Two final activity tests only; original evidence, Java, README and informe preserved"
+}

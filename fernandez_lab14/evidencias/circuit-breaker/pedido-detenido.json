@@ -1,0 +1,36 @@
+﻿{
+    "Responses":  [
+                      {
+                          "mensaje":  "Pedido Service temporalmente no disponible",
+                          "disponible":  false,
+                          "idSolicitado":  1
+                      },
+                      {
+                          "mensaje":  "Pedido Service temporalmente no disponible",
+                          "disponible":  false,
+                          "idSolicitado":  1
+                      },
+                      {
+                          "mensaje":  "Pedido Service temporalmente no disponible",
+                          "disponible":  false,
+                          "idSolicitado":  1
+                      },
+                      {
+                          "mensaje":  "Pedido Service temporalmente no disponible",
+                          "disponible":  false,
+                          "idSolicitado":  1
+                      }
+                  ],
+    "Circuit":  {
+                    "bufferedCalls":  3,
+                    "failedCalls":  3,
+                    "failureRate":  "100.0%",
+                    "failureRateThreshold":  "50.0%",
+                    "notPermittedCalls":  1,
+                    "slowCallRate":  "0.0%",
+                    "slowCallRateThreshold":  "100.0%",
+                    "slowCalls":  0,
+                    "slowFailedCalls":  0,
+                    "state":  "OPEN"
+                }
+}

@@ -1,0 +1,62 @@
+
+spring:
+  application:
+    name: producto-service
+
+  profiles:
+    active: dev
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+# El circuito sigue configurado centralmente en config-repo.
+# Orden real: CircuitBreaker(Bulkhead(Retry(Feign))). Solo el exterior usa fallback.
+resilience4j:
+  circuitbreaker:
+    circuitBreakerAspectOrder: 1
+    instances:
+      categoriaService:
+        ignoreExceptions:
+          - io.github.resilience4j.bulkhead.BulkheadFullException
+          - feign.FeignException$NotFound
+  bulkhead:
+    instances:
+      categoriaBulkhead:
+        maxConcurrentCalls: 2
+        maxWaitDuration: 1s
+  retry:
+    # Bulkhead tiene orden fijo 2147483646 en la dependencia actual.
+    retryAspectOrder: 2147483647
+    instances:
+      categoriaRetry:
+        maxAttempts: 3
+        waitDuration: 2s
+        retryExceptions:
+          - feign.RetryableException
+          - feign.FeignException$InternalServerError
+          - feign.FeignException$BadGateway
+          - feign.FeignException$ServiceUnavailable
+          - feign.FeignException$GatewayTimeout
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    openfeign:
+      client:
+        config:
+          categoria-service:
+            connectTimeout: 1000
+            readTimeout: 15000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,circuitbreakers,circuitbreakerevents,retries,retryevents,bulkheads,bulkheadevents

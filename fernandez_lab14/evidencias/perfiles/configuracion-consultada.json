@@ -1,0 +1,285 @@
+﻿[
+    {
+        "Service":  "categoria-service",
+        "Profile":  "default",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/categoria-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "categoria-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para CategorÃ­a Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "categoria-service",
+        "Profile":  "dev",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/categoria-service-dev.yml",
+                            "Source":  {
+                                           "server.port":  8082,
+                                           "spring.application.name":  "categoria-service",
+                                           "spring.datasource.url":  "jdbc:mysql://localhost:3306/bd_categoria_dev",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/categoria-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "categoria-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para CategorÃ­a Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "categoria-service",
+        "Profile":  "prod",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/categoria-service-prod.yml",
+                            "Source":  {
+                                           "server.port":  9092,
+                                           "spring.datasource.url":  "jdbc:mysql://servidor/bd_categoria_prod",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/categoria-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "categoria-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para CategorÃ­a Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "producto-service",
+        "Profile":  "default",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/producto-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "producto-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Producto Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "producto-service",
+        "Profile":  "dev",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/producto-service-dev.yml",
+                            "Source":  {
+                                           "server.port":  8083,
+                                           "spring.application.name":  "producto-service",
+                                           "spring.datasource.url":  "jdbc:mysql://localhost:3306/bd_producto_dev",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e",
+                                           "resilience4j.circuitbreaker.instances.categoriaService.registerHealthIndicator":  true,
+                                           "resilience4j.circuitbreaker.instances.categoriaService.slidingWindowSize":  5,
+                                           "resilience4j.circuitbreaker.instances.categoriaService.minimumNumberOfCalls":  3,
+                                           "resilience4j.circuitbreaker.instances.categoriaService.failureRateThreshold":  50,
+                                           "resilience4j.circuitbreaker.instances.categoriaService.waitDurationInOpenState":  "10s"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/producto-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "producto-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Producto Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "producto-service",
+        "Profile":  "prod",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/producto-service-prod.yml",
+                            "Source":  {
+                                           "server.port":  9093,
+                                           "spring.datasource.url":  "jdbc:mysql://servidor/bd_producto_prod",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/producto-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "producto-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Producto Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "cliente-service",
+        "Profile":  "default",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/cliente-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "cliente-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Cliente Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "cliente-service",
+        "Profile":  "dev",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/cliente-service-dev.yml",
+                            "Source":  {
+                                           "server.port":  8084,
+                                           "spring.datasource.url":  "jdbc:mysql://localhost:3306/bd_cliente_dev",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e",
+                                           "resilience4j.circuitbreaker.instances.pedidoService.registerHealthIndicator":  true,
+                                           "resilience4j.circuitbreaker.instances.pedidoService.slidingWindowSize":  5,
+                                           "resilience4j.circuitbreaker.instances.pedidoService.minimumNumberOfCalls":  3,
+                                           "resilience4j.circuitbreaker.instances.pedidoService.failureRateThreshold":  50,
+                                           "resilience4j.circuitbreaker.instances.pedidoService.waitDurationInOpenState":  "10s"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/cliente-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "cliente-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Cliente Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "cliente-service",
+        "Profile":  "prod",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/cliente-service-prod.yml",
+                            "Source":  {
+                                           "server.port":  9094,
+                                           "spring.datasource.url":  "jdbc:mysql://servidor/bd_cliente_prod",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/cliente-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "cliente-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Cliente Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "pedido-service",
+        "Profile":  "default",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/pedido-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "pedido-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Pedido Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "pedido-service",
+        "Profile":  "dev",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/pedido-service-dev.yml",
+                            "Source":  {
+                                           "server.port":  8085,
+                                           "spring.datasource.url":  "jdbc:mysql://localhost:3306/bd_pedido_dev",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e",
+                                           "empresa.ambiente":  "desarrollo",
+                                           "resilience4j.circuitbreaker.instances.productoService.registerHealthIndicator":  true,
+                                           "resilience4j.circuitbreaker.instances.productoService.slidingWindowSize":  5,
+                                           "resilience4j.circuitbreaker.instances.productoService.minimumNumberOfCalls":  3,
+                                           "resilience4j.circuitbreaker.instances.productoService.failureRateThreshold":  50,
+                                           "resilience4j.circuitbreaker.instances.productoService.waitDurationInOpenState":  "10s"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/pedido-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "pedido-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Pedido Service"
+                                       }
+                        }
+                    ]
+    },
+    {
+        "Service":  "pedido-service",
+        "Profile":  "prod",
+        "Version":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+        "Sources":  [
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/pedido-service-prod.yml",
+                            "Source":  {
+                                           "server.port":  9095,
+                                           "spring.datasource.url":  "jdbc:mysql://servidor/bd_pedido_prod",
+                                           "spring.datasource.username":  "\u003comitido\u003e",
+                                           "spring.datasource.password":  "\u003comitido\u003e",
+                                           "empresa.ambiente":  "produccion"
+                                       }
+                        },
+                        {
+                            "Name":  "https://github.com/mfernandezc-dev/config-repo/pedido-service.yml",
+                            "Source":  {
+                                           "spring.application.name":  "pedido-service",
+                                           "spring.jpa.hibernate.ddl-auto":  "update",
+                                           "spring.jpa.show-sql":  true,
+                                           "mensaje.texto":  "ConfiguraciÃ³n obtenida desde Config Server para Pedido Service"
+                                       }
+                        }
+                    ]
+    }
+]

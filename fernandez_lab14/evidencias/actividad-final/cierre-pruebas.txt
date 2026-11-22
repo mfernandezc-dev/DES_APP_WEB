@@ -1,0 +1,10 @@
+﻿Captura real guardada: C:\Users\USER\Desktop\4° Ciclo\Desarrollo de  App Web\DES_APP_WEB\fernandez_lab14\evidencias\circuit-breaker\antes-real.png (verificar visualmente antes de presentarla).
+pedido-service detenido (solo proceso identificado).
+Captura real guardada: C:\Users\USER\Desktop\4° Ciclo\Desarrollo de  App Web\DES_APP_WEB\fernandez_lab14\evidencias\circuit-breaker\open-real.png (verificar visualmente antes de presentarla).
+pedido-service iniciado: PID=29976, perfiles=dev, ddl-auto=validate
+Captura real guardada: C:\Users\USER\Desktop\4° Ciclo\Desarrollo de  App Web\DES_APP_WEB\fernandez_lab14\evidencias\circuit-breaker\recuperacion-real.png (verificar visualmente antes de presentarla).
+PASS: dos pedidos invalidos rechazados y listado intacto.
+categoria-service iniciado: PID=26012, perfiles=dev, ddl-auto=validate
+producto-service iniciado: PID=10464, perfiles=dev, ddl-auto=validate
+cliente-service iniciado: PID=24652, perfiles=dev, ddl-auto=validate
+PASS: validaciones 404, comunicacion recuperada y cuatro servicios sin perfil LAB.

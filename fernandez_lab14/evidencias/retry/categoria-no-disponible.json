@@ -1,0 +1,25 @@
+﻿{
+    "Attempts":  3,
+    "Milliseconds":  4340,
+    "Console":  [
+                    "2026-11-21T18:09:31.858-05:00  INFO 24604 --- [producto-service] [           main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname",
+                    "Hibernate: select p1_0.id,p1_0.categoria_id,p1_0.nombre,p1_0.precio,p1_0.stock from producto p1_0 where p1_0.id=?",
+                    "Llamando a categoria-service...",
+                    "2026-11-21T18:09:31.955-05:00  INFO 24604 --- [producto-service] [           main] com.tecsup.ProductoServiceApplication    : Started ProductoServiceApplication in 14.218 seconds (process running for 14.907)",
+                    "Llamando a categoria-service...",
+                    "Llamando a categoria-service...",
+                    "Circuit Breaker fallback activado: Connection refused executing GET http://categoria-service/api/categorias/1"
+                ],
+    "Response":  {
+                     "categoria":  {
+                                       "estado":  "NO DISPONIBLE",
+                                       "id":  1,
+                                       "nombre":  "CategorÃ­a temporal no disponible"
+                                   },
+                     "categoriaId":  1,
+                     "id":  1,
+                     "nombre":  "Laptop",
+                     "precio":  2500.0,
+                     "stock":  10
+                 }
+}

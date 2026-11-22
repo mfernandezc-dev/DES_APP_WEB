@@ -1,0 +1,64 @@
+﻿{
+    "Responses":  [
+                      {
+                          "categoria":  {
+                                            "estado":  "NO DISPONIBLE",
+                                            "id":  1,
+                                            "nombre":  "CategorÃ­a temporal no disponible"
+                                        },
+                          "categoriaId":  1,
+                          "id":  1,
+                          "nombre":  "Laptop",
+                          "precio":  2500.0,
+                          "stock":  10
+                      },
+                      {
+                          "categoria":  {
+                                            "estado":  "NO DISPONIBLE",
+                                            "id":  1,
+                                            "nombre":  "CategorÃ­a temporal no disponible"
+                                        },
+                          "categoriaId":  1,
+                          "id":  1,
+                          "nombre":  "Laptop",
+                          "precio":  2500.0,
+                          "stock":  10
+                      },
+                      {
+                          "categoria":  {
+                                            "estado":  "NO DISPONIBLE",
+                                            "id":  1,
+                                            "nombre":  "CategorÃ­a temporal no disponible"
+                                        },
+                          "categoriaId":  1,
+                          "id":  1,
+                          "nombre":  "Laptop",
+                          "precio":  2500.0,
+                          "stock":  10
+                      },
+                      {
+                          "categoria":  {
+                                            "estado":  "NO DISPONIBLE",
+                                            "id":  1,
+                                            "nombre":  "CategorÃ­a temporal no disponible"
+                                        },
+                          "categoriaId":  1,
+                          "id":  1,
+                          "nombre":  "Laptop",
+                          "precio":  2500.0,
+                          "stock":  10
+                      }
+                  ],
+    "Circuit":  {
+                    "bufferedCalls":  5,
+                    "failedCalls":  3,
+                    "failureRate":  "60.0%",
+                    "failureRateThreshold":  "50.0%",
+                    "notPermittedCalls":  1,
+                    "slowCallRate":  "0.0%",
+                    "slowCallRateThreshold":  "100.0%",
+                    "slowCalls":  0,
+                    "slowFailedCalls":  0,
+                    "state":  "OPEN"
+                }
+}

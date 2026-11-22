@@ -1,0 +1,20 @@
+﻿PASS: Comunicacion directa y Feign con datos reales
+producto-service iniciado: PID=24604, perfiles=dev,lab, ddl-auto=validate
+categoria-service detenido (solo proceso identificado).
+PASS: Retry categoria: tres intentos HTTP comprobados en consola
+PASS: Retry espera y luego fallback
+categoria-service iniciado: PID=11584, perfiles=dev,lab, ddl-auto=validate
+producto-service iniciado: PID=4568, perfiles=dev,lab, ddl-auto=validate
+PASS: Categoria recuperada
+PASS: Cuatro respuestas HTTP 200 en Bulkhead categoria
+PASS: Bulkhead categoria admite dos y rechaza dos
+PASS: Dos respuestas reales con demora de diez segundos
+PASS: Rechazos rapidos sin reintentar Bulkhead lleno
+PASS: Cliente Retry: tres intentos por timeout
+PASS: Cliente fallback tras agotar Retry
+PASS: Cliente recuperado sin cabecera de demora
+PASS: Cuatro respuestas HTTP 200 en Bulkhead producto
+PASS: Bulkhead producto admite dos y rechaza dos
+PASS: Producto demora diez segundos en dos respuestas reales
+PASS: Contrato original y datos preservados
+Todas las aserciones del recorrido finalizaron correctamente.

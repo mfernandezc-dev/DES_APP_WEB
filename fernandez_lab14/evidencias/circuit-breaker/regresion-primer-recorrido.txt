@@ -1,0 +1,7 @@
+﻿categoria-service detenido (solo proceso identificado).
+PASS: categoriaService OPEN con servicio detenido
+categoria-service iniciado: PID=4800, perfiles=dev, ddl-auto=validate
+PASS: categoriaService recuperado y CLOSED
+producto-service detenido (solo proceso identificado).
+PASS: productoService OPEN con servicio detenido
+producto-service iniciado: PID=28328, perfiles=dev, ddl-auto=validate

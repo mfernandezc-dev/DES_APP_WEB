@@ -1,0 +1,67 @@
+﻿[
+    {
+        "Service":  "config-server",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.371 s -- in com.tecsup.ConfigServerApplicationTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    },
+    {
+        "Service":  "eureka-server",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.882 s -- in com.tecsup.eureka.EurekaServerApplicationTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    },
+    {
+        "Service":  "gateway-service",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.975 s -- in com.tecsup.GatewayServiceApplicationTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    },
+    {
+        "Service":  "categoria-service",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.14 s -- in com.tecsup.CategoriaServiceApplicationTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    },
+    {
+        "Service":  "cliente-service",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.86 s -- in com.tecsup.ClienteServiceApplicationTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    },
+    {
+        "Service":  "producto-service",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.18 s -- in com.tecsup.ProductoServiceApplicationTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    },
+    {
+        "Service":  "pedido-service",
+        "ExitCode":  0,
+        "Summary":  [
+                        "[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.222 s -- in com.tecsup.exception.FeignExceptionHandlerTests",
+                        "[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.62 s -- in com.tecsup.PedidoServiceApplicationTests",
+                        "[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.366 s -- in com.tecsup.services.PedidoServiceValidationTests",
+                        "[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0",
+                        "[INFO] BUILD SUCCESS"
+                    ]
+    }
+]

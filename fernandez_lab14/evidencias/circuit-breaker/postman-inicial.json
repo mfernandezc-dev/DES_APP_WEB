@@ -1,0 +1,94 @@
+{
+  "request": {
+    "url": "http://localhost:8084/api/clientes/pedidos/1",
+    "header": [
+      {
+        "key": "User-Agent",
+        "value": "PostmanRuntime/7.56.1",
+        "system": true
+      },
+      {
+        "key": "Accept",
+        "value": "*/*",
+        "system": true
+      },
+      {
+        "key": "Cache-Control",
+        "value": "no-cache",
+        "system": true
+      },
+      {
+        "key": "Host",
+        "value": "localhost:8084",
+        "system": true
+      },
+      {
+        "key": "Accept-Encoding",
+        "value": "gzip, deflate, br",
+        "system": true
+      },
+      {
+        "key": "Connection",
+        "value": "keep-alive",
+        "system": true
+      }
+    ],
+    "method": "GET",
+    "body": ""
+  },
+  "response": {
+    "id": "52435d63-a4c3-4779-a725-dc81f82b4734",
+    "status": "OK",
+    "code": 200,
+    "header": [
+      {
+        "key": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "key": "Content-Length",
+        "value": "182"
+      },
+      {
+        "key": "Date",
+        "value": "Sat, 21 Nov 2026 22:49:56 GMT"
+      },
+      {
+        "key": "Keep-Alive",
+        "value": "timeout=60"
+      },
+      {
+        "key": "Connection",
+        "value": "keep-alive"
+      }
+    ],
+    "cookie": [],
+    "responseTime": 80,
+    "responseSize": 182,
+    "downloadedBytes": 182,
+    "body": "{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Carlos\",\"apellido\":\"Ramirez\"},\"producto\":{\"id\":1,\"nombre\":\"Producto temporalmente no disponible\",\"precio\":null}}"
+  },
+  "timestamp": "2026-11-21T22:49:56.634Z",
+  "tests": {
+    "total": 2,
+    "passed": 1,
+    "failed": 1,
+    "results": [
+      {
+        "name": "HTTP 200",
+        "passed": true,
+        "consoleLogs": []
+      },
+      {
+        "name": "Pedido real preservado",
+        "passed": false,
+        "consoleLogs": [],
+        "error": {
+          "message": "expected null to deeply equal 2500",
+          "name": "AssertionError"
+        }
+      }
+    ]
+  },
+  "scriptLogs": []
+}

@@ -1,0 +1,76 @@
+﻿{
+    "Responses":  [
+                      {
+                          "id":  1,
+                          "cantidad":  1,
+                          "estado":  "PENDIENTE",
+                          "cliente":  {
+                                          "id":  1,
+                                          "nombre":  "Carlos",
+                                          "apellido":  "Ramirez"
+                                      },
+                          "producto":  {
+                                           "id":  1,
+                                           "nombre":  "Producto temporalmente no disponible",
+                                           "precio":  null
+                                       }
+                      },
+                      {
+                          "id":  1,
+                          "cantidad":  1,
+                          "estado":  "PENDIENTE",
+                          "cliente":  {
+                                          "id":  1,
+                                          "nombre":  "Carlos",
+                                          "apellido":  "Ramirez"
+                                      },
+                          "producto":  {
+                                           "id":  1,
+                                           "nombre":  "Producto temporalmente no disponible",
+                                           "precio":  null
+                                       }
+                      },
+                      {
+                          "id":  1,
+                          "cantidad":  1,
+                          "estado":  "PENDIENTE",
+                          "cliente":  {
+                                          "id":  1,
+                                          "nombre":  "Carlos",
+                                          "apellido":  "Ramirez"
+                                      },
+                          "producto":  {
+                                           "id":  1,
+                                           "nombre":  "Producto temporalmente no disponible",
+                                           "precio":  null
+                                       }
+                      },
+                      {
+                          "id":  1,
+                          "cantidad":  1,
+                          "estado":  "PENDIENTE",
+                          "cliente":  {
+                                          "id":  1,
+                                          "nombre":  "Carlos",
+                                          "apellido":  "Ramirez"
+                                      },
+                          "producto":  {
+                                           "id":  1,
+                                           "nombre":  "Producto temporalmente no disponible",
+                                           "precio":  null
+                                       }
+                      }
+                  ],
+    "Circuit":  {
+                    "bufferedCalls":  5,
+                    "failedCalls":  3,
+                    "failureRate":  "60.0%",
+                    "failureRateThreshold":  "50.0%",
+                    "notPermittedCalls":  1,
+                    "slowCallRate":  "0.0%",
+                    "slowCallRateThreshold":  "100.0%",
+                    "slowCalls":  0,
+                    "slowFailedCalls":  0,
+                    "state":  "OPEN"
+                }
+}

@@ -1,0 +1,37 @@
+﻿[
+    {
+        "Service":  "config-server",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    },
+    {
+        "Service":  "eureka-server",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    },
+    {
+        "Service":  "gateway-service",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    },
+    {
+        "Service":  "categoria-service",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    },
+    {
+        "Service":  "cliente-service",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    },
+    {
+        "Service":  "producto-service",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    },
+    {
+        "Service":  "pedido-service",
+        "BuildLogExists":  true,
+        "BuildSuccess":  true
+    }
+]

@@ -1,0 +1,37 @@
+﻿{
+    "Pedido":  {
+                   "id":  1,
+                   "cantidad":  1,
+                   "estado":  "PENDIENTE",
+                   "cliente":  {
+                                   "id":  1,
+                                   "nombre":  "Carlos",
+                                   "apellido":  "Ramirez"
+                               },
+                   "producto":  {
+                                    "id":  1,
+                                    "nombre":  "Laptop",
+                                    "precio":  2500.0
+                                }
+               },
+    "Legacy":  {
+                   "value":  [
+                                 {
+                                     "detalles":  [
+                                                      {
+                                                          "cantidad":  1,
+                                                          "idDetalle":  1,
+                                                          "idProducto":  1,
+                                                          "precio":  null
+                                                      }
+                                                  ],
+                                     "estado":  "PENDIENTE",
+                                     "fecha":  "2026-11-21",
+                                     "idCliente":  1,
+                                     "idPedido":  1,
+                                     "total":  null
+                                 }
+                             ],
+                   "Count":  1
+               }
+}

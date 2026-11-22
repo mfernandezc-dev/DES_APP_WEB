@@ -1,0 +1,30 @@
+﻿[
+    {
+        "Application":  "CLIENTE-SERVICE",
+        "InstanceId":  "localhost:cliente-service:8084",
+        "Host":  "localhost",
+        "Port":  8084,
+        "Status":  "UP"
+    },
+    {
+        "Application":  "PRODUCTO-SERVICE",
+        "InstanceId":  "localhost:producto-service:8083",
+        "Host":  "localhost",
+        "Port":  8083,
+        "Status":  "UP"
+    },
+    {
+        "Application":  "PEDIDO-SERVICE",
+        "InstanceId":  "localhost:pedido-service:8085",
+        "Host":  "localhost",
+        "Port":  8085,
+        "Status":  "UP"
+    },
+    {
+        "Application":  "CATEGORIA-SERVICE",
+        "InstanceId":  "localhost:categoria-service:8082",
+        "Host":  "localhost",
+        "Port":  8082,
+        "Status":  "UP"
+    }
+]

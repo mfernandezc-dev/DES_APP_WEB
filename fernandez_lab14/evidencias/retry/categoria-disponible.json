@@ -1,0 +1,12 @@
+﻿{
+    "categoria":  {
+                      "estado":  "ACTIVO",
+                      "id":  1,
+                      "nombre":  "Laptops"
+                  },
+    "categoriaId":  1,
+    "id":  1,
+    "nombre":  "Laptop",
+    "precio":  2500.0,
+    "stock":  10
+}

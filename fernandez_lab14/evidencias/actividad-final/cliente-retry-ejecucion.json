@@ -1,0 +1,65 @@
+{
+  "Started": "2026-11-21T19:07:56.791596-05:00",
+  "Completed": "2026-11-21T19:08:10.907570-05:00",
+  "Source": "Live local Java services and MySQL; GET only",
+  "Scenario": "retry",
+  "Responses": [
+    {
+      "Url": "http://localhost:8085/api/pedidos?detallado=true",
+      "Method": "GET",
+      "Headers": {
+        "X-Lab-Cliente-Delay-Ms": "5000"
+      },
+      "Status": 200,
+      "Milliseconds": 10114,
+      "BodyRaw": "[{\"id\":1,\"cantidad\":1,\"estado\":\"PENDIENTE\",\"cliente\":{\"id\":1,\"nombre\":\"Cliente temporalmente no disponible\",\"apellido\":null},\"producto\":{\"id\":1,\"nombre\":\"Laptop\",\"precio\":2500.0}}]",
+      "Body": [
+        {
+          "id": 1,
+          "cantidad": 1,
+          "estado": "PENDIENTE",
+          "cliente": {
+            "id": 1,
+            "nombre": "Cliente temporalmente no disponible",
+            "apellido": null
+          },
+          "producto": {
+            "id": 1,
+            "nombre": "Laptop",
+            "precio": 2500.0
+          }
+        }
+      ]
+    }
+  ],
+  "Attempts": 3,
+  "MaximumActiveCalls": 2,
+  "Checks": {
+    "HTTP200": true,
+    "ThreeRealAttempts": true,
+    "ClientDelay5000": true,
+    "ClientFallback": true,
+    "ProductNormal": true,
+    "RetryExhaustedLogged": true
+  },
+  "PedidoConsole": [
+    "Hibernate: select p1_0.id_pedido,p1_0.estado,p1_0.fecha,p1_0.id_cliente,p1_0.total from pedido p1_0",
+    "Hibernate: select d1_0.id_pedido,d1_0.id_detalle,d1_0.cantidad,d1_0.id_producto,d1_0.precio from detalle_pedido d1_0 where d1_0.id_pedido=?",
+    "Intento HTTP hacia cliente-service, id=1",
+    "Intento HTTP hacia cliente-service, id=1",
+    "Intento HTTP hacia cliente-service, id=1",
+    "Retry cliente agotado: RetryableException",
+    "Consultando producto-service..."
+  ],
+  "DependencyConsole": [
+    "2026-11-21T19:07:56.853-05:00  INFO 6592 --- [cliente-service] [nio-8084-exec-2] com.tecsup.config.LabDelayFilter         : LAB demora=5000ms activas=1",
+    "2026-11-21T19:08:00.857-05:00  INFO 6592 --- [cliente-service] [nio-8084-exec-9] com.tecsup.config.LabDelayFilter         : LAB demora=5000ms activas=2",
+    "Hibernate: select c1_0.id,c1_0.apellido,c1_0.direccion,c1_0.estado,c1_0.nombre,c1_0.nro_dni from clientes c1_0 where c1_0.id=?",
+    "2026-11-21T19:08:01.859-05:00  INFO 6592 --- [cliente-service] [nio-8084-exec-2] com.tecsup.config.LabDelayFilter         : LAB fin activas=1",
+    "2026-11-21T19:08:04.872-05:00  INFO 6592 --- [cliente-service] [nio-8084-exec-6] com.tecsup.config.LabDelayFilter         : LAB demora=5000ms activas=2",
+    "Hibernate: select c1_0.id,c1_0.apellido,c1_0.direccion,c1_0.estado,c1_0.nombre,c1_0.nro_dni from clientes c1_0 where c1_0.id=?",
+    "2026-11-21T19:08:05.878-05:00  INFO 6592 --- [cliente-service] [nio-8084-exec-9] com.tecsup.config.LabDelayFilter         : LAB fin activas=1",
+    "Hibernate: select c1_0.id,c1_0.apellido,c1_0.direccion,c1_0.estado,c1_0.nombre,c1_0.nro_dni from clientes c1_0 where c1_0.id=?",
+    "2026-11-21T19:08:09.878-05:00  INFO 6592 --- [cliente-service] [nio-8084-exec-6] com.tecsup.config.LabDelayFilter         : LAB fin activas=0"
+  ]
+}
