@@ -1,0 +1,1664 @@
+﻿{
+    "Step":  "05",
+    "Timestamp":  "2026-11-26T03:13:25.6004849-05:00",
+    "Completed":  true,
+    "Installation":  {
+                         "Version":  "13.3.2",
+                         "Edition":  "OSS",
+                         "Architecture":  "windows-amd64",
+                         "DetectedSystemType":  "x64-based PC",
+                         "OfficialPage":  "https://grafana.com/grafana/download?edition=oss\u0026platform=windows",
+                         "ReleasePage":  "https://grafana.com/grafana/download/13.3.2?edition=oss\u0026platform=windows",
+                         "MetadataURL":  "https://grafana.com/api/grafana/versions/13.3.2",
+                         "DownloadURL":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_amd64.tar.gz",
+                         "ExpectedSHA256":  "8545e8702b219220dddf687053ddfc0503f3acd5bb80a4a401daa2d5faae1056",
+                         "CalculatedSHA256":  "8545e8702b219220dddf687053ddfc0503f3acd5bb80a4a401daa2d5faae1056",
+                         "SHA256Verified":  true,
+                         "ArchiveBytes":  492864941,
+                         "InstallDirectory":  "C:\\Grafana",
+                         "Fallback":  false,
+                         "Executable":  "C:\\Grafana\\bin\\grafana.exe",
+                         "ExecutableSHA256":  "9EA6260EE35B5F9BFEEC30333E97C784E85C5CAAF93E59E6061B308DB70071F8",
+                         "VersionOutput":  "grafana version 13.3.2",
+                         "Command":  "grafana.exe server --homepath ... --config ...",
+                         "Timestamp":  "2026-11-26T02:40:55.6408819-05:00",
+                         "PathModified":  false,
+                         "WindowsServiceRegistered":  false
+                     },
+    "GrafanaProcess":  {
+                           "PID":  27568,
+                           "StartTimeUtc":  "2026-11-26T07:44:27.3856234Z",
+                           "Executable":  "C:\\Grafana\\bin\\grafana.exe",
+                           "ExecutableSHA256":  "9EA6260EE35B5F9BFEEC30333E97C784E85C5CAAF93E59E6061B308DB70071F8",
+                           "Arguments":  [
+                                             "server",
+                                             "--homepath=C:\\Grafana",
+                                             "--config=C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\.runtime\\grafana\\grafana-lab15.ini"
+                                         ],
+                           "Runtime":  "C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\.runtime\\grafana",
+                           "Version":  "13.3.2",
+                           "Port":  3000,
+                           "ListenAddress":  "127.0.0.1:3000",
+                           "ConfigFile":  "C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\.runtime\\grafana\\grafana-lab15.ini",
+                           "ConfigSHA256":  "A7D2F8A2A2CDFD507BBDCAE3BF70E3C54FC6FB91D16DBFFACE4271C56E713C9E",
+                           "Stdout":  "C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\.runtime\\grafana\\logs\\grafana-20261126-024427-368.stdout.log",
+                           "Stderr":  "C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\.runtime\\grafana\\logs\\grafana-20261126-024427-368.stderr.log",
+                           "Ready":  true
+                       },
+    "GrafanaIdentityVerified":  true,
+    "GrafanaLocalhostOnly":  true,
+    "GrafanaProcessCount":  1,
+    "GrafanaHealth":  {
+                          "database":  "ok",
+                          "version":  "13.3.2",
+                          "commit":  "bd754986872f554d30a147ebd605a7fe15881a28"
+                      },
+    "Configuration":  {
+                          "RuntimeConfigUnchanged":  true,
+                          "PortableProvisioningMatches":  true,
+                          "DashboardSHA256":  "99E1CEDF5BE409AE8CCC3346360639A1CD0A01465B94D4CA6D07CFA7E0F79B86",
+                          "Effective":  {
+                                            "server":  {
+                                                           "http_addr":  "127.0.0.1",
+                                                           "http_port":  "3000"
+                                                       },
+                                            "database":  {
+                                                             "type":  "sqlite3",
+                                                             "path":  "C:/Users/USER/Desktop/4%C2%B0 Ciclo/Desarrollo de App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/data/grafana.db"
+                                                         },
+                                            "paths":  {
+                                                          "data":  "C:/Users/USER/Desktop/4%C2%B0 Ciclo/Desarrollo de App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/data",
+                                                          "logs":  "C:/Users/USER/Desktop/4%C2%B0 Ciclo/Desarrollo de App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/logs",
+                                                          "plugins":  "C:/Users/USER/Desktop/4%C2%B0 Ciclo/Desarrollo de App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/plugins",
+                                                          "provisioning":  "C:/Users/USER/Desktop/4%C2%B0 Ciclo/Desarrollo de App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/provisioning"
+                                                      },
+                                            "users":  {
+                                                          "allow_sign_up":  "false",
+                                                          "allow_org_create":  "false",
+                                                          "default_theme":  "dark"
+                                                      },
+                                            "auth.anonymous":  {
+                                                                   "enabled":  "false"
+                                                               },
+                                            "analytics":  {
+                                                              "reporting_enabled":  "false",
+                                                              "check_for_updates":  "false",
+                                                              "check_for_plugin_updates":  "false"
+                                                          },
+                                            "plugins":  {
+                                                            "preinstall_disabled":  "true",
+                                                            "public_key_retrieval_disabled":  "true"
+                                                        },
+                                            "dashboards":  {
+                                                               "min_refresh_interval":  "5s"
+                                                           }
+                                        },
+                          "ActualOperationalPaths":  {
+                                                         "data":  "C:/Users/USER/Desktop/4° Ciclo/Desarrollo de  App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/data",
+                                                         "logs":  "C:/Users/USER/Desktop/4° Ciclo/Desarrollo de  App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/logs",
+                                                         "plugins":  "C:/Users/USER/Desktop/4° Ciclo/Desarrollo de  App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/plugins",
+                                                         "provisioning":  "C:/Users/USER/Desktop/4° Ciclo/Desarrollo de  App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/provisioning",
+                                                         "sqlite":  "C:/Users/USER/Desktop/4° Ciclo/Desarrollo de  App Web/DES_APP_WEB/fernandez_lab15/.runtime/grafana/data/grafana.db"
+                                                     },
+                          "ProtectedSourceChanges":  [
+
+                                                     ]
+                      },
+    "Authentication":  {
+                           "Completed":  true,
+                           "Timestamp":  "2026-11-26T07:45:05.441Z",
+                           "NewInstallation":  true,
+                           "InitialAccessFromDistribution":  true,
+                           "PasswordChangedThisRun":  true,
+                           "InitialPasswordRejected":  true,
+                           "AdministrativeLoginVerified":  true,
+                           "SecretStorage":  "Windows DPAPI PSCredential + ACL privada, .runtime/grafana/private/admin.clixml",
+                           "PlaintextPasswordPublished":  false,
+                           "ManualInterventionRequired":  false
+                       },
+    "Datasource":  {
+                       "http":  200,
+                       "body":  {
+                                    "id":  1,
+                                    "uid":  "prometheus-lab15",
+                                    "orgId":  1,
+                                    "name":  "Prometheus",
+                                    "type":  "prometheus",
+                                    "typeLogoUrl":  "public/plugins/prometheus/img/prometheus_logo.svg",
+                                    "access":  "proxy",
+                                    "url":  "http://127.0.0.1:9090",
+                                    "user":  "",
+                                    "database":  "",
+                                    "basicAuth":  false,
+                                    "basicAuthUser":  "",
+                                    "withCredentials":  false,
+                                    "isDefault":  true,
+                                    "jsonData":  {
+                                                     "httpMethod":  "POST",
+                                                     "prometheusType":  "Prometheus",
+                                                     "timeInterval":  "5s"
+                                                 },
+                                    "secureJsonFields":  {
+
+                                                         },
+                                    "version":  1,
+                                    "readOnly":  true,
+                                    "apiVersion":  ""
+                                }
+                   },
+    "DatasourceHealth":  {
+                             "http":  200,
+                             "body":  {
+                                          "details":  {
+                                                          "application":  "Prometheus",
+                                                          "features":  {
+                                                                           "rulerApiEnabled":  false
+                                                                       }
+                                                      },
+                                          "message":  "Successfully queried the Prometheus API.",
+                                          "status":  "OK"
+                                      }
+                         },
+    "AllDatasources":  [
+                           {
+                               "Name":  "Prometheus",
+                               "Type":  "prometheus",
+                               "UID":  "prometheus-lab15",
+                               "URL":  "http://127.0.0.1:9090"
+                           }
+                       ],
+    "AnonymousAccess":  {
+                            "http":  401,
+                            "Blocked":  true
+                        },
+    "Up":  {
+               "http":  200,
+               "body":  {
+                            "status":  "success",
+                            "data":  {
+                                         "resultType":  "vector",
+                                         "result":  [
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8761",
+                                                                           "job":  "eureka-server"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        },
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8080",
+                                                                           "job":  "gateway-service"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        },
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8084",
+                                                                           "job":  "cliente-service"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        },
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8083",
+                                                                           "job":  "producto-service"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        },
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8082",
+                                                                           "job":  "categoria-service"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        },
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8888",
+                                                                           "job":  "config-server"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        },
+                                                        {
+                                                            "metric":  {
+                                                                           "__name__":  "up",
+                                                                           "instance":  "127.0.0.1:8085",
+                                                                           "job":  "pedido-service"
+                                                                       },
+                                                            "value":  [
+                                                                          1795680768.196,
+                                                                          "1"
+                                                                      ]
+                                                        }
+                                                    ]
+                                     }
+                        }
+           },
+    "Dashboard":  {
+                      "UID":  "lab15-observabilidad",
+                      "Name":  "Lab 15 - Observabilidad de Microservicios",
+                      "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios",
+                      "Provisioned":  true,
+                      "Panels":  18,
+                      "DataPanels":  17,
+                      "RequiredPanelCategories":  15,
+                      "Refresh":  "5s",
+                      "InitialRange":  "now-15m",
+                      "PanelChecks":  [
+                                          {
+                                              "Id":  2,
+                                              "Title":  "Servicios disponibles",
+                                              "Expression":  "sum(up)",
+                                              "Http":  200,
+                                              "Frames":  1,
+                                              "NumericSamples":  1,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  3,
+                                              "Title":  "Servicios no disponibles",
+                                              "Expression":  "count(up == 0) or vector(0)",
+                                              "Http":  200,
+                                              "Frames":  1,
+                                              "NumericSamples":  1,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  4,
+                                              "Title":  "Total de servicios",
+                                              "Expression":  "count(up)",
+                                              "Http":  200,
+                                              "Frames":  1,
+                                              "NumericSamples":  1,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  5,
+                                              "Title":  "Disponibilidad del scrape",
+                                              "Expression":  "100 * avg(up)",
+                                              "Http":  200,
+                                              "Frames":  1,
+                                              "NumericSamples":  1,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  6,
+                                              "Title":  "Estado individual · siete microservicios",
+                                              "Expression":  "up",
+                                              "Http":  200,
+                                              "Frames":  7,
+                                              "NumericSamples":  7,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  7,
+                                              "Title":  "Memoria JVM utilizada",
+                                              "Expression":  "sum by (job) (jvm_memory_used_bytes{job=~\".*\"}) / 1024 / 1024",
+                                              "Http":  200,
+                                              "Frames":  7,
+                                              "NumericSamples":  259,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  8,
+                                              "Title":  "CPU del proceso",
+                                              "Expression":  "100 * process_cpu_usage{job=~\".*\"}",
+                                              "Http":  200,
+                                              "Frames":  7,
+                                              "NumericSamples":  259,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  9,
+                                              "Title":  "Hilos activos de Java",
+                                              "Expression":  "jvm_threads_live_threads{job=~\".*\"}",
+                                              "Http":  200,
+                                              "Frames":  7,
+                                              "NumericSamples":  259,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  10,
+                                              "Title":  "Tiempo de actividad",
+                                              "Expression":  "process_uptime_seconds{job=~\".*\"}",
+                                              "Http":  200,
+                                              "Frames":  7,
+                                              "NumericSamples":  259,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  11,
+                                              "Title":  "HTTP de negocio · solicitudes por segundo",
+                                              "Expression":  "sum by (job) (rate(http_server_requests_seconds_count{job=~\".*\",uri=~\"/api/.*\"}[1m])) or sum by (job) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\",job=~\".*\"}[1m]))",
+                                              "Http":  200,
+                                              "Frames":  5,
+                                              "NumericSamples":  185,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  12,
+                                              "Title":  "HTTP exitosas · últimas 2 min",
+                                              "Expression":  "sum by (job) (increase(http_server_requests_seconds_count{job=~\".*\",uri=~\"/api/.*\",status=\"200\"}[2m])) or sum by (job) (increase(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\",job=~\".*\",httpStatusCode=\"200\"}[2m]))",
+                                              "Http":  200,
+                                              "Frames":  5,
+                                              "NumericSamples":  185,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  13,
+                                              "Title":  "HTTP de negocio · respuesta media",
+                                              "Expression":  "(1000 * sum by (job) (rate(http_server_requests_seconds_sum{job=~\".*\",uri=~\"/api/.*\"}[1m])) / (sum by (job) (rate(http_server_requests_seconds_count{job=~\".*\",uri=~\"/api/.*\"}[1m])) \u003e 0)) or (1000 * sum by (job) (rate(spring_cloud_gateway_requests_seconds_sum{job=\"gateway-service\",job=~\".*\"}[1m])) / (sum by (job) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\",job=~\".*\"}[1m])) \u003e 0))",
+                                              "Http":  200,
+                                              "Frames":  5,
+                                              "NumericSamples":  131,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  14,
+                                              "Title":  "HikariCP · conexiones activas",
+                                              "Expression":  "hikaricp_connections_active{job=~\".*\"}",
+                                              "Http":  200,
+                                              "Frames":  4,
+                                              "NumericSamples":  148,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  15,
+                                              "Title":  "HikariCP · límite de conexiones",
+                                              "Expression":  "hikaricp_connections_max{job=~\".*\"}",
+                                              "Http":  200,
+                                              "Frames":  4,
+                                              "NumericSamples":  148,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  16,
+                                              "Title":  "Resilience4j · llamadas CircuitBreaker",
+                                              "Expression":  "sum by (job, name, kind) (rate(resilience4j_circuitbreaker_calls_seconds_count{job=~\".*\"}[1m]))",
+                                              "Http":  200,
+                                              "Frames":  9,
+                                              "NumericSamples":  333,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  17,
+                                              "Title":  "Resilience4j · circuitos cerrados",
+                                              "Expression":  "resilience4j_circuitbreaker_state{job=~\".*\",state=\"closed\"}",
+                                              "Http":  200,
+                                              "Frames":  3,
+                                              "NumericSamples":  111,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          },
+                                          {
+                                              "Id":  18,
+                                              "Title":  "Resilience4j · llamadas Retry",
+                                              "Expression":  "sum by (job, name, kind) (rate(resilience4j_retry_calls_total{job=~\".*\"}[1m]))",
+                                              "Http":  200,
+                                              "Frames":  8,
+                                              "NumericSamples":  296,
+                                              "Error":  null,
+                                              "Valid":  true
+                                          }
+                                      ],
+                      "StateTable":  {
+                                         "Completed":  true,
+                                         "Timestamp":  "2026-11-26T08:07:14.351Z",
+                                         "Panel":  6,
+                                         "Query":  "up",
+                                         "Rows":  [
+                                                      {
+                                                          "job":  "eureka-server",
+                                                          "value":  1
+                                                      },
+                                                      {
+                                                          "job":  "gateway-service",
+                                                          "value":  1
+                                                      },
+                                                      {
+                                                          "job":  "cliente-service",
+                                                          "value":  1
+                                                      },
+                                                      {
+                                                          "job":  "producto-service",
+                                                          "value":  1
+                                                      },
+                                                      {
+                                                          "job":  "categoria-service",
+                                                          "value":  1
+                                                      },
+                                                      {
+                                                          "job":  "config-server",
+                                                          "value":  1
+                                                      },
+                                                      {
+                                                          "job":  "pedido-service",
+                                                          "value":  1
+                                                      }
+                                                  ],
+                                         "ProvisioningConfirmed":  true,
+                                         "RenderTransformations":  [
+                                                                       {
+                                                                           "id":  "seriesToRows",
+                                                                           "options":  {
+
+                                                                                       }
+                                                                       },
+                                                                       {
+                                                                           "id":  "organize",
+                                                                           "options":  {
+                                                                                           "excludeByName":  {
+                                                                                                                 "Time":  true
+                                                                                                             },
+                                                                                           "indexByName":  {
+                                                                                                               "Metric":  0,
+                                                                                                               "Value":  1
+                                                                                                           },
+                                                                                           "renameByName":  {
+                                                                                                                "Metric":  "Microservicio",
+                                                                                                                "Value":  "Estado"
+                                                                                                            }
+                                                                                       }
+                                                                       }
+                                                                   ]
+                                     },
+                      "Filters":  [
+                                      {
+                                          "Job":  "config-server",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "config-server"
+                                                         ],
+                                          "HttpJobs":  [
+
+                                                       ],
+                                          "JdbcSeries":  0,
+                                          "Valid":  true
+                                      },
+                                      {
+                                          "Job":  "eureka-server",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "eureka-server"
+                                                         ],
+                                          "HttpJobs":  [
+
+                                                       ],
+                                          "JdbcSeries":  0,
+                                          "Valid":  true
+                                      },
+                                      {
+                                          "Job":  "gateway-service",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "gateway-service"
+                                                         ],
+                                          "HttpJobs":  [
+                                                           "gateway-service"
+                                                       ],
+                                          "JdbcSeries":  0,
+                                          "Valid":  true
+                                      },
+                                      {
+                                          "Job":  "categoria-service",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "categoria-service"
+                                                         ],
+                                          "HttpJobs":  [
+                                                           "categoria-service"
+                                                       ],
+                                          "JdbcSeries":  1,
+                                          "Valid":  true
+                                      },
+                                      {
+                                          "Job":  "producto-service",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "producto-service"
+                                                         ],
+                                          "HttpJobs":  [
+                                                           "producto-service"
+                                                       ],
+                                          "JdbcSeries":  1,
+                                          "Valid":  true
+                                      },
+                                      {
+                                          "Job":  "cliente-service",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "cliente-service"
+                                                         ],
+                                          "HttpJobs":  [
+                                                           "cliente-service"
+                                                       ],
+                                          "JdbcSeries":  1,
+                                          "Valid":  true
+                                      },
+                                      {
+                                          "Job":  "pedido-service",
+                                          "UpSeries":  1,
+                                          "MemoryJobs":  [
+                                                             "pedido-service"
+                                                         ],
+                                          "HttpJobs":  [
+                                                           "pedido-service"
+                                                       ],
+                                          "JdbcSeries":  1,
+                                          "Valid":  true
+                                      }
+                                  ],
+                      "UI":  {
+                                 "Completed":  true,
+                                 "Timestamp":  "2026-11-26T08:12:18.444Z",
+                                 "Browser":  "Chrome/158.0.8127.37",
+                                 "GlobalIndicators":  {
+                                                          "2":  "Servicios disponibles\n7",
+                                                          "3":  "Servicios no disponibles\n0",
+                                                          "4":  "Total de servicios\n7",
+                                                          "5":  "Disponibilidad del scrape\n100%",
+                                                          "6":  "Estado individual · siete microservicios\nMicroservicio\nEstado\ncategoria-service\nUP\ncliente-service\nUP\nconfig-server\nUP\neureka-server\nUP\ngateway-service\nUP\npedido-service\nUP\nproducto-service\nUP"
+                                                      },
+                                 "IndividualServices":  {
+                                                            "VisibleUP":  7,
+                                                            "Text":  "Estado individual · siete microservicios\nMicroservicio\nEstado\ncategoria-service\nUP\ncliente-service\nUP\nconfig-server\nUP\neureka-server\nUP\ngateway-service\nUP\npedido-service\nUP\nproducto-service\nUP"
+                                                        },
+                                 "Filter":  {
+                                                "Selected":  "producto-service",
+                                                "MemoryText":  "Memoria JVM utilizada\nSeries color\nName\nLast *\nMax\nproducto-service\n296 MiB\n296 MiB",
+                                                "CpuText":  "CPU del proceso\nSeries color\nName\nLast *\nMax\nproducto-service\n0.0783%\n0.286%",
+                                                "GlobalStillSeven":  true,
+                                                "AllStatesStillSeven":  true,
+                                                "OtherMemoryJobsAbsent":  true
+                                            },
+                                 "PanelChecks":  [
+                                                     {
+                                                         "Id":  7,
+                                                         "Title":  "Memoria JVM utilizada",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  8,
+                                                         "Title":  "CPU del proceso",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  9,
+                                                         "Title":  "Hilos activos de Java",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  10,
+                                                         "Title":  "Tiempo de actividad",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  11,
+                                                         "Title":  "HTTP de negocio · solicitudes por segundo",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  12,
+                                                         "Title":  "HTTP exitosas · últimas 2 min",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  13,
+                                                         "Title":  "HTTP de negocio · respuesta media",
+                                                         "Rendered":  true,
+                                                         "Canvas":  false,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  14,
+                                                         "Title":  "HikariCP · conexiones activas",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  15,
+                                                         "Title":  "HikariCP · límite de conexiones",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  16,
+                                                         "Title":  "Resilience4j · llamadas CircuitBreaker",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  17,
+                                                         "Title":  "Resilience4j · circuitos cerrados",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     },
+                                                     {
+                                                         "Id":  18,
+                                                         "Title":  "Resilience4j · llamadas Retry",
+                                                         "Rendered":  true,
+                                                         "Canvas":  true,
+                                                         "ConfigurationError":  false,
+                                                         "NoData":  false
+                                                     }
+                                                 ],
+                                 "AutomaticRefresh":  {
+                                                          "Interval":  "5s",
+                                                          "QueryResponsesBefore":  5,
+                                                          "QueryResponsesAfter":  10,
+                                                          "Verified":  true
+                                                      },
+                                 "Errors":  [
+
+                                            ],
+                                 "QueryHTTPFailures":  [
+
+                                                       ]
+                             },
+                      "Evidence":  "dashboard-cargado.json"
+                  },
+    "Traffic":  {
+                    "Completed":  true,
+                    "Methods":  [
+                                    "GET"
+                                ],
+                    "GETs":  120,
+                    "Rounds":  24,
+                    "Start":  "2026-11-26T07:45:17.109Z",
+                    "End":  "2026-11-26T07:47:23.617Z",
+                    "GatewayCounters":  [
+                                            {
+                                                "routeId":  "categoria-service",
+                                                "before":  29,
+                                                "after":  53,
+                                                "delta":  24
+                                            },
+                                            {
+                                                "routeId":  "cliente-service",
+                                                "before":  29,
+                                                "after":  53,
+                                                "delta":  24
+                                            },
+                                            {
+                                                "routeId":  "pedido-service",
+                                                "before":  29,
+                                                "after":  53,
+                                                "delta":  24
+                                            },
+                                            {
+                                                "routeId":  "producto-service",
+                                                "before":  29,
+                                                "after":  53,
+                                                "delta":  24
+                                            }
+                                        ],
+                    "Evidence":  "CONSULTAS-PROMETHEUS.json"
+                },
+    "Microservices":  [
+                          {
+                              "Service":  "config-server",
+                              "PID":  26512,
+                              "Port":  8888,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          },
+                          {
+                              "Service":  "eureka-server",
+                              "PID":  19156,
+                              "Port":  8761,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          },
+                          {
+                              "Service":  "categoria-service",
+                              "PID":  12236,
+                              "Port":  8082,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          },
+                          {
+                              "Service":  "producto-service",
+                              "PID":  25256,
+                              "Port":  8083,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          },
+                          {
+                              "Service":  "cliente-service",
+                              "PID":  3672,
+                              "Port":  8084,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          },
+                          {
+                              "Service":  "pedido-service",
+                              "PID":  11016,
+                              "Port":  8085,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          },
+                          {
+                              "Service":  "gateway-service",
+                              "PID":  2604,
+                              "Port":  8080,
+                              "SameProcess":  true,
+                              "LocalhostOnly":  true,
+                              "Health":  "UP",
+                              "Instances":  1,
+                              "JarUnchanged":  true
+                          }
+                      ],
+    "Prometheus":  {
+                       "PID":  10868,
+                       "Port":  9090,
+                       "SameProcess":  true,
+                       "LocalhostOnly":  true,
+                       "TargetsUP":  7,
+                       "TargetsDOWN":  0,
+                       "TargetsValid":  true,
+                       "Evidence":  "targets-cierre.json"
+                   },
+    "Regression":  {
+                       "Completed":  true,
+                       "ActuatorTotal":  21,
+                       "ActuatorHTTP200":  21,
+                       "Functional":  [
+                                          {
+                                              "Url":  "http://localhost:8080/api/categorias",
+                                              "Status":  200,
+                                              "Count":  2,
+                                              "DirectStatus":  200,
+                                              "MatchesDirect":  true,
+                                              "UnexpectedFallback":  false,
+                                              "Evidence":  "respuestas/gateway-categorias.json"
+                                          },
+                                          {
+                                              "Url":  "http://localhost:8080/api/productos",
+                                              "Status":  200,
+                                              "Count":  2,
+                                              "DirectStatus":  200,
+                                              "MatchesDirect":  true,
+                                              "UnexpectedFallback":  false,
+                                              "Evidence":  "respuestas/gateway-productos.json"
+                                          },
+                                          {
+                                              "Url":  "http://localhost:8080/api/clientes",
+                                              "Status":  200,
+                                              "Count":  1,
+                                              "DirectStatus":  200,
+                                              "MatchesDirect":  true,
+                                              "UnexpectedFallback":  false,
+                                              "Evidence":  "respuestas/gateway-clientes.json"
+                                          },
+                                          {
+                                              "Url":  "http://localhost:8080/api/pedidos",
+                                              "Status":  200,
+                                              "Count":  1,
+                                              "DirectStatus":  200,
+                                              "MatchesDirect":  true,
+                                              "UnexpectedFallback":  false,
+                                              "Evidence":  "respuestas/gateway-pedidos.json"
+                                          },
+                                          {
+                                              "Url":  "http://localhost:8085/api/pedidos?detallado=true",
+                                              "Status":  200,
+                                              "Count":  1,
+                                              "UnexpectedFallback":  false,
+                                              "Evidence":  "respuestas/pedido-detallado.json"
+                                          },
+                                          {
+                                              "Url":  "http://localhost:8084/api/clientes/pedidos/1",
+                                              "Status":  200,
+                                              "UnexpectedFallback":  false,
+                                              "Evidence":  "respuestas/cliente-pedido-real.json"
+                                          }
+                                      ],
+                       "Eureka":  {
+                                      "Http":  200,
+                                      "Registered":  [
+                                                         {
+                                                             "Name":  "CLIENTE-SERVICE",
+                                                             "Status":  "UP",
+                                                             "Ip":  "127.0.0.1",
+                                                             "Port":  8084
+                                                         },
+                                                         {
+                                                             "Name":  "PRODUCTO-SERVICE",
+                                                             "Status":  "UP",
+                                                             "Ip":  "127.0.0.1",
+                                                             "Port":  8083
+                                                         },
+                                                         {
+                                                             "Name":  "PEDIDO-SERVICE",
+                                                             "Status":  "UP",
+                                                             "Ip":  "127.0.0.1",
+                                                             "Port":  8085
+                                                         },
+                                                         {
+                                                             "Name":  "GATEWAY-SERVICE",
+                                                             "Status":  "UP",
+                                                             "Ip":  "127.0.0.1",
+                                                             "Port":  8080
+                                                         },
+                                                         {
+                                                             "Name":  "CATEGORIA-SERVICE",
+                                                             "Status":  "UP",
+                                                             "Ip":  "127.0.0.1",
+                                                             "Port":  8082
+                                                         }
+                                                     ],
+                                      "Expected":  [
+                                                       "CATEGORIA-SERVICE",
+                                                       "PRODUCTO-SERVICE",
+                                                       "CLIENTE-SERVICE",
+                                                       "PEDIDO-SERVICE",
+                                                       "GATEWAY-SERVICE"
+                                                   ],
+                                      "NotConfiguredToRegister":  [
+                                                                      "config-server",
+                                                                      "eureka-server"
+                                                                  ],
+                                      "Missing":  [
+
+                                                  ]
+                                  },
+                       "Evidence":  "REGRESION-ACTUATOR.json"
+                   },
+    "Database":  {
+                     "Unchanged":  true,
+                     "MariaDBSameProcess":  true,
+                     "PID":  12400,
+                     "Before":  [
+                                    {
+                                        "service":  "categoria-service",
+                                        "database":  "bd_categoria_dev",
+                                        "readOnly":  true,
+                                        "tables":  [
+                                                       {
+                                                           "table":  "categoria",
+                                                           "rows":  2,
+                                                           "schemaSHA256":  "53e8cb013e09b2a93465da074f4bbc3b5256306700ca6c912f631148e48e591f",
+                                                           "dataSHA256":  "f06f4368e61549fb14566d2ee0e1e5e6e3db7452bcf65802fdb1025cfedcf679"
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "service":  "producto-service",
+                                        "database":  "bd_producto_dev",
+                                        "readOnly":  true,
+                                        "tables":  [
+                                                       {
+                                                           "table":  "producto",
+                                                           "rows":  2,
+                                                           "schemaSHA256":  "4094e214c7df2686a9b1ea2d01c7b2601f24164e09de71be21fa5c10a75acfc4",
+                                                           "dataSHA256":  "d2987d6db4bf270cfbef0111e7ed3753ae0f6cd9163fe7e27acec9f9e56e2b18"
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "service":  "cliente-service",
+                                        "database":  "bd_cliente_dev",
+                                        "readOnly":  true,
+                                        "tables":  [
+                                                       {
+                                                           "table":  "clientes",
+                                                           "rows":  1,
+                                                           "schemaSHA256":  "8dd5a45d9736aac6186406672d83eec7f54a8a5313c1d1f75ee2291e501460ad",
+                                                           "dataSHA256":  "625752713c78420758049eb32cc52550bef150629c413701ab515b53dc02744a"
+                                                       }
+                                                   ]
+                                    },
+                                    {
+                                        "service":  "pedido-service",
+                                        "database":  "bd_pedido_dev",
+                                        "readOnly":  true,
+                                        "tables":  [
+                                                       {
+                                                           "table":  "detalle_pedido",
+                                                           "rows":  1,
+                                                           "schemaSHA256":  "506cc720e92ed61cb38d373968a16e6effb15709f0521ea6b88736e1fdad9275",
+                                                           "dataSHA256":  "1732a0e65162396a75db86c898b26cb7c64907e2bde03b42f2bfb77c4bfbcf8c"
+                                                       },
+                                                       {
+                                                           "table":  "pedido",
+                                                           "rows":  1,
+                                                           "schemaSHA256":  "78a6b8ac47e605e2ed533ece7ab0a010fda4438d28049f0a7019890a64066bbd",
+                                                           "dataSHA256":  "f6d09c8c32641384f92c932ef7cfd357351e2fd9af7082a45c4bf67ff2845176"
+                                                       }
+                                                   ]
+                                    }
+                                ],
+                     "After":  [
+                                   {
+                                       "service":  "categoria-service",
+                                       "database":  "bd_categoria_dev",
+                                       "readOnly":  true,
+                                       "tables":  [
+                                                      {
+                                                          "table":  "categoria",
+                                                          "rows":  2,
+                                                          "schemaSHA256":  "53e8cb013e09b2a93465da074f4bbc3b5256306700ca6c912f631148e48e591f",
+                                                          "dataSHA256":  "f06f4368e61549fb14566d2ee0e1e5e6e3db7452bcf65802fdb1025cfedcf679"
+                                                      }
+                                                  ]
+                                   },
+                                   {
+                                       "service":  "producto-service",
+                                       "database":  "bd_producto_dev",
+                                       "readOnly":  true,
+                                       "tables":  [
+                                                      {
+                                                          "table":  "producto",
+                                                          "rows":  2,
+                                                          "schemaSHA256":  "4094e214c7df2686a9b1ea2d01c7b2601f24164e09de71be21fa5c10a75acfc4",
+                                                          "dataSHA256":  "d2987d6db4bf270cfbef0111e7ed3753ae0f6cd9163fe7e27acec9f9e56e2b18"
+                                                      }
+                                                  ]
+                                   },
+                                   {
+                                       "service":  "cliente-service",
+                                       "database":  "bd_cliente_dev",
+                                       "readOnly":  true,
+                                       "tables":  [
+                                                      {
+                                                          "table":  "clientes",
+                                                          "rows":  1,
+                                                          "schemaSHA256":  "8dd5a45d9736aac6186406672d83eec7f54a8a5313c1d1f75ee2291e501460ad",
+                                                          "dataSHA256":  "625752713c78420758049eb32cc52550bef150629c413701ab515b53dc02744a"
+                                                      }
+                                                  ]
+                                   },
+                                   {
+                                       "service":  "pedido-service",
+                                       "database":  "bd_pedido_dev",
+                                       "readOnly":  true,
+                                       "tables":  [
+                                                      {
+                                                          "table":  "detalle_pedido",
+                                                          "rows":  1,
+                                                          "schemaSHA256":  "506cc720e92ed61cb38d373968a16e6effb15709f0521ea6b88736e1fdad9275",
+                                                          "dataSHA256":  "1732a0e65162396a75db86c898b26cb7c64907e2bde03b42f2bfb77c4bfbcf8c"
+                                                      },
+                                                      {
+                                                          "table":  "pedido",
+                                                          "rows":  1,
+                                                          "schemaSHA256":  "78a6b8ac47e605e2ed533ece7ab0a010fda4438d28049f0a7019890a64066bbd",
+                                                          "dataSHA256":  "f6d09c8c32641384f92c932ef7cfd357351e2fd9af7082a45c4bf67ff2845176"
+                                                      }
+                                                  ]
+                                   }
+                               ],
+                     "Scope":  "Cuatro esquemas DEV, estructuras y todas las filas; lector JDBC en transaccion READ ONLY y rollback"
+                 },
+    "Integrity":  {
+                      "ExternalFilesBefore":  2878,
+                      "ExternalFilesAfter":  2878,
+                      "ExternalChangedOrRemoved":  [
+
+                                                   ],
+                      "ExternalAdded":  [
+
+                                        ],
+                      "Lab14Files":  1530,
+                      "Lab14Unchanged":  true,
+                      "IndexSHA256Before":  "8F774F87CFBD49BF356E4FBB00A0E431C30CD23F402C3250B8161A9301898B07",
+                      "IndexSHA256After":  "8F774F87CFBD49BF356E4FBB00A0E431C30CD23F402C3250B8161A9301898B07",
+                      "IndexUnchanged":  true,
+                      "ExternalGitStatusUnchanged":  true,
+                      "HeadUnchanged":  true,
+                      "Branch":  "main",
+                      "PriorEvidenceFiles":  556,
+                      "PriorEvidenceChanges":  [
+
+                                               ],
+                      "PriorEvidenceUnchanged":  true,
+                      "ModifiedLocalFiles":  [
+                                                 "scripts/Verificar-Servidor-Prometheus.mjs",
+                                                 "scripts/Verificar-Actuator.ps1",
+                                                 "scripts/Capturar-Ventana.ps1",
+                                                 "README.md"
+                                             ],
+                      "AddedLocalFiles":  [
+                                              "evidencias/04-grafana/respuestas/directo-productos.json",
+                                              "evidencias/04-grafana/consulta-despues-sum-up.json",
+                                              "evidencias/04-grafana/panel-10.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-metrics.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.bulkhead.max.allowed.concurrent.calls.json",
+                                              "evidencias/04-grafana/INTERFAZ-GRAFANA.json",
+                                              "evidencias/04-grafana/consulta-antes-sum-up.json",
+                                              "evidencias/04-grafana/respuestas/eureka-registros.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metrics.json",
+                                              "evidencias/04-grafana/consulta-antes-http-promedio-ms.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-circuitbreakerevents.json",
+                                              "scripts/Detener-Grafana.ps1",
+                                              "evidencias/04-grafana/respuestas/config-server-health.json",
+                                              "evidencias/04-grafana/03-grafana-login.png",
+                                              "evidencias/04-grafana/respuestas/config-server-metric-jvm.memory.used.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.retry.calls.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-jdbc.connections.max.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/consulta-antes-gateway-promedio-ms.json",
+                                              "evidencias/04-grafana/consulta-despues-memoria-jvm.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-actuator.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-health.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.buffered.calls.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.failure.rate.json",
+                                              "evidencias/04-grafana/consulta-antes-count-up.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-metrics.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-circuitbreakers.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-hikaricp.connections.active.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-retries.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-actuator.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-metric-process.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-retryevents.json",
+                                              "evidencias/04-grafana/consulta-despues-http-exitosas.json",
+                                              "scripts/Validar-Interfaz-Grafana.mjs",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/consulta-despues-hilos.json",
+                                              "evidencias/04-grafana/06-conexion-prometheus-correcta.png",
+                                              "evidencias/04-grafana/respuestas/config-server-actuator.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-circuitbreakers.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-jdbc.connections.max.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-actuator.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.not.permitted.calls.json",
+                                              "evidencias/04-grafana/consulta-despues-down.json",
+                                              "evidencias/04-grafana/VERIFICACION-PASO05.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-retries.json",
+                                              "evidencias/04-grafana/release-oficial.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-hikaricp.connections.active.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.buffered.calls.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-jvm.memory.used.json",
+                                              "observabilidad/grafana/provisioning/dashboards/lab15.yml",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.slow.calls.json",
+                                              "evidencias/04-grafana/respuestas/gateway-clientes.json",
+                                              "evidencias/04-grafana/query-range-up.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.slow.calls.json",
+                                              "evidencias/04-grafana/09-estado-microservicios.png",
+                                              "evidencias/04-grafana/consulta-despues-gateway-contador.json",
+                                              "scripts/Navegador-Lab15.mjs",
+                                              "evidencias/04-grafana/respuestas/gateway-bloqueo-cliente-service.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-bulkheads.json",
+                                              "evidencias/04-grafana/dashboard-cargado.json",
+                                              "evidencias/04-grafana/respuestas/directo-categorias.json",
+                                              "evidencias/04-grafana/REGRESION-ACTUATOR.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-bulkheadevents.json",
+                                              "evidencias/04-grafana/panel-09.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-retryevents.json",
+                                              "evidencias/04-grafana/INSTALACION-GRAFANA.json",
+                                              "evidencias/04-grafana/grafana-query-up.json",
+                                              "evidencias/04-grafana/05-datasource-prometheus.png",
+                                              "evidencias/04-grafana/respuestas/cliente-pedido-real.json",
+                                              "evidencias/04-grafana/respuestas/config-server-metrics-final.json",
+                                              "scripts/Inicializar-Acceso-Grafana.mjs",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-jdbc.connections.min.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-circuitbreakerevents.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-circuitbreakerevents.json",
+                                              "evidencias/04-grafana/respuestas/config-server-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/grafana-health.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.failure.rate.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.bulkhead.available.concurrent.calls.json",
+                                              "evidencias/04-grafana/consulta-antes-resilience4j-retry.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/gateway-categorias.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metrics-final.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-retryevents.json",
+                                              "evidencias/04-grafana/consulta-antes-cpu.json",
+                                              "evidencias/04-grafana/respuestas/directo-clientes.json",
+                                              "evidencias/04-grafana/respuestas/config-server-metric-process.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-process.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.state.json",
+                                              "evidencias/04-grafana/grafana-version.txt",
+                                              "evidencias/04-grafana/respuestas/cliente-service-actuator.json",
+                                              "observabilidad/grafana/provisioning/datasources/prometheus.yml",
+                                              "evidencias/04-grafana/consulta-despues-uptime.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.slow.calls.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metrics-final.json",
+                                              "evidencias/04-grafana/consulta-antes-memoria-jvm.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-process.cpu.usage.json",
+                                              "evidencias/04-grafana/consulta-despues-count-up.json",
+                                              "evidencias/04-grafana/01-descarga-grafana.png",
+                                              "evidencias/04-grafana/02-version-grafana.png",
+                                              "evidencias/04-grafana/consulta-despues-gateway-promedio-ms.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-jdbc.connections.active.json",
+                                              "scripts/Iniciar-Grafana.ps1",
+                                              "evidencias/04-grafana/respuestas/producto-service-health.json",
+                                              "evidencias/04-grafana/respuestas/gateway-bloqueo-producto-service.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.bulkhead.available.concurrent.calls.json",
+                                              "evidencias/04-grafana/consulta-antes-gateway-contador.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-bulkheadevents.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.bulkhead.max.allowed.concurrent.calls.json",
+                                              "evidencias/04-grafana/consulta-antes-resilience4j-cerrados.json",
+                                              "evidencias/04-grafana/panel-12.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-jdbc.connections.active.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/panel-08.json",
+                                              "scripts/Integridad-Paso05.ps1",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-jvm.memory.used.json",
+                                              "evidencias/04-grafana/filtros-verificados.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-metric-jvm.memory.used.json",
+                                              "scripts/Crear-Dashboard-Grafana.mjs",
+                                              "evidencias/04-grafana/respuestas/directo-pedidos.json",
+                                              "scripts/Finalizar-Paso05.ps1",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.calls.json",
+                                              "evidencias/04-grafana/respuestas/gateway-bloqueo-gateway-service.json",
+                                              "evidencias/04-grafana/TABLA-ESTADOS-GRAFANA.json",
+                                              "evidencias/04-grafana/PASO05.md",
+                                              "evidencias/04-grafana/targets-iniciales.json",
+                                              "evidencias/04-grafana/consulta-antes-http-negocio-contador.json",
+                                              "evidencias/04-grafana/targets-finales.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-health.json",
+                                              "evidencias/04-grafana/consulta-antes-down.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-jdbc.connections.active.json",
+                                              "evidencias/04-grafana/respuestas/gateway-productos.json",
+                                              "evidencias/04-grafana/consulta-despues-resilience4j-cerrados.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-jvm.memory.used.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-hikaricp.connections.active.json",
+                                              "evidencias/04-grafana/panel-07.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.slow.call.rate.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-jvm.memory.used.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-metric-process.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-process.cpu.usage.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-health.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-http-get-negocio.json",
+                                              "evidencias/04-grafana/consulta-despues-cpu.json",
+                                              "evidencias/04-grafana/consulta-antes-jdbc.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-actuator.json",
+                                              "evidencias/04-grafana/datasource-health.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-jdbc.connections.max.json",
+                                              "scripts/Capturas-Grafana.mjs",
+                                              "evidencias/04-grafana/CONSULTAS-GRAFANA.json",
+                                              "evidencias/04-grafana/respuestas/gateway-bloqueo-categoria-service.json",
+                                              "evidencias/04-grafana/12-conexiones-jdbc.png",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.failure.rate.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-bulkheads.json",
+                                              "evidencias/04-grafana/targets-cierre.json",
+                                              "evidencias/04-grafana/respuestas/gateway-pedidos.json",
+                                              "scripts/Verificar-Grafana.mjs",
+                                              "evidencias/04-grafana/consulta-antes-resilience4j.json",
+                                              "evidencias/04-grafana/panel-17.json",
+                                              "evidencias/04-grafana/CAPTURAS-PASO05.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.slow.call.rate.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-http-get-negocio.json",
+                                              "evidencias/04-grafana/consulta-antes-up.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-circuitbreakers.json",
+                                              "evidencias/04-grafana/CONSULTAS-PROMETHEUS.json",
+                                              "scripts/Acceso-Grafana.ps1",
+                                              "evidencias/04-grafana/11-metricas-http.png",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metrics.json",
+                                              "observabilidad/grafana/dashboards/lab15-observabilidad.json",
+                                              "evidencias/04-grafana/consulta-despues-up.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metrics.json",
+                                              "evidencias/04-grafana/consulta-antes-gateway-tasa.json",
+                                              "evidencias/04-grafana/10-memoria-cpu.png",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.retry.calls.json",
+                                              "evidencias/04-grafana/healthy.txt",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.not.permitted.calls.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-resilience4j.circuitbreaker.buffered.calls.json",
+                                              "evidencias/04-grafana/consulta-despues-http-negocio-contador.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.calls.json",
+                                              "evidencias/04-grafana/consulta-despues-resilience4j-retry.json",
+                                              "evidencias/04-grafana/ready.txt",
+                                              "evidencias/04-grafana/panel-03.json",
+                                              "evidencias/04-grafana/04-grafana-inicio.png",
+                                              "evidencias/04-grafana/query-range-http-promedio-ms.json",
+                                              "evidencias/04-grafana/query-range-gateway-tasa.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.state.json",
+                                              "evidencias/04-grafana/panel-06.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metrics-final.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-metrics-final.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.calls.json",
+                                              "evidencias/04-grafana/panel-16.json",
+                                              "scripts/Verificar-Grafana.ps1",
+                                              "evidencias/04-grafana/13-resilience4j.png",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/consulta-despues-http-tasa-negocio.json",
+                                              "evidencias/04-grafana/respuestas/gateway-bloqueo-pedido-service.json",
+                                              "evidencias/04-grafana/08-dashboard-general.png",
+                                              "scripts/Verificar-Estado-Grafana.mjs",
+                                              "evidencias/04-grafana/panel-13.json",
+                                              "scripts/Entorno-Grafana.ps1",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-jdbc.connections.min.json",
+                                              "evidencias/04-grafana/consulta-antes-uptime.json",
+                                              "evidencias/04-grafana/consulta-antes-http-tasa-negocio.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-metrics-final.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-metric-jvm.memory.used.json",
+                                              "evidencias/04-grafana/panel-18.json",
+                                              "evidencias/04-grafana/respuestas/config-server-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/respuestas/categoria-service-actuator.json",
+                                              "evidencias/04-grafana/configuracion-efectiva-segura.json",
+                                              "evidencias/04-grafana/respuestas/gateway-rutas.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-bulkheadevents.json",
+                                              "evidencias/04-grafana/panel-04.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-metric-jdbc.connections.min.json",
+                                              "evidencias/04-grafana/consulta-despues-gateway-tasa.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-resilience4j.circuitbreaker.state.json",
+                                              "evidencias/04-grafana/consulta-despues-resilience4j.json",
+                                              "evidencias/04-grafana/respuestas/pedido-detallado.json",
+                                              "evidencias/04-grafana/panel-15.json",
+                                              "evidencias/04-grafana/query-range-http-tasa-negocio.json",
+                                              "evidencias/04-grafana/respuestas/config-server-metrics.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-bulkheads.json",
+                                              "evidencias/04-grafana/14-filtro-microservicio.png",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metrics-final.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-http-get-negocio.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-hikaricp.connections.active.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-http-get-negocio.json",
+                                              "evidencias/04-grafana/panel-06-tabla.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-jdbc.connections.max.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-metric-system.cpu.usage.json",
+                                              "evidencias/04-grafana/panel-02.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-health.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-metric-process.cpu.usage.json",
+                                              "scripts/Grafana-API.mjs",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-jdbc.connections.active.json",
+                                              "evidencias/04-grafana/consulta-despues-jdbc.json",
+                                              "evidencias/04-grafana/panel-11.json",
+                                              "evidencias/04-grafana/CONEXION-GRAFANA.json",
+                                              "evidencias/04-grafana/respuestas/gateway-service-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/respuestas/producto-service-retries.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metrics.json",
+                                              "evidencias/04-grafana/panel-14.json",
+                                              "evidencias/04-grafana/respuestas/cliente-service-metric-jdbc.connections.min.json",
+                                              "evidencias/04-grafana/panel-05.json",
+                                              "evidencias/04-grafana/consulta-despues-http-promedio-ms.json",
+                                              "evidencias/04-grafana/consulta-antes-hilos.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.not.permitted.calls.json",
+                                              "evidencias/04-grafana/respuestas/pedido-service-metric-resilience4j.circuitbreaker.slow.call.rate.json",
+                                              "evidencias/04-grafana/respuestas/eureka-server-metric-http.server.requests.json",
+                                              "evidencias/04-grafana/07-explore-consulta-up.png",
+                                              "evidencias/04-grafana/respuestas/gateway-service-health.json",
+                                              "evidencias/04-grafana/AUTENTICACION-GRAFANA.json",
+                                              "evidencias/04-grafana/datasource-prometheus.json",
+                                              "scripts/Instalar-Grafana.ps1",
+                                              "evidencias/04-grafana/consulta-antes-http-exitosas.json"
+                                          ],
+                      "ExcludedOperationalDirectories":  [
+                                                             ".git",
+                                                             "node_modules",
+                                                             ".npm-cache"
+                                                         ]
+                  },
+    "Security":  {
+                     "PrivateACLProtected":  true,
+                     "DPAPIEncryptedCredential":  true,
+                     "SecretScanFindings":  [
+
+                                            ],
+                     "OperationalFilesIgnored":  true,
+                     "NoProjectDatabaseDatasource":  true,
+                     "NoPlaintextSecretPublished":  true,
+                     "ConfigRepoCommit":  "39a22fc2d854d3549ce77cbb347cd20101b0d13f",
+                     "ConfigRepoModified":  false,
+                     "WindowsServiceRegistered":  false,
+                     "DockerExecuted":  false
+                 },
+    "Screenshots":  {
+                        "method":  "Chrome real + CDP por pipe + PrintWindow; URL visible; sin HTML fabricado",
+                        "captures":  [
+                                         {
+                                             "file":  "01-descarga-grafana.png",
+                                             "requestedUrl":  "https://grafana.com/grafana/download/13.3.2?edition=oss\u0026platform=windows",
+                                             "displayedUrl":  "https://grafana.com/grafana/download/13.3.2?edition=oss\u0026platform=windows",
+                                             "timestamp":  "2026-11-26T07:49:11.265Z",
+                                             "bytes":  105329,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "02-version-grafana.png",
+                                             "requestedUrl":  "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/04-grafana/grafana-version.txt",
+                                             "displayedUrl":  "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/04-grafana/grafana-version.txt",
+                                             "timestamp":  "2026-11-26T07:53:21.859Z",
+                                             "bytes":  22091,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "03-grafana-login.png",
+                                             "requestedUrl":  "http://localhost:3000/login",
+                                             "displayedUrl":  "http://localhost:3000/login",
+                                             "timestamp":  "2026-11-26T07:53:26.938Z",
+                                             "bytes":  640965,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "04-grafana-inicio.png",
+                                             "requestedUrl":  "http://localhost:3000/",
+                                             "displayedUrl":  "http://localhost:3000/",
+                                             "timestamp":  "2026-11-26T07:53:35.827Z",
+                                             "bytes":  114568,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "05-datasource-prometheus.png",
+                                             "requestedUrl":  "http://localhost:3000/connections/datasources/edit/prometheus-lab15",
+                                             "displayedUrl":  "http://localhost:3000/connections/datasources/edit/prometheus-lab15",
+                                             "timestamp":  "2026-11-26T07:53:41.681Z",
+                                             "bytes":  92969,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "06-conexion-prometheus-correcta.png",
+                                             "requestedUrl":  "http://localhost:3000/api/datasources/uid/prometheus-lab15/health",
+                                             "displayedUrl":  "http://localhost:3000/api/datasources/uid/prometheus-lab15/health",
+                                             "timestamp":  "2026-11-26T07:53:45.924Z",
+                                             "bytes":  23566,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "07-explore-consulta-up.png",
+                                             "requestedUrl":  "http://localhost:3000/explore?schemaVersion=1\u0026panes=%7B%22lab15%22%3A%7B%22datasource%22%3A%22prometheus-lab15%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22expr%22%3A%22up%22%2C%22instant%22%3Atrue%2C%22range%22%3Afalse%2C%22editorMode%22%3A%22code%22%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22prometheus-lab15%22%7D%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-15m%22%2C%22to%22%3A%22now%22%7D%7D%7D\u0026orgId=1",
+                                             "displayedUrl":  "http://localhost:3000/explore?schemaVersion=1\u0026panes=%7B%22r3w%22%3A%7B%22datasource%22%3A%22prometheus-lab15%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22expr%22%3A%22up%22%2C%22instant%22%3Atrue%2C%22range%22%3Afalse%2C%22editorMode%22%3A%22code%22%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22prometheus-lab15%22%7D%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-15m%22%2C%22to%22%3A%22now%22%7D%2C%22compact%22%3Afalse%7D%7D\u0026orgId=1",
+                                             "timestamp":  "2026-11-26T07:54:04.855Z",
+                                             "bytes":  124895,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "08-dashboard-general.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=%24__all",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:10:28.674Z",
+                                             "bytes":  171102,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "09-estado-microservicios.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=%24__all",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:10:34.563Z",
+                                             "bytes":  137598,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "10-memoria-cpu.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=%24__all",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:08:14.421Z",
+                                             "bytes":  158902,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "11-metricas-http.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=1795679057109\u0026to=1795679303617\u0026refresh=5s\u0026var-servicio=%24__all",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=2026-11-26T07:44:17.109Z\u0026to=2026-11-26T07:48:23.617Z\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:08:20.343Z",
+                                             "bytes":  152725,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "12-conexiones-jdbc.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=%24__all",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:08:26.267Z",
+                                             "bytes":  113673,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "13-resilience4j.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=1795679057109\u0026to=1795679303617\u0026refresh=5s\u0026var-servicio=%24__all",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=2026-11-26T07:44:17.109Z\u0026to=2026-11-26T07:48:23.617Z\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:08:32.324Z",
+                                             "bytes":  142878,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         },
+                                         {
+                                             "file":  "14-filtro-microservicio.png",
+                                             "requestedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=producto-service",
+                                             "displayedUrl":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=producto-service\u0026timezone=browser",
+                                             "timestamp":  "2026-11-26T08:08:38.347Z",
+                                             "bytes":  137996,
+                                             "source":  "Ventana real de Chrome",
+                                             "redactions":  [
+
+                                                            ]
+                                         }
+                                     ],
+                        "error":  null,
+                        "browser":  "Chrome/158.0.8127.37"
+                    },
+    "ScreenshotAudit":  [
+                            {
+                                "File":  "01-descarga-grafana.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  105329,
+                                "SHA256":  "A7BF9DD22338F1511E3092F5760506BC398CF55E9952B74F0CC6B00A34D4A66D"
+                            },
+                            {
+                                "File":  "02-version-grafana.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  22091,
+                                "SHA256":  "A52017DECDB65D8FEE54AF2231F2B27B46D16E5007E732C5D1DEB04C8051C5EB"
+                            },
+                            {
+                                "File":  "03-grafana-login.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  640965,
+                                "SHA256":  "903D04A0EFF9379834A65943F52A61273EAFD8F781D93C2F95CBABD19FA0EC5D"
+                            },
+                            {
+                                "File":  "04-grafana-inicio.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  114568,
+                                "SHA256":  "25396CB93DFEDA9E2CD2DB50B0139C4156E7F8FF58F5B69D1FEAC34186FF3DC0"
+                            },
+                            {
+                                "File":  "05-datasource-prometheus.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  92969,
+                                "SHA256":  "D8F5059C4E84D0519A8C1084C811D68D6E9E87CA1A6D7981BE3E0E31AC375AEB"
+                            },
+                            {
+                                "File":  "06-conexion-prometheus-correcta.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  23566,
+                                "SHA256":  "7BC155539C620580271F203F3E340E7F5764AFF255891B15555715FE802AC2DC"
+                            },
+                            {
+                                "File":  "07-explore-consulta-up.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  124895,
+                                "SHA256":  "7522CE7D6BA01CFB025C91DF87BE8A7C95E3B0B53777F5ADE9CB1470320E2A63"
+                            },
+                            {
+                                "File":  "08-dashboard-general.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  171102,
+                                "SHA256":  "F10D52373848E983720D6C8420F1CEA084962198ADDDEAB16C0F0B3474D4ADAD"
+                            },
+                            {
+                                "File":  "09-estado-microservicios.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  137598,
+                                "SHA256":  "88CA23B465F8FDAC892482991ADDADBADA024E736C383D8936A35C98B9E688F9"
+                            },
+                            {
+                                "File":  "10-memoria-cpu.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  158902,
+                                "SHA256":  "7457E604EEBB4FB5E3E97B13E4546D3E4FA5CC9DFBD965546B7ACDAF1F17387C"
+                            },
+                            {
+                                "File":  "11-metricas-http.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  152725,
+                                "SHA256":  "B5CAEF31C1B27A9AF929EEFF361BE0B32457B5F3D633BD890D98BA01231E71B6"
+                            },
+                            {
+                                "File":  "12-conexiones-jdbc.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  113673,
+                                "SHA256":  "91056C85A5D263F21D66B8AE703F7B55DB65C1E52F4BD8CD7EBAFB37FE272404"
+                            },
+                            {
+                                "File":  "13-resilience4j.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  142878,
+                                "SHA256":  "6212F82BF46631EDC05FED929C4B488C33F5A4CC00F2936C65FD2B11A8590C23"
+                            },
+                            {
+                                "File":  "14-filtro-microservicio.png",
+                                "Width":  1500,
+                                "Height":  850,
+                                "Bytes":  137996,
+                                "SHA256":  "C9D11E7A979F4D98A7D79D9F206C7D882A9948A6CF3C9E3EEAA4D7F1FB69ECEF"
+                            }
+                        ],
+    "ScreenshotVerification":  true,
+    "Documentation":  {
+                          "Report":  "PASO05.md",
+                          "SHA256":  "05ED23FA3FF72110AA46283683933A2EC26AF267467B2F0352C5D2144900B294"
+                      },
+    "InvalidJSON":  [
+
+                    ],
+    "RemainingStep05Activities":  [
+
+                                  ],
+    "AdditionalPendingActivities":  [
+
+                                    ],
+    "Step06":  {
+                   "ReadyForAuthorization":  true,
+                   "Executed":  false,
+                   "GithubPublished":  false
+               }
+}

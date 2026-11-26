@@ -1,0 +1,12 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/bulkheadevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:21:00.2404457-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "bulkheadEvents":  [
+
+                                    ]
+             }
+}

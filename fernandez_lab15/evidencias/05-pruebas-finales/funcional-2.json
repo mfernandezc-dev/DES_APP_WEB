@@ -1,0 +1,31 @@
+{
+  "URL": "http://localhost:8080/api/productos",
+  "Http": 200,
+  "Redacted": true,
+  "Body": [
+    {
+      "categoria": {
+        "estado": "ACTIVO",
+        "id": 1,
+        "nombre": "[REDACTADO]"
+      },
+      "categoriaId": 1,
+      "id": 1,
+      "nombre": "[REDACTADO]",
+      "precio": 2500,
+      "stock": 10
+    },
+    {
+      "categoria": {
+        "estado": "ACTIVO",
+        "id": 1,
+        "nombre": "[REDACTADO]"
+      },
+      "categoriaId": 1,
+      "id": 2,
+      "nombre": "[REDACTADO]",
+      "precio": 2500,
+      "stock": 10
+    }
+  ]
+}

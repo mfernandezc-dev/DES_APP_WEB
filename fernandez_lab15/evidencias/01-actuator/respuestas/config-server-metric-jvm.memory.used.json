@@ -1,0 +1,40 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8888/actuator/metrics/jvm.memory.used",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:06:00.8966862-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "area",
+                                           "values":  [
+                                                          "heap",
+                                                          "nonheap"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "id",
+                                           "values":  [
+                                                          "CodeHeap \u0027profiled nmethods\u0027",
+                                                          "G1 Old Gen",
+                                                          "CodeHeap \u0027non-profiled nmethods\u0027",
+                                                          "G1 Survivor Space",
+                                                          "Compressed Class Space",
+                                                          "Metaspace",
+                                                          "G1 Eden Space",
+                                                          "CodeHeap \u0027non-nmethods\u0027"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "bytes",
+                 "description":  "The amount of used memory",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  130779840
+                                      }
+                                  ],
+                 "name":  "jvm.memory.used"
+             }
+}

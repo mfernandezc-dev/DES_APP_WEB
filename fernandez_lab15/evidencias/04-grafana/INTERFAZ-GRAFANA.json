@@ -1,0 +1,130 @@
+{
+  "Completed": true,
+  "Timestamp": "2026-11-26T08:12:18.444Z",
+  "Browser": "Chrome/158.0.8127.37",
+  "GlobalIndicators": {
+    "2": "Servicios disponibles\n7",
+    "3": "Servicios no disponibles\n0",
+    "4": "Total de servicios\n7",
+    "5": "Disponibilidad del scrape\n100%",
+    "6": "Estado individual · siete microservicios\nMicroservicio\nEstado\ncategoria-service\nUP\ncliente-service\nUP\nconfig-server\nUP\neureka-server\nUP\ngateway-service\nUP\npedido-service\nUP\nproducto-service\nUP"
+  },
+  "IndividualServices": {
+    "VisibleUP": 7,
+    "Text": "Estado individual · siete microservicios\nMicroservicio\nEstado\ncategoria-service\nUP\ncliente-service\nUP\nconfig-server\nUP\neureka-server\nUP\ngateway-service\nUP\npedido-service\nUP\nproducto-service\nUP"
+  },
+  "Filter": {
+    "Selected": "producto-service",
+    "MemoryText": "Memoria JVM utilizada\nSeries color\nName\nLast *\nMax\nproducto-service\n296 MiB\n296 MiB",
+    "CpuText": "CPU del proceso\nSeries color\nName\nLast *\nMax\nproducto-service\n0.0783%\n0.286%",
+    "GlobalStillSeven": true,
+    "AllStatesStillSeven": true,
+    "OtherMemoryJobsAbsent": true
+  },
+  "PanelChecks": [
+    {
+      "Id": 7,
+      "Title": "Memoria JVM utilizada",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 8,
+      "Title": "CPU del proceso",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 9,
+      "Title": "Hilos activos de Java",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 10,
+      "Title": "Tiempo de actividad",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 11,
+      "Title": "HTTP de negocio · solicitudes por segundo",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 12,
+      "Title": "HTTP exitosas · últimas 2 min",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 13,
+      "Title": "HTTP de negocio · respuesta media",
+      "Rendered": true,
+      "Canvas": false,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 14,
+      "Title": "HikariCP · conexiones activas",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 15,
+      "Title": "HikariCP · límite de conexiones",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 16,
+      "Title": "Resilience4j · llamadas CircuitBreaker",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 17,
+      "Title": "Resilience4j · circuitos cerrados",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    },
+    {
+      "Id": 18,
+      "Title": "Resilience4j · llamadas Retry",
+      "Rendered": true,
+      "Canvas": true,
+      "ConfigurationError": false,
+      "NoData": false
+    }
+  ],
+  "AutomaticRefresh": {
+    "Interval": "5s",
+    "QueryResponsesBefore": 5,
+    "QueryResponsesAfter": 10,
+    "Verified": true
+  },
+  "Errors": [],
+  "QueryHTTPFailures": []
+}

@@ -1,0 +1,47 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service",
+          "name": "pedidoService",
+          "state": "closed"
+        },
+        "value": [
+          1795679243.617,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "name": "categoriaService",
+          "state": "closed"
+        },
+        "value": [
+          1795679243.617,
+          "1"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_state",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "name": "productoService",
+          "state": "closed"
+        },
+        "value": [
+          1795679243.617,
+          "1"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "URL": "http://localhost:8080/api/clientes",
+  "Http": 200,
+  "Redacted": true,
+  "Body": [
+    {
+      "apellido": "[REDACTADO]",
+      "direccion": "[REDACTADO]",
+      "estado": "ACTIVO",
+      "id": 1,
+      "nombre": "[REDACTADO]",
+      "nro_dni": "[REDACTADO]"
+    }
+  ]
+}

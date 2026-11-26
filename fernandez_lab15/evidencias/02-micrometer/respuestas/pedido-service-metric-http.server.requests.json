@@ -1,0 +1,68 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/http.server.requests",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:59.3717323-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "exception",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "method",
+                                           "values":  [
+                                                          "GET"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "error",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "uri",
+                                           "values":  [
+                                                          "/api/pedidos/{id}",
+                                                          "/actuator/metrics/{requiredMetricName}",
+                                                          "/actuator/health",
+                                                          "/actuator",
+                                                          "/actuator/metrics",
+                                                          "/api/pedidos"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "outcome",
+                                           "values":  [
+                                                          "SUCCESS"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "status",
+                                           "values":  [
+                                                          "200"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  13.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  1.3322402000000002
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.562138
+                                      }
+                                  ],
+                 "name":  "http.server.requests"
+             }
+}

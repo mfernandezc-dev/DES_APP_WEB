@@ -1,0 +1,773 @@
+﻿FUENTES Y CONFIGURACION (sin target ni .runtime)
+fernandez_lab15
++-- categoria-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- config
+|   |   |   |           |   \-- LabDelayFilter.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- CategoriaController.java
+|   |   |   |           +-- dto
+|   |   |   |           |   \-- CategoriaDTO.java
+|   |   |   |           +-- exception
+|   |   |   |           |   +-- GlobalExceptionHandler.java
+|   |   |   |           |   \-- ResourceNotFoundException.java
+|   |   |   |           +-- model
+|   |   |   |           |   \-- Categoria.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- CategoriaRepository.java
+|   |   |   |           +-- services
+|   |   |   |           |   \-- CategoriaService.java
+|   |   |   |           \-- CategoriaServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       +-- application-dev.yml
+|   |   |       \-- application-prod.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- CategoriaServiceApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- cliente-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- client
+|   |   |   |           |   \-- PedidoClient.java
+|   |   |   |           +-- config
+|   |   |   |           |   \-- LabDelayFilter.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- ClienteController.java
+|   |   |   |           +-- model
+|   |   |   |           |   \-- Cliente.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- ClienteRepository.java
+|   |   |   |           +-- service
+|   |   |   |           |   +-- ClienteService.java
+|   |   |   |           |   \-- PedidoCircuitService.java
+|   |   |   |           \-- ClienteServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       \-- application-dev.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- ClienteServiceApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- config-server
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           \-- ConfigServerApplication.java
+|   |   |   \-- resources
+|   |   |       \-- application.yaml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- ConfigServerApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- eureka-server
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           \-- eureka
+|   |   |   |               \-- EurekaServerApplication.java
+|   |   |   \-- resources
+|   |   |       \-- application.yaml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- eureka
+|   |                       \-- EurekaServerApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- evidencias
+|   +-- 01-actuator
+|   |   \-- .gitkeep
+|   +-- 02-micrometer
+|   |   \-- .gitkeep
+|   +-- 03-prometheus
+|   |   \-- .gitkeep
+|   +-- 04-grafana
+|   |   \-- .gitkeep
+|   \-- 05-pruebas-finales
+|       +-- ESTRUCTURA-PASO01.txt
+|       +-- PASO01.md
+|       \-- VERIFICACION-PASO01.json
++-- gateway-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           \-- GatewayServiceApplication.java
+|   |   |   \-- resources
+|   |   |       \-- application.yaml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- GatewayServiceApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- observabilidad
+|   +-- grafana
+|   |   +-- dashboards
+|   |   |   \-- .gitkeep
+|   |   \-- provisioning
+|   |       +-- dashboards
+|   |       |   \-- .gitkeep
+|   |       \-- datasources
+|   |           \-- .gitkeep
+|   \-- prometheus
+|       \-- .gitkeep
++-- pedido-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- client
+|   |   |   |           |   +-- ClienteClient.java
+|   |   |   |           |   \-- ProductoClient.java
+|   |   |   |           +-- config
+|   |   |   |           |   \-- LabFeignConfig.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- PedidoController.java
+|   |   |   |           +-- dto
+|   |   |   |           |   +-- ClienteDTO.java
+|   |   |   |           |   +-- CrearPedidoDTO.java
+|   |   |   |           |   +-- PedidoRespuestaDTO.java
+|   |   |   |           |   \-- ProductoDTO.java
+|   |   |   |           +-- exception
+|   |   |   |           |   \-- FeignExceptionHandler.java
+|   |   |   |           +-- model
+|   |   |   |           |   +-- DetallePedido.java
+|   |   |   |           |   +-- EstadoPedido.java
+|   |   |   |           |   \-- Pedido.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- PedidoRepository.java
+|   |   |   |           +-- services
+|   |   |   |           |   +-- ClienteRetryService.java
+|   |   |   |           |   +-- PedidoService.java
+|   |   |   |           |   \-- ProductoCircuitService.java
+|   |   |   |           \-- PedidoServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       \-- application-dev.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   +-- exception
+|   |                   |   \-- FeignExceptionHandlerTests.java
+|   |                   +-- services
+|   |                   |   \-- PedidoServiceValidationTests.java
+|   |                   \-- PedidoServiceApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- producto-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- client
+|   |   |   |           |   \-- CategoriaClient.java
+|   |   |   |           +-- config
+|   |   |   |           |   +-- LabDelayFilter.java
+|   |   |   |           |   \-- LabFeignConfig.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- ProductoController.java
+|   |   |   |           +-- dto
+|   |   |   |           |   \-- CategoriaDTO.java
+|   |   |   |           +-- model
+|   |   |   |           |   \-- Producto.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- ProductoRepository.java
+|   |   |   |           +-- services
+|   |   |   |           |   +-- CategoriaCircuitService.java
+|   |   |   |           |   \-- ProductoService.java
+|   |   |   |           \-- ProductoServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       \-- application-dev.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- ProductoServiceApplicationTests.java
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- scripts
+|   +-- Compilar-Lab15.ps1
+|   +-- Entorno-Lab15.ps1
+|   +-- Iniciar-Servicio.ps1
+|   +-- ResumenBases.java
+|   +-- Verificar-Base.ps1
+|   \-- VerificarContexto.java
++-- .gitignore
+\-- README.md
+
+ARBOL FISICO COMPLETO (incluye generados ignorados)
+fernandez_lab15
++-- .runtime
+|   +-- diagnostico
+|   |   +-- bases-antes.json
+|   |   +-- bases-despues.json
+|   |   +-- categoria-service.args
+|   |   +-- categoria-service.stderr.log
+|   |   +-- categoria-service.stdout.log
+|   |   +-- categoria-service-20261125-204621-003.stderr.log
+|   |   +-- categoria-service-20261125-204621-003.stdout.log
+|   |   +-- cliente-service.args
+|   |   +-- cliente-service-20261125-204621-003.stderr.log
+|   |   +-- cliente-service-20261125-204621-003.stdout.log
+|   |   +-- config-server.args
+|   |   +-- pedido-service.args
+|   |   +-- pedido-service-20261125-204621-003.stderr.log
+|   |   +-- pedido-service-20261125-204621-003.stdout.log
+|   |   +-- producto-service.args
+|   |   +-- producto-service-20261125-204621-003.stderr.log
+|   |   +-- producto-service-20261125-204621-003.stdout.log
+|   |   +-- ResumenBases.class
+|   |   +-- verificacion-anterior-53c126394b6249c199f8fa28a22ce958.json
+|   |   +-- verificacion-anterior-7c69a58bb3f045c0a56f92ee4488acad.json
+|   |   +-- verificacion-base.json
+|   |   \-- VerificarContexto.class
+|   +-- build-categoria-service.log
+|   +-- build-cliente-service.log
+|   +-- build-config-server.log
+|   +-- build-eureka-server.log
+|   +-- build-gateway-service.log
+|   +-- build-pedido-service.log
+|   +-- build-producto-service.log
+|   +-- compilacion-todos.json
+|   +-- copia-resumen.json
+|   +-- integridad.json
+|   \-- puertos-finales.json
++-- categoria-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- config
+|   |   |   |           |   \-- LabDelayFilter.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- CategoriaController.java
+|   |   |   |           +-- dto
+|   |   |   |           |   \-- CategoriaDTO.java
+|   |   |   |           +-- exception
+|   |   |   |           |   +-- GlobalExceptionHandler.java
+|   |   |   |           |   \-- ResourceNotFoundException.java
+|   |   |   |           +-- model
+|   |   |   |           |   \-- Categoria.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- CategoriaRepository.java
+|   |   |   |           +-- services
+|   |   |   |           |   \-- CategoriaService.java
+|   |   |   |           \-- CategoriaServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       +-- application-dev.yml
+|   |   |       \-- application-prod.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- CategoriaServiceApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       +-- config
+|   |   |   |       |   \-- LabDelayFilter.class
+|   |   |   |       +-- controller
+|   |   |   |       |   \-- CategoriaController.class
+|   |   |   |       +-- dto
+|   |   |   |       |   \-- CategoriaDTO.class
+|   |   |   |       +-- exception
+|   |   |   |       |   +-- GlobalExceptionHandler.class
+|   |   |   |       |   \-- ResourceNotFoundException.class
+|   |   |   |       +-- model
+|   |   |   |       |   \-- Categoria.class
+|   |   |   |       +-- repository
+|   |   |   |       |   \-- CategoriaRepository.class
+|   |   |   |       +-- services
+|   |   |   |       |   \-- CategoriaService.class
+|   |   |   |       \-- CategoriaServiceApplication.class
+|   |   |   +-- application.yml
+|   |   |   +-- application-dev.yml
+|   |   |   \-- application-prod.yml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- categoria-service-0.0.1-SNAPSHOT.jar
+|   |   \-- categoria-service-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- cliente-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- client
+|   |   |   |           |   \-- PedidoClient.java
+|   |   |   |           +-- config
+|   |   |   |           |   \-- LabDelayFilter.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- ClienteController.java
+|   |   |   |           +-- model
+|   |   |   |           |   \-- Cliente.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- ClienteRepository.java
+|   |   |   |           +-- service
+|   |   |   |           |   +-- ClienteService.java
+|   |   |   |           |   \-- PedidoCircuitService.java
+|   |   |   |           \-- ClienteServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       \-- application-dev.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- ClienteServiceApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       +-- client
+|   |   |   |       |   \-- PedidoClient.class
+|   |   |   |       +-- config
+|   |   |   |       |   \-- LabDelayFilter.class
+|   |   |   |       +-- controller
+|   |   |   |       |   \-- ClienteController.class
+|   |   |   |       +-- model
+|   |   |   |       |   \-- Cliente.class
+|   |   |   |       +-- repository
+|   |   |   |       |   \-- ClienteRepository.class
+|   |   |   |       +-- service
+|   |   |   |       |   +-- ClienteService.class
+|   |   |   |       |   \-- PedidoCircuitService.class
+|   |   |   |       \-- ClienteServiceApplication.class
+|   |   |   +-- application.yml
+|   |   |   \-- application-dev.yml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- cliente-service-0.0.1-SNAPSHOT.jar
+|   |   \-- cliente-service-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- config-server
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           \-- ConfigServerApplication.java
+|   |   |   \-- resources
+|   |   |       \-- application.yaml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- ConfigServerApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       \-- ConfigServerApplication.class
+|   |   |   \-- application.yaml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- config-server-0.0.1-SNAPSHOT.jar
+|   |   \-- config-server-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- eureka-server
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           \-- eureka
+|   |   |   |               \-- EurekaServerApplication.java
+|   |   |   \-- resources
+|   |   |       \-- application.yaml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- eureka
+|   |                       \-- EurekaServerApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       \-- eureka
+|   |   |   |           \-- EurekaServerApplication.class
+|   |   |   \-- application.yaml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- eureka-server-0.0.1-SNAPSHOT.jar
+|   |   \-- eureka-server-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- evidencias
+|   +-- 01-actuator
+|   |   \-- .gitkeep
+|   +-- 02-micrometer
+|   |   \-- .gitkeep
+|   +-- 03-prometheus
+|   |   \-- .gitkeep
+|   +-- 04-grafana
+|   |   \-- .gitkeep
+|   \-- 05-pruebas-finales
+|       +-- ESTRUCTURA-PASO01.txt
+|       +-- PASO01.md
+|       \-- VERIFICACION-PASO01.json
++-- gateway-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           \-- GatewayServiceApplication.java
+|   |   |   \-- resources
+|   |   |       \-- application.yaml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- GatewayServiceApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       \-- GatewayServiceApplication.class
+|   |   |   \-- application.yaml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- gateway-service-0.0.1-SNAPSHOT.jar
+|   |   \-- gateway-service-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- observabilidad
+|   +-- grafana
+|   |   +-- dashboards
+|   |   |   \-- .gitkeep
+|   |   \-- provisioning
+|   |       +-- dashboards
+|   |       |   \-- .gitkeep
+|   |       \-- datasources
+|   |           \-- .gitkeep
+|   \-- prometheus
+|       \-- .gitkeep
++-- pedido-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- client
+|   |   |   |           |   +-- ClienteClient.java
+|   |   |   |           |   \-- ProductoClient.java
+|   |   |   |           +-- config
+|   |   |   |           |   \-- LabFeignConfig.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- PedidoController.java
+|   |   |   |           +-- dto
+|   |   |   |           |   +-- ClienteDTO.java
+|   |   |   |           |   +-- CrearPedidoDTO.java
+|   |   |   |           |   +-- PedidoRespuestaDTO.java
+|   |   |   |           |   \-- ProductoDTO.java
+|   |   |   |           +-- exception
+|   |   |   |           |   \-- FeignExceptionHandler.java
+|   |   |   |           +-- model
+|   |   |   |           |   +-- DetallePedido.java
+|   |   |   |           |   +-- EstadoPedido.java
+|   |   |   |           |   \-- Pedido.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- PedidoRepository.java
+|   |   |   |           +-- services
+|   |   |   |           |   +-- ClienteRetryService.java
+|   |   |   |           |   +-- PedidoService.java
+|   |   |   |           |   \-- ProductoCircuitService.java
+|   |   |   |           \-- PedidoServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       \-- application-dev.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   +-- exception
+|   |                   |   \-- FeignExceptionHandlerTests.java
+|   |                   +-- services
+|   |                   |   \-- PedidoServiceValidationTests.java
+|   |                   \-- PedidoServiceApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       +-- client
+|   |   |   |       |   +-- ClienteClient.class
+|   |   |   |       |   \-- ProductoClient.class
+|   |   |   |       +-- config
+|   |   |   |       |   \-- LabFeignConfig.class
+|   |   |   |       +-- controller
+|   |   |   |       |   +-- PedidoController$CambioEstadoRequest.class
+|   |   |   |       |   \-- PedidoController.class
+|   |   |   |       +-- dto
+|   |   |   |       |   +-- ClienteDTO.class
+|   |   |   |       |   +-- CrearPedidoDTO.class
+|   |   |   |       |   +-- PedidoRespuestaDTO.class
+|   |   |   |       |   \-- ProductoDTO.class
+|   |   |   |       +-- exception
+|   |   |   |       |   \-- FeignExceptionHandler.class
+|   |   |   |       +-- model
+|   |   |   |       |   +-- DetallePedido.class
+|   |   |   |       |   +-- EstadoPedido.class
+|   |   |   |       |   \-- Pedido.class
+|   |   |   |       +-- repository
+|   |   |   |       |   \-- PedidoRepository.class
+|   |   |   |       +-- services
+|   |   |   |       |   +-- ClienteRetryService.class
+|   |   |   |       |   +-- PedidoService.class
+|   |   |   |       |   \-- ProductoCircuitService.class
+|   |   |   |       \-- PedidoServiceApplication.class
+|   |   |   +-- application.yml
+|   |   |   \-- application-dev.yml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- pedido-service-0.0.1-SNAPSHOT.jar
+|   |   \-- pedido-service-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- producto-service
+|   +-- .mvn
+|   |   \-- wrapper
+|   |       \-- maven-wrapper.properties
+|   +-- src
+|   |   +-- main
+|   |   |   +-- java
+|   |   |   |   \-- com
+|   |   |   |       \-- tecsup
+|   |   |   |           +-- client
+|   |   |   |           |   \-- CategoriaClient.java
+|   |   |   |           +-- config
+|   |   |   |           |   +-- LabDelayFilter.java
+|   |   |   |           |   \-- LabFeignConfig.java
+|   |   |   |           +-- controller
+|   |   |   |           |   \-- ProductoController.java
+|   |   |   |           +-- dto
+|   |   |   |           |   \-- CategoriaDTO.java
+|   |   |   |           +-- model
+|   |   |   |           |   \-- Producto.java
+|   |   |   |           +-- repository
+|   |   |   |           |   \-- ProductoRepository.java
+|   |   |   |           +-- services
+|   |   |   |           |   +-- CategoriaCircuitService.java
+|   |   |   |           |   \-- ProductoService.java
+|   |   |   |           \-- ProductoServiceApplication.java
+|   |   |   \-- resources
+|   |   |       +-- application.yml
+|   |   |       \-- application-dev.yml
+|   |   \-- test
+|   |       \-- java
+|   |           \-- com
+|   |               \-- tecsup
+|   |                   \-- ProductoServiceApplicationTests.java
+|   +-- target
+|   |   +-- classes
+|   |   |   +-- com
+|   |   |   |   \-- tecsup
+|   |   |   |       +-- client
+|   |   |   |       |   \-- CategoriaClient.class
+|   |   |   |       +-- config
+|   |   |   |       |   +-- LabDelayFilter.class
+|   |   |   |       |   \-- LabFeignConfig.class
+|   |   |   |       +-- controller
+|   |   |   |       |   \-- ProductoController.class
+|   |   |   |       +-- dto
+|   |   |   |       |   \-- CategoriaDTO.class
+|   |   |   |       +-- model
+|   |   |   |       |   \-- Producto.class
+|   |   |   |       +-- repository
+|   |   |   |       |   \-- ProductoRepository.class
+|   |   |   |       +-- services
+|   |   |   |       |   +-- CategoriaCircuitService.class
+|   |   |   |       |   \-- ProductoService.class
+|   |   |   |       \-- ProductoServiceApplication.class
+|   |   |   +-- application.yml
+|   |   |   \-- application-dev.yml
+|   |   +-- generated-sources
+|   |   |   \-- annotations
+|   |   +-- maven-archiver
+|   |   |   \-- pom.properties
+|   |   +-- maven-status
+|   |   |   \-- maven-compiler-plugin
+|   |   |       \-- compile
+|   |   |           \-- default-compile
+|   |   |               +-- createdFiles.lst
+|   |   |               \-- inputFiles.lst
+|   |   +-- producto-service-0.0.1-SNAPSHOT.jar
+|   |   \-- producto-service-0.0.1-SNAPSHOT.jar.original
+|   +-- .gitattributes
+|   +-- .gitignore
+|   +-- mvnw
+|   +-- mvnw.cmd
+|   \-- pom.xml
++-- scripts
+|   +-- Compilar-Lab15.ps1
+|   +-- Entorno-Lab15.ps1
+|   +-- Iniciar-Servicio.ps1
+|   +-- ResumenBases.java
+|   +-- Verificar-Base.ps1
+|   \-- VerificarContexto.java
++-- .gitignore
+\-- README.md

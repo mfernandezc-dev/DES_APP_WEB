@@ -1,0 +1,735 @@
+{
+  "Services": [
+    {
+      "Service": "config-server",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "17",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-config-server.txt"
+    },
+    {
+      "Service": "eureka-server",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "17",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-eureka-server.txt"
+    },
+    {
+      "Service": "gateway-service",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "17",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-gateway-service.txt"
+    },
+    {
+      "Service": "categoria-service",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "25",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-categoria-service.txt"
+    },
+    {
+      "Service": "producto-service",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "25",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-producto-service.txt"
+    },
+    {
+      "Service": "cliente-service",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "25",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-cliente-service.txt"
+    },
+    {
+      "Service": "pedido-service",
+      "ExitCode": 0,
+      "SpringBoot": "4.1.2",
+      "SpringCloud": "2025.1.4",
+      "JavaLevel": "25",
+      "DirectRegistryDeclarations": 1,
+      "ManualRegistryVersion": false,
+      "DirectActuatorDeclarations": 1,
+      "Dependencies": [
+        "|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile",
+        "|  |  \\- io.micrometer:micrometer-commons:jar:1.17.2:compile",
+        "|  \\- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile",
+        "\\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile",
+        "   +- io.micrometer:micrometer-core:jar:1.17.2:compile",
+        "   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile",
+        "   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile",
+        "   |  \\- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile",
+        "   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile",
+        "   \\- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime",
+        "      \\- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime"
+      ],
+      "Resolved": [
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-observation",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-commons",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-jakarta9",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-registry-prometheus",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.micrometer",
+          "ArtifactId": "micrometer-core",
+          "Type": "jar",
+          "Version": "1.17.2",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-core",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-model",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-config",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-tracer-common",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "compile"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-formats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        },
+        {
+          "GroupId": "io.prometheus",
+          "ArtifactId": "prometheus-metrics-exposition-textformats",
+          "Type": "jar",
+          "Version": "1.7.0",
+          "Scope": "runtime"
+        }
+      ],
+      "Evidence": "dependencias-pedido-service.txt"
+    }
+  ],
+  "SupportedProperty": [
+    {
+      "Jar": "spring-boot-micrometer-metrics-4.1.2.jar",
+      "Name": "management.prometheus.metrics.export.enabled",
+      "Type": "java.lang.Boolean",
+      "DefaultValue": true,
+      "Description": "Whether exporting of metrics to this backend is enabled."
+    }
+  ],
+  "TestsExecuted": false
+}

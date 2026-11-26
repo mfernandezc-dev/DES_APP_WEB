@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8761",
+          "job": "eureka-server"
+        },
+        "value": [
+          1795662354.544,
+          "1716.781"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8080",
+          "job": "gateway-service"
+        },
+        "value": [
+          1795662354.544,
+          "1607.019"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service"
+        },
+        "value": [
+          1795662354.544,
+          "1653.504"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service"
+        },
+        "value": [
+          1795662354.544,
+          "1677.197"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8082",
+          "job": "categoria-service"
+        },
+        "value": [
+          1795662354.544,
+          "1698.772"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8888",
+          "job": "config-server"
+        },
+        "value": [
+          1795662354.544,
+          "1731.131"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "process_uptime_seconds",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service"
+        },
+        "value": [
+          1795662354.544,
+          "1631.588"
+        ]
+      }
+    ]
+  }
+}

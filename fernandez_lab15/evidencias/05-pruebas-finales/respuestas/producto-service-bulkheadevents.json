@@ -1,0 +1,511 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/bulkheadevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:20:59.4818725-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "bulkheadEvents":  [
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:12.152500700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:12.159249100-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:12.198476500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:12.203942800-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:17.150390800-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:17.157906900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:17.157906900-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:17.168505400-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:17.207001600-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:17.212206600-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:22.150868100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:22.156489500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:22.157496600-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:22.160495500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:22.201372500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:22.204878100-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:27.147654100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:27.155259700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:27.155259700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:27.160299900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:27.203288500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:27.209196100-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:32.141483700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:32.146766500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:32.146766500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:32.154018800-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:32.196200700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:32.200764400-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:37.139640-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:37.145655700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:37.145655700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:37.149662200-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:37.189986200-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:37.194467800-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:42.146172700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:42.150690-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:42.150690-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:42.157736300-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:42.203674900-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:42.207876800-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:47.136589400-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:47.140615700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:47.141624500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:47.145384500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:47.205165400-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:47.209795500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:52.159574500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:52.163082100-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:52.163082100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:52.168083300-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:52.208030600-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:52.212641300-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:57.148500800-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:57.156859400-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:57.157874100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:57.165363200-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:57.220904200-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:46:57.230578700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:02.181370200-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:02.206320500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:02.208318200-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:02.224480700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:02.367059800-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:02.388946900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:07.148264100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:07.157037900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:07.158037600-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:07.161550200-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:07.224367100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:07.230295300-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:12.168745900-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:12.178849500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:12.178849500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:12.192343100-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:12.266834300-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:47:12.274350900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.852476200-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.859250400-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.859250400-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.863911600-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.902588100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.907109700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.907109700-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:54.911159100-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:55.078006900-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:55.081018900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:55.136843100-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T02:49:55.140857300-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.612441-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.619443400-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.619954900-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.623466700-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.653044500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.660046600-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.660046600-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.664098300-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.799139500-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.803340800-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.849515800-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "categoriaBulkhead",
+                                            "creationTime":  "2026-11-26T03:20:58.853517500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        }
+                                    ]
+             }
+}

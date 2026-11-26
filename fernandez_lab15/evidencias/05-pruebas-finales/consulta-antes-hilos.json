@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8761",
+          "job": "eureka-server"
+        },
+        "value": [
+          1795681264.857,
+          "32"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8080",
+          "job": "gateway-service"
+        },
+        "value": [
+          1795681264.857,
+          "51"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service"
+        },
+        "value": [
+          1795681264.857,
+          "38"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service"
+        },
+        "value": [
+          1795681264.857,
+          "38"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8082",
+          "job": "categoria-service"
+        },
+        "value": [
+          1795681264.857,
+          "34"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8888",
+          "job": "config-server"
+        },
+        "value": [
+          1795681264.857,
+          "26"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "jvm_threads_live_threads",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service"
+        },
+        "value": [
+          1795681264.857,
+          "38"
+        ]
+      }
+    ]
+  }
+}

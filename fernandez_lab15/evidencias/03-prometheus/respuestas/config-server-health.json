@@ -1,0 +1,82 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8888/actuator/health",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T22:09:37.3179072-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "components":  {
+                                    "clientConfigServer":  {
+                                                               "details":  {
+                                                                               "error":  "no property sources located"
+                                                                           },
+                                                               "status":  "UNKNOWN"
+                                                           },
+                                    "configServer":  {
+                                                         "details":  {
+                                                                         "repositories":  [
+                                                                                              {
+                                                                                                  "name":  "app",
+                                                                                                  "profiles":  [
+                                                                                                                   "default"
+                                                                                                               ],
+                                                                                                  "label":  null
+                                                                                              }
+                                                                                          ]
+                                                                     },
+                                                         "status":  "UP"
+                                                     },
+                                    "discoveryComposite":  {
+                                                               "components":  {
+                                                                                  "discoveryClient":  {
+                                                                                                          "description":  "Discovery Client not initialized",
+                                                                                                          "status":  "UNKNOWN"
+                                                                                                      }
+                                                                              },
+                                                               "description":  "Discovery Client not initialized",
+                                                               "status":  "UNKNOWN"
+                                                           },
+                                    "diskSpace":  {
+                                                      "details":  {
+                                                                      "total":  510992052224,
+                                                                      "free":  166883545088,
+                                                                      "threshold":  10485760,
+                                                                      "path":  "C:\\Users\\USER\\Desktop\\4Â° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\config-server\\.",
+                                                                      "exists":  true
+                                                                  },
+                                                      "status":  "UP"
+                                                  },
+                                    "livenessState":  {
+                                                          "status":  "UP"
+                                                      },
+                                    "ping":  {
+                                                 "status":  "UP"
+                                             },
+                                    "readinessState":  {
+                                                           "status":  "UP"
+                                                       },
+                                    "refreshScope":  {
+                                                         "status":  "UP"
+                                                     },
+                                    "ssl":  {
+                                                "details":  {
+                                                                "expiringChains":  [
+
+                                                                                   ],
+                                                                "invalidChains":  [
+
+                                                                                  ],
+                                                                "validChains":  [
+
+                                                                                ]
+                                                            },
+                                                "status":  "UP"
+                                            }
+                                },
+                 "groups":  [
+                                "liveness",
+                                "readiness"
+                            ],
+                 "status":  "UP"
+             }
+}

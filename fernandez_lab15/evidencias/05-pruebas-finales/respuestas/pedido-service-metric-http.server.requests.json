@@ -1,0 +1,79 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/http.server.requests",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:21:00.4074596-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "exception",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "method",
+                                           "values":  [
+                                                          "GET"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "error",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "uri",
+                                           "values":  [
+                                                          "/actuator/bulkheadevents",
+                                                          "/actuator/bulkheads",
+                                                          "/api/pedidos/{id}",
+                                                          "/actuator/env/{toMatch}",
+                                                          "/**",
+                                                          "/actuator/circuitbreakers",
+                                                          "/actuator/metrics/{requiredMetricName}",
+                                                          "/actuator",
+                                                          "/actuator/retryevents",
+                                                          "/actuator/health",
+                                                          "/actuator/metrics",
+                                                          "/actuator/retries",
+                                                          "/actuator/prometheus",
+                                                          "/api/pedidos",
+                                                          "/actuator/circuitbreakerevents"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "outcome",
+                                           "values":  [
+                                                          "CLIENT_ERROR",
+                                                          "SUCCESS"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "status",
+                                           "values":  [
+                                                          "404",
+                                                          "200"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  1481.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  63.8561589
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.0615946
+                                      }
+                                  ],
+                 "name":  "http.server.requests"
+             }
+}

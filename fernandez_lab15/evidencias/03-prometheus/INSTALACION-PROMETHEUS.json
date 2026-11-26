@@ -1,0 +1,33 @@
+﻿{
+    "Version":  "3.13.5",
+    "Channel":  "LTS estable, segun pagina oficial consultada",
+    "Architecture":  "windows-amd64",
+    "DetectedSystemType":  "x64-based PC",
+    "OfficialPage":  "https://prometheus.io/download/",
+    "ReleasePage":  "https://github.com/prometheus/prometheus/releases/tag/v3.13.5",
+    "DownloadUrl":  "https://github.com/prometheus/prometheus/releases/download/v3.13.5/prometheus-3.13.5.windows-amd64.zip",
+    "ChecksumUrl":  "https://github.com/prometheus/prometheus/releases/download/v3.13.5/sha256sums.txt",
+    "ExpectedSHA256":  "846398b50b90e02f69960342190a1d01bf9a335b3aeee69bfd6ead41d3a314c5",
+    "CalculatedSHA256":  "846398b50b90e02f69960342190a1d01bf9a335b3aeee69bfd6ead41d3a314c5",
+    "SHA256Verified":  true,
+    "ArchiveBytes":  107530572,
+    "InstallDirectory":  "C:\\Prometheus",
+    "PortableFallback":  false,
+    "FallbackReason":  null,
+    "PreexistingInstallationOverwritten":  false,
+    "PrometheusExecutableSHA256":  "944B4EE492F6DF8C2E8C42FFAF95D85F6DA58920AD0D36704E96EE8744314A30",
+    "PromtoolExecutableSHA256":  "D70C14B59196DAD72CCDB7F31DF9793C5B1C534ED9A8CE6AAA3547F577E88D8A",
+    "Files":  [
+                  "LICENSE",
+                  "NOTICE",
+                  "prometheus.exe",
+                  "prometheus.yml",
+                  "promtool.exe"
+              ],
+    "NoticeIncluded":  true,
+    "PrometheusVersion":  "prometheus, version 3.13.5 (branch: HEAD, revision: f497435984d1ca1d84cda5ed309387ac2eb1f8f6)\n  build user:       root@79c8a630e6b9\n  build date:       20261021-10:36:15\n  go version:       go1.26.10\n  platform:         windows/amd64\n  tags:             builtinassets",
+    "PromtoolVersion":  "promtool, version 3.13.5 (branch: HEAD, revision: f497435984d1ca1d84cda5ed309387ac2eb1f8f6)\n  build user:       root@79c8a630e6b9\n  build date:       20261021-10:36:15\n  go version:       go1.26.10\n  platform:         windows/amd64\n  tags:             builtinassets",
+    "Timestamp":  "2026-11-25T22:01:52.2987676-05:00",
+    "PathModified":  false,
+    "ElevationRequested":  false
+}

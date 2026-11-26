@@ -1,0 +1,44 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "routeId": "categoria-service"
+        },
+        "value": [
+          1795679243.617,
+          "53"
+        ]
+      },
+      {
+        "metric": {
+          "routeId": "cliente-service"
+        },
+        "value": [
+          1795679243.617,
+          "53"
+        ]
+      },
+      {
+        "metric": {
+          "routeId": "pedido-service"
+        },
+        "value": [
+          1795679243.617,
+          "53"
+        ]
+      },
+      {
+        "metric": {
+          "routeId": "producto-service"
+        },
+        "value": [
+          1795679243.617,
+          "53"
+        ]
+      }
+    ]
+  }
+}

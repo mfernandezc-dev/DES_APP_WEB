@@ -1,0 +1,72 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/metrics/http.server.requests",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:59.1181555-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "exception",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "method",
+                                           "values":  [
+                                                          "GET"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "error",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "uri",
+                                           "values":  [
+                                                          "/actuator/metrics/{requiredMetricName}",
+                                                          "/actuator",
+                                                          "/actuator/health",
+                                                          "/api/clientes",
+                                                          "/api/clientes/pedidos/{id}",
+                                                          "/api/clientes/{id}",
+                                                          "/actuator/metrics",
+                                                          "/**"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "outcome",
+                                           "values":  [
+                                                          "CLIENT_ERROR",
+                                                          "SUCCESS"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "status",
+                                           "values":  [
+                                                          "404",
+                                                          "200"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  24.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  1.1679851
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.5096002
+                                      }
+                                  ],
+                 "name":  "http.server.requests"
+             }
+}

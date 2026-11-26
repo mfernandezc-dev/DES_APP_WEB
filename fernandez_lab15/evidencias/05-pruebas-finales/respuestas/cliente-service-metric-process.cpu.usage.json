@@ -1,0 +1,20 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/metrics/process.cpu.usage",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:20:59.8641518-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+
+                                   ],
+                 "description":  "The \"recent cpu usage\" for the Java Virtual Machine process",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  0.0015675873224894213
+                                      }
+                                  ],
+                 "name":  "process.cpu.usage"
+             }
+}

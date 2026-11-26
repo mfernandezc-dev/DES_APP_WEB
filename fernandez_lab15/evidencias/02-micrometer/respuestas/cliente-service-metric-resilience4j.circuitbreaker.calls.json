@@ -1,0 +1,42 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/metrics/resilience4j.circuitbreaker.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:58.3818151-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "ignored",
+                                                          "successful",
+                                                          "failed"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "pedidoService"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "description":  "Total number of calls which failed but the exception was ignored",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  1.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  0.1654406
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.1654406
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.calls"
+             }
+}

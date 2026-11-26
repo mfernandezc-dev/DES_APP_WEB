@@ -1,0 +1,82 @@
+[
+  {
+    "Job": "config-server",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "config-server"
+    ],
+    "HttpJobs": [],
+    "JdbcSeries": 0,
+    "Valid": true
+  },
+  {
+    "Job": "eureka-server",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "eureka-server"
+    ],
+    "HttpJobs": [],
+    "JdbcSeries": 0,
+    "Valid": true
+  },
+  {
+    "Job": "gateway-service",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "gateway-service"
+    ],
+    "HttpJobs": [
+      "gateway-service"
+    ],
+    "JdbcSeries": 0,
+    "Valid": true
+  },
+  {
+    "Job": "categoria-service",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "categoria-service"
+    ],
+    "HttpJobs": [
+      "categoria-service"
+    ],
+    "JdbcSeries": 1,
+    "Valid": true
+  },
+  {
+    "Job": "producto-service",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "producto-service"
+    ],
+    "HttpJobs": [
+      "producto-service"
+    ],
+    "JdbcSeries": 1,
+    "Valid": true
+  },
+  {
+    "Job": "cliente-service",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "cliente-service"
+    ],
+    "HttpJobs": [
+      "cliente-service"
+    ],
+    "JdbcSeries": 1,
+    "Valid": true
+  },
+  {
+    "Job": "pedido-service",
+    "UpSeries": 1,
+    "MemoryJobs": [
+      "pedido-service"
+    ],
+    "HttpJobs": [
+      "pedido-service"
+    ],
+    "JdbcSeries": 1,
+    "Valid": true
+  }
+]

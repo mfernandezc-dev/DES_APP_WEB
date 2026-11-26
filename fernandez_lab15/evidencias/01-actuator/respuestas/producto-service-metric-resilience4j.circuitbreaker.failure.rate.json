@@ -1,0 +1,25 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/resilience4j.circuitbreaker.failure.rate",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:57.3028402-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "categoriaService"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The failure rate of the circuit breaker",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  0.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.failure.rate"
+             }
+}

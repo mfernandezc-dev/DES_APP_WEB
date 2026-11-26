@@ -1,0 +1,20 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8082/actuator/metrics/system.cpu.usage",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:57.4890472-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+
+                                   ],
+                 "description":  "The \"recent cpu usage\" of the system the application is running in",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  0.23853734575805663
+                                      }
+                                  ],
+                 "name":  "system.cpu.usage"
+             }
+}

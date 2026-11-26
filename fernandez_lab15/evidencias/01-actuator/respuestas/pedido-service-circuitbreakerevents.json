@@ -1,0 +1,27 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/circuitbreakerevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:06:00.7276074-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "circuitBreakerEvents":  [
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T21:05:55.368680900-05:00[America/Lima]",
+                                                  "durationInMs":  53,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T21:05:55.560477600-05:00[America/Lima]",
+                                                  "durationInMs":  14,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              }
+                                          ]
+             }
+}

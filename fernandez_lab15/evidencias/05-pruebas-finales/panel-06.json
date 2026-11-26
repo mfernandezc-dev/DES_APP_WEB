@@ -1,0 +1,378 @@
+{
+  "http": 200,
+  "body": {
+    "results": {
+      "A": {
+        "status": 200,
+        "frames": [
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "calculatedMinStep": 5000,
+                  "resultType": "vector"
+                },
+                "executedQueryString": "Expr: up\nStep: 5s"
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8761",
+                    "job": "eureka-server"
+                  },
+                  "config": {
+                    "displayNameFromDS": "eureka-server"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "resultType": "vector"
+                }
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8080",
+                    "job": "gateway-service"
+                  },
+                  "config": {
+                    "displayNameFromDS": "gateway-service"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "resultType": "vector"
+                }
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8084",
+                    "job": "cliente-service"
+                  },
+                  "config": {
+                    "displayNameFromDS": "cliente-service"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "resultType": "vector"
+                }
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8083",
+                    "job": "producto-service"
+                  },
+                  "config": {
+                    "displayNameFromDS": "producto-service"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "resultType": "vector"
+                }
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8082",
+                    "job": "categoria-service"
+                  },
+                  "config": {
+                    "displayNameFromDS": "categoria-service"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "resultType": "vector"
+                }
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8888",
+                    "job": "config-server"
+                  },
+                  "config": {
+                    "displayNameFromDS": "config-server"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "resultType": "vector"
+                }
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "up",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {
+                    "__name__": "up",
+                    "instance": "127.0.0.1:8085",
+                    "job": "pedido-service"
+                  },
+                  "config": {
+                    "displayNameFromDS": "pedido-service"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

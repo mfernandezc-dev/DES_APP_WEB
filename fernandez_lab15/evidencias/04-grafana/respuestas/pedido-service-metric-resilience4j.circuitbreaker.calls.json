@@ -1,0 +1,42 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/resilience4j.circuitbreaker.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T02:49:57.3417830-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "ignored",
+                                                          "failed",
+                                                          "successful"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "productoService"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "description":  "Total number of calls which failed but the exception was ignored",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  54.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  0.7147173
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.0327946
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.calls"
+             }
+}

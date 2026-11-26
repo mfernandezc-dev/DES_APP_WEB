@@ -1,0 +1,23 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/circuitbreakers",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T02:49:57.4922141-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "circuitBreakers":  {
+                                         "productoService":  {
+                                                                 "bufferedCalls":  5,
+                                                                 "failedCalls":  0,
+                                                                 "failureRate":  "0.0%",
+                                                                 "failureRateThreshold":  "50.0%",
+                                                                 "notPermittedCalls":  0,
+                                                                 "slowCallRate":  "0.0%",
+                                                                 "slowCallRateThreshold":  "100.0%",
+                                                                 "slowCalls":  0,
+                                                                 "slowFailedCalls":  0,
+                                                                 "state":  "CLOSED"
+                                                             }
+                                     }
+             }
+}

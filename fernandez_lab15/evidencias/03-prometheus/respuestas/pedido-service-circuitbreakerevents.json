@@ -1,0 +1,235 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/circuitbreakerevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T22:09:44.4015697-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "circuitBreakerEvents":  [
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T21:39:55.601477900-05:00[America/Lima]",
+                                                  "durationInMs":  72,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T21:39:55.811491500-05:00[America/Lima]",
+                                                  "durationInMs":  16,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:05:54.672872200-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:05:59.664614200-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:04.676586200-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:09.674078400-05:00[America/Lima]",
+                                                  "durationInMs":  13,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:14.670424900-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:19.664522100-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:24.667360200-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:29.670335-05:00[America/Lima]",
+                                                  "durationInMs":  13,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:34.672664200-05:00[America/Lima]",
+                                                  "durationInMs":  13,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:39.677283500-05:00[America/Lima]",
+                                                  "durationInMs":  12,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:44.669090500-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:49.667763200-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:54.669168500-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:06:59.660579700-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:04.670142200-05:00[America/Lima]",
+                                                  "durationInMs":  14,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:09.673087900-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:14.696309900-05:00[America/Lima]",
+                                                  "durationInMs":  14,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:19.690090500-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:24.657679600-05:00[America/Lima]",
+                                                  "durationInMs":  14,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:29.681043400-05:00[America/Lima]",
+                                                  "durationInMs":  14,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:34.662985400-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:39.661062700-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:44.662093500-05:00[America/Lima]",
+                                                  "durationInMs":  11,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:07:49.655660800-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:09:42.030985500-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "productoService",
+                                                  "creationTime":  "2026-11-25T22:09:42.093925100-05:00[America/Lima]",
+                                                  "durationInMs":  12,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              }
+                                          ]
+             }
+}

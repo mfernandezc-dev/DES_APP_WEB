@@ -1,0 +1,11 @@
+# Puerto, datasource y JPA se obtienen de config-repo, sin duplicacion local.
+empresa:
+  ambiente: desarrollo
+
+# Configuracion Eureka
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

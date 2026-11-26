@@ -1,0 +1,529 @@
+﻿{
+    "id":  34154,
+    "product":  "grafana",
+    "version":  "13.3.2",
+    "releaseDate":  "2026-11-24T16:12:51.000Z",
+    "channels":  {
+                     "stable":  true,
+                     "preview":  false,
+                     "beta":  false,
+                     "nightly":  false
+                 },
+    "license":  "agplv3",
+    "licenseName":  "AGPLv3",
+    "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+    "whatsNewUrl":  null,
+    "releaseNotesUrl":  null,
+    "isLTS":  false,
+    "createdAt":  "2026-11-24T16:12:52.000Z",
+    "createdBy":  "",
+    "updatedAt":  null,
+    "updatedBy":  "",
+    "packages":  [
+                     {
+                         "id":  398117,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "amd64",
+                         "archName":  "64 Bit",
+                         "os":  "darwin",
+                         "osName":  "Standalone MacOS/Darwin Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_darwin_amd64.tar.gz",
+                         "sha256":  "fb0b5d081fa05a83930d1056d46556777c5d0cf284a6b4276da28955c33a784f",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:13:03.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:13:03.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/amd64/darwin"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_darwin_amd64.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398104,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "amd64",
+                         "archName":  "64 Bit",
+                         "os":  "deb",
+                         "osName":  "Ubuntu and Debian",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_amd64.deb",
+                         "sha256":  "ab62d8122404cc7510778d4f1c8cd7e8414b95f781a7a3d13f89f07ebb9382a6",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:53.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:53.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/amd64/deb"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_amd64.deb"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398108,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "amd64",
+                         "archName":  "64 Bit",
+                         "os":  "linux",
+                         "osName":  "Standalone Linux Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_amd64.tar.gz",
+                         "sha256":  "e6f06cf4ad96a4809294c2e78d3ebe6bc42a79bff36ffe35eefbe502fc19aa87",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:56.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:56.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/amd64/linux"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_amd64.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398112,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "amd64",
+                         "archName":  "64 Bit",
+                         "os":  "rhel",
+                         "osName":  "Red Hat, CentOS, RHEL, and Fedora",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_amd64.rpm",
+                         "sha256":  "4a54124bc112bc78c610b8242c878c337ad0425b36a38df529daa863ffccae2d",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:59.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:59.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/amd64/rhel"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_amd64.rpm"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398114,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "amd64",
+                         "archName":  "64 Bit",
+                         "os":  "win",
+                         "osName":  "Standalone Windows Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_amd64.tar.gz",
+                         "sha256":  "8545e8702b219220dddf687053ddfc0503f3acd5bb80a4a401daa2d5faae1056",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:13:00.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:13:00.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/amd64/win"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_amd64.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398116,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "amd64",
+                         "archName":  "64 Bit",
+                         "os":  "win-installer",
+                         "osName":  "Windows Installer",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_amd64.msi",
+                         "sha256":  "9a7292bde5560c36062e6cdeb5a82a1db011857340f7ff0e9e46181d32116e00",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:13:02.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:13:02.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/amd64/win-installer"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_amd64.msi"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398118,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "arm64",
+                         "archName":  "ARM64",
+                         "os":  "darwin",
+                         "osName":  "Standalone MacOS/Darwin Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_darwin_arm64.tar.gz",
+                         "sha256":  "2b049cca6ab20cb810026da011ed27427870401b12d217fda94230817a223deb",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:13:04.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:13:04.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/arm64/darwin"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_darwin_arm64.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398105,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "arm64",
+                         "archName":  "ARM64",
+                         "os":  "deb",
+                         "osName":  "Ubuntu and Debian",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm64.deb",
+                         "sha256":  "23b7e3c971c7f1dc81f6dcd9d9d846da11718416ec4f76396f26d8e613fcbcb7",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:53.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:53.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/arm64/deb"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm64.deb"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398109,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "arm64",
+                         "archName":  "ARM64",
+                         "os":  "linux",
+                         "osName":  "Standalone Linux Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm64.tar.gz",
+                         "sha256":  "366f33263bf92a615644b129cb1f465eb32d632e48c6157c1831ca0194385a56",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:57.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:57.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/arm64/linux"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm64.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398113,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "arm64",
+                         "archName":  "ARM64",
+                         "os":  "rhel",
+                         "osName":  "Red Hat, CentOS, RHEL, and Fedora",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm64.rpm",
+                         "sha256":  "30739b717e3aba00a811777c2e9720374884f76f510dad94cca9fbb7c8cf0146",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:13:00.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:13:00.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/arm64/rhel"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm64.rpm"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398115,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "arm64",
+                         "archName":  "ARM64",
+                         "os":  "win",
+                         "osName":  "Standalone Windows Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_arm64.tar.gz",
+                         "sha256":  "096762db370869d0b76563d293c55dcbf0454c8241058001f190b145e14a9de6",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:13:01.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:13:01.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/arm64/win"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_arm64.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398106,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "armv6",
+                         "archName":  "ARMv6",
+                         "os":  "deb",
+                         "osName":  "Ubuntu and Debian",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana-rpi_13.3.2_44555861735_linux_arm-6.deb",
+                         "sha256":  "dba9c7efc1e3c606c260fb38e83f84d9d22634d01bd015c3b9eb907604bb20f2",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:54.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:54.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/armv6/deb"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana-rpi_13.3.2_44555861735_linux_arm-6.deb"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398110,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "armv6",
+                         "archName":  "ARMv6",
+                         "os":  "linux",
+                         "osName":  "Standalone Linux Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm-6.tar.gz",
+                         "sha256":  "6bcc8dbdb678a53f0d5164e70bfa0fc9ec6924e201bf84e98c49ee116f501522",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:57.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:57.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/armv6/linux"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm-6.tar.gz"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398107,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "armv7",
+                         "archName":  "ARMv7",
+                         "os":  "deb",
+                         "osName":  "Ubuntu and Debian",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm-7.deb",
+                         "sha256":  "c9e85ca8b2e93ca3d96842b2579ed10a44738a8207dc927223d14513c4c85ffe",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:55.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:55.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/armv7/deb"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm-7.deb"
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  398111,
+                         "versionId":  34154,
+                         "product":  "grafana",
+                         "version":  "13.3.2",
+                         "arch":  "armv7",
+                         "archName":  "ARMv7",
+                         "os":  "linux",
+                         "osName":  "Standalone Linux Binaries",
+                         "url":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm-7.tar.gz",
+                         "sha256":  "e47164b3111763057c9477f3c5730c63bde68a6eb3e0a4a9ea302101f1a2fae5",
+                         "license":  "agplv3",
+                         "licenseName":  "AGPLv3",
+                         "licenseUrl":  "https://github.com/grafana/grafana/blob/master/LICENSE",
+                         "createdAt":  "2026-11-24T16:12:58.000Z",
+                         "createdBy":  "",
+                         "updatedAt":  "2026-11-24T16:12:58.000Z",
+                         "updatedBy":  "",
+                         "links":  [
+                                       {
+                                           "rel":  "self",
+                                           "href":  "/grafana/versions/13.3.2/packages/armv7/linux"
+                                       },
+                                       {
+                                           "rel":  "version",
+                                           "href":  "/grafana/versions/13.3.2"
+                                       },
+                                       {
+                                           "rel":  "download",
+                                           "href":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_linux_arm-7.tar.gz"
+                                       }
+                                   ]
+                     }
+                 ],
+    "links":  [
+                  {
+                      "rel":  "self",
+                      "href":  "/grafana/versions/13.3.2"
+                  },
+                  {
+                      "rel":  "packages",
+                      "href":  "/grafana/versions/13.3.2/packages"
+                  }
+              ]
+}

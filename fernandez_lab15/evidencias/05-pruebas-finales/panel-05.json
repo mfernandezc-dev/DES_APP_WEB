@@ -1,0 +1,62 @@
+{
+  "http": 200,
+  "body": {
+    "results": {
+      "A": {
+        "status": 200,
+        "frames": [
+          {
+            "schema": {
+              "refId": "A",
+              "meta": {
+                "type": "numeric-multi",
+                "typeVersion": [
+                  0,
+                  1
+                ],
+                "custom": {
+                  "calculatedMinStep": 5000,
+                  "resultType": "vector"
+                },
+                "executedQueryString": "Expr: 100 * avg(up)\nStep: 5s"
+              },
+              "fields": [
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "typeInfo": {
+                    "frame": "time.Time"
+                  },
+                  "config": {
+                    "interval": 5000
+                  }
+                },
+                {
+                  "name": "Value",
+                  "type": "number",
+                  "typeInfo": {
+                    "frame": "float64"
+                  },
+                  "labels": {},
+                  "config": {
+                    "displayNameFromDS": "100 * avg(up)"
+                  }
+                }
+              ]
+            },
+            "data": {
+              "values": [
+                [
+                  1795681392241
+                ],
+                [
+                  100
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

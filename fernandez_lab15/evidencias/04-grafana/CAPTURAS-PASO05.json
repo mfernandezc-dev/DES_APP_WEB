@@ -1,0 +1,133 @@
+{
+  "method": "Chrome real + CDP por pipe + PrintWindow; URL visible; sin HTML fabricado",
+  "captures": [
+    {
+      "file": "01-descarga-grafana.png",
+      "requestedUrl": "https://grafana.com/grafana/download/13.3.2?edition=oss&platform=windows",
+      "displayedUrl": "https://grafana.com/grafana/download/13.3.2?edition=oss&platform=windows",
+      "timestamp": "2026-11-26T07:49:11.265Z",
+      "bytes": 105329,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "02-version-grafana.png",
+      "requestedUrl": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/04-grafana/grafana-version.txt",
+      "displayedUrl": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/04-grafana/grafana-version.txt",
+      "timestamp": "2026-11-26T07:53:21.859Z",
+      "bytes": 22091,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "03-grafana-login.png",
+      "requestedUrl": "http://localhost:3000/login",
+      "displayedUrl": "http://localhost:3000/login",
+      "timestamp": "2026-11-26T07:53:26.938Z",
+      "bytes": 640965,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "04-grafana-inicio.png",
+      "requestedUrl": "http://localhost:3000/",
+      "displayedUrl": "http://localhost:3000/",
+      "timestamp": "2026-11-26T07:53:35.827Z",
+      "bytes": 114568,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "05-datasource-prometheus.png",
+      "requestedUrl": "http://localhost:3000/connections/datasources/edit/prometheus-lab15",
+      "displayedUrl": "http://localhost:3000/connections/datasources/edit/prometheus-lab15",
+      "timestamp": "2026-11-26T07:53:41.681Z",
+      "bytes": 92969,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "06-conexion-prometheus-correcta.png",
+      "requestedUrl": "http://localhost:3000/api/datasources/uid/prometheus-lab15/health",
+      "displayedUrl": "http://localhost:3000/api/datasources/uid/prometheus-lab15/health",
+      "timestamp": "2026-11-26T07:53:45.924Z",
+      "bytes": 23566,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "07-explore-consulta-up.png",
+      "requestedUrl": "http://localhost:3000/explore?schemaVersion=1&panes=%7B%22lab15%22%3A%7B%22datasource%22%3A%22prometheus-lab15%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22expr%22%3A%22up%22%2C%22instant%22%3Atrue%2C%22range%22%3Afalse%2C%22editorMode%22%3A%22code%22%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22prometheus-lab15%22%7D%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-15m%22%2C%22to%22%3A%22now%22%7D%7D%7D&orgId=1",
+      "displayedUrl": "http://localhost:3000/explore?schemaVersion=1&panes=%7B%22r3w%22%3A%7B%22datasource%22%3A%22prometheus-lab15%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22expr%22%3A%22up%22%2C%22instant%22%3Atrue%2C%22range%22%3Afalse%2C%22editorMode%22%3A%22code%22%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22prometheus-lab15%22%7D%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-15m%22%2C%22to%22%3A%22now%22%7D%2C%22compact%22%3Afalse%7D%7D&orgId=1",
+      "timestamp": "2026-11-26T07:54:04.855Z",
+      "bytes": 124895,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "08-dashboard-general.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:10:28.674Z",
+      "bytes": 171102,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "09-estado-microservicios.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:10:34.563Z",
+      "bytes": 137598,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "10-memoria-cpu.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:08:14.421Z",
+      "bytes": 158902,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "11-metricas-http.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=1795679057109&to=1795679303617&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=2026-11-26T07:44:17.109Z&to=2026-11-26T07:48:23.617Z&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:08:20.343Z",
+      "bytes": 152725,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "12-conexiones-jdbc.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:08:26.267Z",
+      "bytes": 113673,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "13-resilience4j.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=1795679057109&to=1795679303617&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=2026-11-26T07:44:17.109Z&to=2026-11-26T07:48:23.617Z&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:08:32.324Z",
+      "bytes": 142878,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    },
+    {
+      "file": "14-filtro-microservicio.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=producto-service",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=producto-service&timezone=browser",
+      "timestamp": "2026-11-26T08:08:38.347Z",
+      "bytes": 137996,
+      "source": "Ventana real de Chrome",
+      "redactions": []
+    }
+  ],
+  "error": null,
+  "browser": "Chrome/158.0.8127.37"
+}

@@ -1,0 +1,71 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "job": "eureka-server"
+        },
+        "value": [
+          1795679243.617,
+          "232.37464904785156"
+        ]
+      },
+      {
+        "metric": {
+          "job": "gateway-service"
+        },
+        "value": [
+          1795679243.617,
+          "152.31006622314453"
+        ]
+      },
+      {
+        "metric": {
+          "job": "cliente-service"
+        },
+        "value": [
+          1795679243.617,
+          "224.49834442138672"
+        ]
+      },
+      {
+        "metric": {
+          "job": "producto-service"
+        },
+        "value": [
+          1795679243.617,
+          "247.7771453857422"
+        ]
+      },
+      {
+        "metric": {
+          "job": "categoria-service"
+        },
+        "value": [
+          1795679243.617,
+          "182.6157684326172"
+        ]
+      },
+      {
+        "metric": {
+          "job": "config-server"
+        },
+        "value": [
+          1795679243.617,
+          "156.3143768310547"
+        ]
+      },
+      {
+        "metric": {
+          "job": "pedido-service"
+        },
+        "value": [
+          1795679243.617,
+          "214.5814971923828"
+        ]
+      }
+    ]
+  }
+}

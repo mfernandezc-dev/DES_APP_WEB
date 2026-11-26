@@ -1,0 +1,31 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/bulkheadevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:59.7316179-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "bulkheadEvents":  [
+                                        {
+                                            "bulkheadName":  "productoBulkhead",
+                                            "creationTime":  "2026-11-25T21:39:55.531270200-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "productoBulkhead",
+                                            "creationTime":  "2026-11-25T21:39:55.601477900-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        },
+                                        {
+                                            "bulkheadName":  "productoBulkhead",
+                                            "creationTime":  "2026-11-25T21:39:55.794485800-05:00[America/Lima]",
+                                            "type":  "CALL_PERMITTED"
+                                        },
+                                        {
+                                            "bulkheadName":  "productoBulkhead",
+                                            "creationTime":  "2026-11-25T21:39:55.811491500-05:00[America/Lima]",
+                                            "type":  "CALL_FINISHED"
+                                        }
+                                    ]
+             }
+}

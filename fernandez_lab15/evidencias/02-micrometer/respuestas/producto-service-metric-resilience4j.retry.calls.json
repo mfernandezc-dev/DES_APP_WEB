@@ -1,0 +1,34 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/resilience4j.retry.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:56.7706958-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "successful_without_retry",
+                                                          "successful_with_retry",
+                                                          "failed_with_retry",
+                                                          "failed_without_retry"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "categoriaRetry"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The number of successful calls without a retry attempt",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  6.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.retry.calls"
+             }
+}

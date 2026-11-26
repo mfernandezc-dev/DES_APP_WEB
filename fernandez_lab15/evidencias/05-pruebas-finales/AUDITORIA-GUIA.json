@@ -1,0 +1,235 @@
+{
+  "Completed": true,
+  "GuidePDFPresent": false,
+  "GuideBasis": "17 actividades enumeradas expresamente en la autorizacion; no se atribuye lectura de un PDF ausente",
+  "Sources": [
+    {
+      "Service": "config-server",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "config-server/src/main/resources/application.yaml"
+    },
+    {
+      "Service": "eureka-server",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "eureka-server/src/main/resources/application.yaml"
+    },
+    {
+      "Service": "gateway-service",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "gateway-service/src/main/resources/application.yaml"
+    },
+    {
+      "Service": "categoria-service",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "categoria-service/src/main/resources/application.yml"
+    },
+    {
+      "Service": "producto-service",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "producto-service/src/main/resources/application.yml"
+    },
+    {
+      "Service": "cliente-service",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "cliente-service/src/main/resources/application.yml"
+    },
+    {
+      "Service": "pedido-service",
+      "ActuatorDeclarations": 1,
+      "PrometheusRegistryDeclarations": 1,
+      "ManagementPresent": true,
+      "HealthDetails": true,
+      "ExposureAll": true,
+      "Localhost": true,
+      "PrometheusEnabled": true,
+      "File": "pedido-service/src/main/resources/application.yml"
+    }
+  ],
+  "Mandatory": [
+    {
+      "Number": 1,
+      "Activity": "Dependencia Spring Boot Actuator",
+      "Result": "Siete POM, una declaracion cada uno",
+      "Evidence": "Sources",
+      "Verified": true
+    },
+    {
+      "Number": 2,
+      "Activity": "Configuracion management",
+      "Result": "Siete YAML; exposicion local y health details",
+      "Evidence": "Sources",
+      "Verified": true
+    },
+    {
+      "Number": 3,
+      "Activity": "Endpoint /actuator",
+      "Result": "Siete indices HTTP 200",
+      "Evidence": "PRUEBAS-FINALES.json",
+      "Verified": true
+    },
+    {
+      "Number": 4,
+      "Activity": "Endpoint /actuator/health",
+      "Result": "Siete health UP",
+      "Evidence": "PRUEBAS-FINALES.json",
+      "Verified": true
+    },
+    {
+      "Number": 5,
+      "Activity": "Endpoint /actuator/metrics",
+      "Result": "Siete catalogos HTTP 200",
+      "Evidence": "PRUEBAS-FINALES.json",
+      "Verified": true
+    },
+    {
+      "Number": 6,
+      "Activity": "Actividad 1: Categoria, Cliente y Pedido",
+      "Result": "Nueve consultas y tres capturas de salud en README",
+      "Evidence": "REGRESION-ACTUATOR.json",
+      "Verified": true
+    },
+    {
+      "Number": 7,
+      "Activity": "micrometer-registry-prometheus",
+      "Result": "Siete POM, una declaracion cada uno",
+      "Evidence": "Sources",
+      "Verified": true
+    },
+    {
+      "Number": 8,
+      "Activity": "Endpoint /actuator/prometheus",
+      "Result": "Siete HTTP 200 y formato HELP/TYPE",
+      "Evidence": "PRUEBAS-FINALES.json",
+      "Verified": true
+    },
+    {
+      "Number": 9,
+      "Activity": "Actividad 2: Categoria, Cliente y Pedido",
+      "Result": "Exportadores verificados y tres imagenes visibles",
+      "Evidence": "README.md",
+      "Verified": true
+    },
+    {
+      "Number": 10,
+      "Activity": "Instalacion Prometheus",
+      "Result": "3.13.5 LTS, recibo oficial y SHA-256 verificado",
+      "Evidence": "../03-prometheus/INSTALACION-PROMETHEUS.json",
+      "Verified": true
+    },
+    {
+      "Number": 11,
+      "Activity": "Configuracion prometheus.yml",
+      "Result": "Siete jobs locales y promtool SUCCESS",
+      "Evidence": "../../observabilidad/prometheus/prometheus.yml",
+      "Verified": true
+    },
+    {
+      "Number": 12,
+      "Activity": "PromQL up",
+      "Result": "Siete series con valor uno",
+      "Evidence": "PRUEBAS-FINALES.json",
+      "Verified": true
+    },
+    {
+      "Number": 13,
+      "Activity": "Pantalla de targets",
+      "Result": "Siete grupos UP en una captura final real",
+      "Evidence": "../readme/16-prometheus-targets-up.png",
+      "Verified": true
+    },
+    {
+      "Number": 14,
+      "Activity": "Configuracion de todos los microservicios",
+      "Result": "Fuentes, protecciones y procesos propios comprobados",
+      "Evidence": "PRUEBAS-FINALES.json",
+      "Verified": true
+    },
+    {
+      "Number": 15,
+      "Activity": "Instalacion Grafana",
+      "Result": "OSS 13.3.2, recibo oficial y SHA-256 verificado",
+      "Evidence": "../04-grafana/INSTALACION-GRAFANA.json",
+      "Verified": true
+    },
+    {
+      "Number": 16,
+      "Activity": "Conexion Grafana-Prometheus",
+      "Result": "Datasource health OK y Explore real",
+      "Evidence": "CAPTURAS-PASO06.json",
+      "Verified": true
+    },
+    {
+      "Number": 17,
+      "Activity": "Cinco conclusiones",
+      "Result": "Primera persona, cinco temas exigidos",
+      "Evidence": "../../ENTREGABLE-LAB15.md",
+      "Verified": true
+    }
+  ],
+  "Additional": [
+    {
+      "Activity": "Dashboard profesional, 18 paneles",
+      "Implemented": true
+    },
+    {
+      "Activity": "Filtros, provisioning y actualizacion 5s",
+      "Implemented": true
+    },
+    {
+      "Activity": "Scripts generales idempotentes y auditorias",
+      "Implemented": true
+    },
+    {
+      "Activity": "Integridad SQL/Git y documentacion visual",
+      "Implemented": true
+    }
+  ],
+  "NotImplemented": [
+    {
+      "Activity": "Tracing distribuido",
+      "RequiredByProvidedPracticalProcedure": false,
+      "Claimed": false
+    },
+    {
+      "Activity": "Centralizacion de logs y alertas",
+      "RequiredByProvidedPracticalProcedure": false,
+      "Claimed": false
+    }
+  ]
+}

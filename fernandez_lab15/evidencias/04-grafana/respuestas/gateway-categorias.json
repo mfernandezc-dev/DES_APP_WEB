@@ -1,0 +1,28 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8080/api/categorias",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T02:49:54.7886588-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "Count":  2,
+                 "Length":  2,
+                 "LongLength":  2,
+                 "Rank":  1,
+                 "SyncRoot":  [
+                                  {
+                                      "id":  1,
+                                      "nombre":  "Laptops",
+                                      "estado":  "ACTIVO"
+                                  },
+                                  {
+                                      "id":  2,
+                                      "nombre":  "TecnologÃ­a",
+                                      "estado":  "ACTIVO"
+                                  }
+                              ],
+                 "IsReadOnly":  false,
+                 "IsFixedSize":  true,
+                 "IsSynchronized":  false
+             }
+}

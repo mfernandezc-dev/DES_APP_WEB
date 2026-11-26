@@ -1,0 +1,44 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "job": "cliente-service"
+        },
+        "value": [
+          1795662481.084,
+          "4.464100000000001"
+        ]
+      },
+      {
+        "metric": {
+          "job": "producto-service"
+        },
+        "value": [
+          1795662481.084,
+          "13.686324999999997"
+        ]
+      },
+      {
+        "metric": {
+          "job": "categoria-service"
+        },
+        "value": [
+          1795662481.084,
+          "4.177622499999999"
+        ]
+      },
+      {
+        "metric": {
+          "job": "pedido-service"
+        },
+        "value": [
+          1795662481.084,
+          "15.295659999999998"
+        ]
+      }
+    ]
+  }
+}

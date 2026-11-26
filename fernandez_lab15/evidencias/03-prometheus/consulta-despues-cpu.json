@@ -1,0 +1,78 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "instance": "127.0.0.1:8761",
+          "job": "eureka-server"
+        },
+        "value": [
+          1795662481.084,
+          "0.07790176004231712"
+        ]
+      },
+      {
+        "metric": {
+          "instance": "127.0.0.1:8080",
+          "job": "gateway-service"
+        },
+        "value": [
+          1795662481.084,
+          "0.07811501065243777"
+        ]
+      },
+      {
+        "metric": {
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service"
+        },
+        "value": [
+          1795662481.084,
+          "0.07810847224727246"
+        ]
+      },
+      {
+        "metric": {
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service"
+        },
+        "value": [
+          1795662481.084,
+          "0.13019035404543966"
+        ]
+      },
+      {
+        "metric": {
+          "instance": "127.0.0.1:8082",
+          "job": "categoria-service"
+        },
+        "value": [
+          1795662481.084,
+          "0.1041448587332479"
+        ]
+      },
+      {
+        "metric": {
+          "instance": "127.0.0.1:8888",
+          "job": "config-server"
+        },
+        "value": [
+          1795662481.084,
+          "0.07820341456378312"
+        ]
+      },
+      {
+        "metric": {
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service"
+        },
+        "value": [
+          1795662481.084,
+          "0.078137123756122"
+        ]
+      }
+    ]
+  }
+}

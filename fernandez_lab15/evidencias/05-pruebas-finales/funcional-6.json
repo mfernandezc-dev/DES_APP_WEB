@@ -1,0 +1,20 @@
+{
+  "URL": "http://localhost:8084/api/clientes/pedidos/1",
+  "Http": 200,
+  "Redacted": true,
+  "Body": {
+    "id": 1,
+    "cantidad": 1,
+    "estado": "PENDIENTE",
+    "cliente": {
+      "id": 1,
+      "nombre": "[REDACTADO]",
+      "apellido": "[REDACTADO]"
+    },
+    "producto": {
+      "id": 1,
+      "nombre": "[REDACTADO]",
+      "precio": 2500
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/jdbc.connections.active",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:06:00.3866654-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "dataSource"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "Current number of active connections that have been allocated from the data source.",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  0.0
+                                      }
+                                  ],
+                 "name":  "jdbc.connections.active"
+             }
+}

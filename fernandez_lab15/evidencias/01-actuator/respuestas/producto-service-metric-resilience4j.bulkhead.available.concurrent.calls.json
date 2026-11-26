@@ -1,0 +1,25 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/resilience4j.bulkhead.available.concurrent.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:57.2124577-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "categoriaBulkhead"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The number of available permissions",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  2.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.bulkhead.available.concurrent.calls"
+             }
+}

@@ -1,0 +1,73 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8082/actuator/metrics/http.server.requests",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T02:49:56.1981061-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "exception",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "method",
+                                           "values":  [
+                                                          "GET"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "error",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "uri",
+                                           "values":  [
+                                                          "/actuator/metrics/{requiredMetricName}",
+                                                          "/api/categorias",
+                                                          "/actuator",
+                                                          "/actuator/health",
+                                                          "/actuator/env/{toMatch}",
+                                                          "/api/categorias/{id}",
+                                                          "/actuator/metrics",
+                                                          "/actuator/prometheus",
+                                                          "/**"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "outcome",
+                                           "values":  [
+                                                          "CLIENT_ERROR",
+                                                          "SUCCESS"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "status",
+                                           "values":  [
+                                                          "404",
+                                                          "200"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  1154.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  32.4872997
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.3527226
+                                      }
+                                  ],
+                 "name":  "http.server.requests"
+             }
+}

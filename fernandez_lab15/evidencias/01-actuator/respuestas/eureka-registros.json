@@ -1,0 +1,245 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8761/eureka/apps",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:53.9233955-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "applications":  {
+                                      "versions__delta":  "1",
+                                      "apps__hashcode":  "UP_5_",
+                                      "application":  [
+                                                          {
+                                                              "name":  "CLIENTE-SERVICE",
+                                                              "instance":  [
+                                                                               {
+                                                                                   "instanceId":  "localhost:cliente-service:8084",
+                                                                                   "hostName":  "127.0.0.1",
+                                                                                   "app":  "CLIENTE-SERVICE",
+                                                                                   "ipAddr":  "127.0.0.1",
+                                                                                   "status":  "UP",
+                                                                                   "overriddenStatus":  "UNKNOWN",
+                                                                                   "port":  {
+                                                                                                "$":  8084,
+                                                                                                "@enabled":  "true"
+                                                                                            },
+                                                                                   "securePort":  {
+                                                                                                      "$":  443,
+                                                                                                      "@enabled":  "false"
+                                                                                                  },
+                                                                                   "countryId":  1,
+                                                                                   "dataCenterInfo":  {
+                                                                                                          "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                                          "name":  "MyOwn"
+                                                                                                      },
+                                                                                   "leaseInfo":  {
+                                                                                                     "renewalIntervalInSecs":  30,
+                                                                                                     "durationInSecs":  90,
+                                                                                                     "registrationTimestamp":  1795658621928,
+                                                                                                     "lastRenewalTimestamp":  1795658741885,
+                                                                                                     "evictionTimestamp":  0,
+                                                                                                     "serviceUpTimestamp":  1795658621928
+                                                                                                 },
+                                                                                   "metadata":  {
+                                                                                                    "management.port":  "8084"
+                                                                                                },
+                                                                                   "homePageUrl":  "http://127.0.0.1:8084/",
+                                                                                   "statusPageUrl":  "http://127.0.0.1:8084/actuator/info",
+                                                                                   "healthCheckUrl":  "http://127.0.0.1:8084/actuator/health",
+                                                                                   "vipAddress":  "cliente-service",
+                                                                                   "secureVipAddress":  "cliente-service",
+                                                                                   "isCoordinatingDiscoveryServer":  "false",
+                                                                                   "lastUpdatedTimestamp":  "1795658621928",
+                                                                                   "lastDirtyTimestamp":  "1795658621888",
+                                                                                   "actionType":  "ADDED"
+                                                                               }
+                                                                           ]
+                                                          },
+                                                          {
+                                                              "name":  "PRODUCTO-SERVICE",
+                                                              "instance":  [
+                                                                               {
+                                                                                   "instanceId":  "localhost:producto-service:8083",
+                                                                                   "hostName":  "127.0.0.1",
+                                                                                   "app":  "PRODUCTO-SERVICE",
+                                                                                   "ipAddr":  "127.0.0.1",
+                                                                                   "status":  "UP",
+                                                                                   "overriddenStatus":  "UNKNOWN",
+                                                                                   "port":  {
+                                                                                                "$":  8083,
+                                                                                                "@enabled":  "true"
+                                                                                            },
+                                                                                   "securePort":  {
+                                                                                                      "$":  443,
+                                                                                                      "@enabled":  "false"
+                                                                                                  },
+                                                                                   "countryId":  1,
+                                                                                   "dataCenterInfo":  {
+                                                                                                          "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                                          "name":  "MyOwn"
+                                                                                                      },
+                                                                                   "leaseInfo":  {
+                                                                                                     "renewalIntervalInSecs":  30,
+                                                                                                     "durationInSecs":  90,
+                                                                                                     "registrationTimestamp":  1795658600035,
+                                                                                                     "lastRenewalTimestamp":  1795658750018,
+                                                                                                     "evictionTimestamp":  0,
+                                                                                                     "serviceUpTimestamp":  1795658600035
+                                                                                                 },
+                                                                                   "metadata":  {
+                                                                                                    "management.port":  "8083"
+                                                                                                },
+                                                                                   "homePageUrl":  "http://127.0.0.1:8083/",
+                                                                                   "statusPageUrl":  "http://127.0.0.1:8083/actuator/info",
+                                                                                   "healthCheckUrl":  "http://127.0.0.1:8083/actuator/health",
+                                                                                   "vipAddress":  "producto-service",
+                                                                                   "secureVipAddress":  "producto-service",
+                                                                                   "isCoordinatingDiscoveryServer":  "false",
+                                                                                   "lastUpdatedTimestamp":  "1795658600035",
+                                                                                   "lastDirtyTimestamp":  "1795658599996",
+                                                                                   "actionType":  "ADDED"
+                                                                               }
+                                                                           ]
+                                                          },
+                                                          {
+                                                              "name":  "PEDIDO-SERVICE",
+                                                              "instance":  [
+                                                                               {
+                                                                                   "instanceId":  "localhost:pedido-service:8085",
+                                                                                   "hostName":  "127.0.0.1",
+                                                                                   "app":  "PEDIDO-SERVICE",
+                                                                                   "ipAddr":  "127.0.0.1",
+                                                                                   "status":  "UP",
+                                                                                   "overriddenStatus":  "UNKNOWN",
+                                                                                   "port":  {
+                                                                                                "$":  8085,
+                                                                                                "@enabled":  "true"
+                                                                                            },
+                                                                                   "securePort":  {
+                                                                                                      "$":  443,
+                                                                                                      "@enabled":  "false"
+                                                                                                  },
+                                                                                   "countryId":  1,
+                                                                                   "dataCenterInfo":  {
+                                                                                                          "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                                          "name":  "MyOwn"
+                                                                                                      },
+                                                                                   "leaseInfo":  {
+                                                                                                     "renewalIntervalInSecs":  30,
+                                                                                                     "durationInSecs":  90,
+                                                                                                     "registrationTimestamp":  1795658645220,
+                                                                                                     "lastRenewalTimestamp":  1795658645220,
+                                                                                                     "evictionTimestamp":  0,
+                                                                                                     "serviceUpTimestamp":  1795658645220
+                                                                                                 },
+                                                                                   "metadata":  {
+                                                                                                    "management.port":  "8085"
+                                                                                                },
+                                                                                   "homePageUrl":  "http://127.0.0.1:8085/",
+                                                                                   "statusPageUrl":  "http://127.0.0.1:8085/actuator/info",
+                                                                                   "healthCheckUrl":  "http://127.0.0.1:8085/actuator/health",
+                                                                                   "vipAddress":  "pedido-service",
+                                                                                   "secureVipAddress":  "pedido-service",
+                                                                                   "isCoordinatingDiscoveryServer":  "false",
+                                                                                   "lastUpdatedTimestamp":  "1795658645220",
+                                                                                   "lastDirtyTimestamp":  "1795658645184",
+                                                                                   "actionType":  "ADDED"
+                                                                               }
+                                                                           ]
+                                                          },
+                                                          {
+                                                              "name":  "GATEWAY-SERVICE",
+                                                              "instance":  [
+                                                                               {
+                                                                                   "instanceId":  "localhost:gateway-service:8080",
+                                                                                   "hostName":  "127.0.0.1",
+                                                                                   "app":  "GATEWAY-SERVICE",
+                                                                                   "ipAddr":  "127.0.0.1",
+                                                                                   "status":  "UP",
+                                                                                   "overriddenStatus":  "UNKNOWN",
+                                                                                   "port":  {
+                                                                                                "$":  8080,
+                                                                                                "@enabled":  "true"
+                                                                                            },
+                                                                                   "securePort":  {
+                                                                                                      "$":  443,
+                                                                                                      "@enabled":  "false"
+                                                                                                  },
+                                                                                   "countryId":  1,
+                                                                                   "dataCenterInfo":  {
+                                                                                                          "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                                          "name":  "MyOwn"
+                                                                                                      },
+                                                                                   "leaseInfo":  {
+                                                                                                     "renewalIntervalInSecs":  30,
+                                                                                                     "durationInSecs":  90,
+                                                                                                     "registrationTimestamp":  1795658659683,
+                                                                                                     "lastRenewalTimestamp":  1795658659683,
+                                                                                                     "evictionTimestamp":  0,
+                                                                                                     "serviceUpTimestamp":  1795658659683
+                                                                                                 },
+                                                                                   "metadata":  {
+                                                                                                    "management.port":  "8080"
+                                                                                                },
+                                                                                   "homePageUrl":  "http://127.0.0.1:8080/",
+                                                                                   "statusPageUrl":  "http://127.0.0.1:8080/actuator/info",
+                                                                                   "healthCheckUrl":  "http://127.0.0.1:8080/actuator/health",
+                                                                                   "vipAddress":  "gateway-service",
+                                                                                   "secureVipAddress":  "gateway-service",
+                                                                                   "isCoordinatingDiscoveryServer":  "false",
+                                                                                   "lastUpdatedTimestamp":  "1795658659683",
+                                                                                   "lastDirtyTimestamp":  "1795658659642",
+                                                                                   "actionType":  "ADDED"
+                                                                               }
+                                                                           ]
+                                                          },
+                                                          {
+                                                              "name":  "CATEGORIA-SERVICE",
+                                                              "instance":  [
+                                                                               {
+                                                                                   "instanceId":  "localhost:categoria-service:8082",
+                                                                                   "hostName":  "127.0.0.1",
+                                                                                   "app":  "CATEGORIA-SERVICE",
+                                                                                   "ipAddr":  "127.0.0.1",
+                                                                                   "status":  "UP",
+                                                                                   "overriddenStatus":  "UNKNOWN",
+                                                                                   "port":  {
+                                                                                                "$":  8082,
+                                                                                                "@enabled":  "true"
+                                                                                            },
+                                                                                   "securePort":  {
+                                                                                                      "$":  443,
+                                                                                                      "@enabled":  "false"
+                                                                                                  },
+                                                                                   "countryId":  1,
+                                                                                   "dataCenterInfo":  {
+                                                                                                          "@class":  "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+                                                                                                          "name":  "MyOwn"
+                                                                                                      },
+                                                                                   "leaseInfo":  {
+                                                                                                     "renewalIntervalInSecs":  30,
+                                                                                                     "durationInSecs":  90,
+                                                                                                     "registrationTimestamp":  1795658578226,
+                                                                                                     "lastRenewalTimestamp":  1795658758162,
+                                                                                                     "evictionTimestamp":  0,
+                                                                                                     "serviceUpTimestamp":  1795658578226
+                                                                                                 },
+                                                                                   "metadata":  {
+                                                                                                    "management.port":  "8082"
+                                                                                                },
+                                                                                   "homePageUrl":  "http://127.0.0.1:8082/",
+                                                                                   "statusPageUrl":  "http://127.0.0.1:8082/actuator/info",
+                                                                                   "healthCheckUrl":  "http://127.0.0.1:8082/actuator/health",
+                                                                                   "vipAddress":  "categoria-service",
+                                                                                   "secureVipAddress":  "categoria-service",
+                                                                                   "isCoordinatingDiscoveryServer":  "false",
+                                                                                   "lastUpdatedTimestamp":  "1795658578227",
+                                                                                   "lastDirtyTimestamp":  "1795658578102",
+                                                                                   "actionType":  "ADDED"
+                                                                               }
+                                                                           ]
+                                                          }
+                                                      ]
+                                  }
+             }
+}

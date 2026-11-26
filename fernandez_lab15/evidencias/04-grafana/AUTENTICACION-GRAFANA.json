@@ -1,0 +1,12 @@
+{
+  "Completed": true,
+  "Timestamp": "2026-11-26T07:45:05.441Z",
+  "NewInstallation": true,
+  "InitialAccessFromDistribution": true,
+  "PasswordChangedThisRun": true,
+  "InitialPasswordRejected": true,
+  "AdministrativeLoginVerified": true,
+  "SecretStorage": "Windows DPAPI PSCredential + ACL privada, .runtime/grafana/private/admin.clixml",
+  "PlaintextPasswordPublished": false,
+  "ManualInterventionRequired": false
+}

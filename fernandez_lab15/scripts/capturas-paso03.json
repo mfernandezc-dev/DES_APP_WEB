@@ -1,0 +1,15 @@
+{
+  "step": "03",
+  "captures": [
+    ["01-producto-prometheus.png", "http://localhost:8083/actuator/prometheus"],
+    ["02-categoria-prometheus.png", "http://localhost:8082/actuator/prometheus"],
+    ["03-cliente-prometheus.png", "http://localhost:8084/actuator/prometheus"],
+    ["04-pedido-prometheus.png", "http://localhost:8085/actuator/prometheus"],
+    ["05-config-server-prometheus.png", "http://localhost:8888/actuator/prometheus"],
+    ["06-eureka-prometheus.png", "http://localhost:8761/actuator/prometheus"],
+    ["07-gateway-prometheus.png", "http://localhost:8080/actuator/prometheus"],
+    ["08-metricas-jvm.png", "http://localhost:8083/actuator/prometheus", {"findText": "jvm_memory_used_bytes{"}],
+    ["09-metricas-http.png", "http://localhost:8083/actuator/prometheus", {"findText": "http_server_requests_seconds_count{"}],
+    ["10-metricas-resilience4j.png", "http://localhost:8083/actuator/prometheus", {"findText": "resilience4j_circuitbreaker_calls_seconds_count{"}]
+  ]
+}

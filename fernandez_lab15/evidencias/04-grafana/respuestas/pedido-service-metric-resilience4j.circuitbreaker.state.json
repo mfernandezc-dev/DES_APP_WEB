@@ -1,0 +1,36 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/resilience4j.circuitbreaker.state",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T02:49:57.4481918-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "productoService"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "state",
+                                           "values":  [
+                                                          "closed",
+                                                          "disabled",
+                                                          "half_open",
+                                                          "forced_open",
+                                                          "open",
+                                                          "metrics_only"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The states of the circuit breaker",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  1.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.state"
+             }
+}

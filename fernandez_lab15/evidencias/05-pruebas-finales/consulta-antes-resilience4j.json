@@ -1,0 +1,125 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service",
+          "kind": "failed",
+          "name": "pedidoService"
+        },
+        "value": [
+          1795681264.876,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service",
+          "kind": "ignored",
+          "name": "pedidoService"
+        },
+        "value": [
+          1795681264.876,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service",
+          "kind": "successful",
+          "name": "pedidoService"
+        },
+        "value": [
+          1795681264.876,
+          "4"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "failed",
+          "name": "categoriaService"
+        },
+        "value": [
+          1795681264.876,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "ignored",
+          "name": "categoriaService"
+        },
+        "value": [
+          1795681264.876,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "successful",
+          "name": "categoriaService"
+        },
+        "value": [
+          1795681264.876,
+          "174"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "failed",
+          "name": "productoService"
+        },
+        "value": [
+          1795681264.876,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "ignored",
+          "name": "productoService"
+        },
+        "value": [
+          1795681264.876,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "successful",
+          "name": "productoService"
+        },
+        "value": [
+          1795681264.876,
+          "56"
+        ]
+      }
+    ]
+  }
+}

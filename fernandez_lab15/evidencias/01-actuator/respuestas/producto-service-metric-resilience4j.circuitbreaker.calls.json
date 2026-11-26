@@ -1,0 +1,42 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/resilience4j.circuitbreaker.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:57.2782814-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "ignored",
+                                                          "failed",
+                                                          "successful"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "categoriaService"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "description":  "Total number of failed calls",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  12.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  0.2245425
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.1516854
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.calls"
+             }
+}

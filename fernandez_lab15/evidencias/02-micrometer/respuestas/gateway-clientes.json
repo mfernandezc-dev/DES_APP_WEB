@@ -1,0 +1,26 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8080/api/clientes",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:54.9412049-05:00",
+    "RedactedPersonalData":  true,
+    "Body":  {
+                 "Count":  1,
+                 "Length":  1,
+                 "LongLength":  1,
+                 "Rank":  1,
+                 "SyncRoot":  [
+                                  {
+                                      "apellido":  "[REDACTADO]",
+                                      "direccion":  "[REDACTADO]",
+                                      "estado":  "ACTIVO",
+                                      "id":  1,
+                                      "nombre":  "[REDACTADO]",
+                                      "nro_dni":  "[REDACTADO]"
+                                  }
+                              ],
+                 "IsReadOnly":  false,
+                 "IsFixedSize":  true,
+                 "IsSynchronized":  false
+             }
+}

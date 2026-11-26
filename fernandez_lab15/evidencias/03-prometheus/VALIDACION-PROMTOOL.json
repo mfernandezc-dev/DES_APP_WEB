@@ -1,0 +1,10 @@
+﻿{
+    "ExecutableVersion":  "3.13.5",
+    "Command":  "promtool.exe check config",
+    "AbsoluteConfigPath":  "C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\observabilidad\\prometheus\\prometheus.yml",
+    "ConfigSHA256":  "0D5F92B0A608D45C665DCA4BF9C10CE8D80C50F9D67E5011C88C70AEBC8BDC37",
+    "ExitCode":  0,
+    "Valid":  true,
+    "Output":  "Checking C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\observabilidad\\prometheus\\prometheus.yml\n SUCCESS: C:\\Users\\USER\\Desktop\\4° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\observabilidad\\prometheus\\prometheus.yml is valid prometheus config file syntax",
+    "Timestamp":  "2026-11-25T22:02:57.3216123-05:00"
+}

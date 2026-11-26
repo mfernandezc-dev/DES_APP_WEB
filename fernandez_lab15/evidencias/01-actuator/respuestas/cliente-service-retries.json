@@ -1,0 +1,12 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/retries",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:59.4779252-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "retries":  [
+
+                             ]
+             }
+}

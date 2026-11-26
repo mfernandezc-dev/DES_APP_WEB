@@ -1,0 +1,4266 @@
+{
+  "Step": "06",
+  "Timestamp": "2026-11-26T08:21:04.744Z",
+  "HttpMethods": [
+    "GET"
+  ],
+  "Server": [
+    {
+      "url": "http://localhost:9090/",
+      "http": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "http://localhost:9090/-/healthy",
+      "http": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "url": "http://localhost:9090/-/ready",
+      "http": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "url": "http://localhost:9090/targets",
+      "http": 200,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "Targets": {
+    "status": "success",
+    "data": {
+      "activeTargets": [
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8082",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "categoria-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "scrapePool": "categoria-service",
+          "scrapeUrl": "http://127.0.0.1:8082/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8082/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:01.8286815-05:00",
+          "lastScrapeDuration": 0.0395948,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8084",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "cliente-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "scrapePool": "cliente-service",
+          "scrapeUrl": "http://127.0.0.1:8084/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8084/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:01.4885038-05:00",
+          "lastScrapeDuration": 0.0399446,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8888",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "config-server"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "scrapePool": "config-server",
+          "scrapeUrl": "http://127.0.0.1:8888/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8888/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:02.8456348-05:00",
+          "lastScrapeDuration": 0.0359762,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8761",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "eureka-server"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "scrapePool": "eureka-server",
+          "scrapeUrl": "http://127.0.0.1:8761/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8761/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:04.4542831-05:00",
+          "lastScrapeDuration": 0.0513385,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8080",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "gateway-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "scrapePool": "gateway-service",
+          "scrapeUrl": "http://127.0.0.1:8080/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8080/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:01.372062-05:00",
+          "lastScrapeDuration": 0.0566544,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8085",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "pedido-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "scrapePool": "pedido-service",
+          "scrapeUrl": "http://127.0.0.1:8085/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8085/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:02.9959819-05:00",
+          "lastScrapeDuration": 0.0536952,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8083",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "producto-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "scrapePool": "producto-service",
+          "scrapeUrl": "http://127.0.0.1:8083/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8083/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:21:01.6781321-05:00",
+          "lastScrapeDuration": 0.0419279,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        }
+      ],
+      "droppedTargets": [],
+      "droppedTargetCounts": {
+        "categoria-service": 0,
+        "cliente-service": 0,
+        "config-server": 0,
+        "eureka-server": 0,
+        "gateway-service": 0,
+        "pedido-service": 0,
+        "producto-service": 0
+      }
+    }
+  },
+  "QueriesBefore": [
+    {
+      "id": "up",
+      "expr": "up",
+      "title": "Disponibilidad de los siete targets",
+      "url": "http://localhost:9090/api/v1/query?query=up",
+      "ui": "http://localhost:9090/query?g0.expr=up&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.837,
+            "1"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-up.json"
+    },
+    {
+      "id": "count-up",
+      "expr": "count(up)",
+      "title": "Total de targets",
+      "url": "http://localhost:9090/api/v1/query?query=count%28up%29",
+      "ui": "http://localhost:9090/query?g0.expr=count(up)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 1,
+      "values": [
+        {
+          "metric": {},
+          "value": [
+            1795681264.841,
+            "7"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-count-up.json"
+    },
+    {
+      "id": "sum-up",
+      "expr": "sum(up)",
+      "title": "Targets UP",
+      "url": "http://localhost:9090/api/v1/query?query=sum%28up%29",
+      "ui": "http://localhost:9090/query?g0.expr=sum(up)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 1,
+      "values": [
+        {
+          "metric": {},
+          "value": [
+            1795681264.846,
+            "7"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-sum-up.json"
+    },
+    {
+      "id": "down",
+      "expr": "count(up == 0) or vector(0)",
+      "title": "Targets DOWN",
+      "url": "http://localhost:9090/api/v1/query?query=count%28up+%3D%3D+0%29+or+vector%280%29",
+      "ui": "http://localhost:9090/query?g0.expr=count(up%20%3D%3D%200)%20or%20vector(0)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 1,
+      "values": [
+        {
+          "metric": {},
+          "value": [
+            1795681264.849,
+            "0"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-down.json"
+    },
+    {
+      "id": "memoria-jvm",
+      "expr": "sum by (job) (jvm_memory_used_bytes) / 1024 / 1024",
+      "title": "Memoria JVM, MiB",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28jvm_memory_used_bytes%29+%2F+1024+%2F+1024",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(jvm_memory_used_bytes)%20%2F%201024%20%2F%201024&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681264.851,
+            "166.79376983642578"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681264.851,
+            "125.58174133300781"
+          ]
+        },
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.851,
+            "311.0534362792969"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.851,
+            "238.58026885986328"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.851,
+            "228.93817901611328"
+          ]
+        },
+        {
+          "metric": {
+            "job": "config-server"
+          },
+          "value": [
+            1795681264.851,
+            "156.81339263916016"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.851,
+            "198.21881866455078"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-memoria-jvm.json"
+    },
+    {
+      "id": "cpu",
+      "expr": "100 * process_cpu_usage",
+      "title": "CPU del proceso, porcentaje",
+      "url": "http://localhost:9090/api/v1/query?query=100+*+process_cpu_usage",
+      "ui": "http://localhost:9090/query?g0.expr=100%20*%20process_cpu_usage&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681264.854,
+            "0.15227300818597278"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681264.854,
+            "0.29694854551622124"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.854,
+            "0.6237359492000701"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.854,
+            "0.33405628152132166"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.854,
+            "0.2922972730125447"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681264.854,
+            "2.085628655130151"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.854,
+            "0.7275906548619504"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-cpu.json"
+    },
+    {
+      "id": "hilos",
+      "expr": "jvm_threads_live_threads",
+      "title": "Threads Java activos",
+      "url": "http://localhost:9090/api/v1/query?query=jvm_threads_live_threads",
+      "ui": "http://localhost:9090/query?g0.expr=jvm_threads_live_threads&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681264.857,
+            "32"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681264.857,
+            "51"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.857,
+            "38"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.857,
+            "38"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.857,
+            "34"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681264.857,
+            "26"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.857,
+            "38"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-hilos.json"
+    },
+    {
+      "id": "uptime",
+      "expr": "process_uptime_seconds",
+      "title": "Tiempo de actividad, segundos",
+      "url": "http://localhost:9090/api/v1/query?query=process_uptime_seconds",
+      "ui": "http://localhost:9090/query?g0.expr=process_uptime_seconds&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681264.86,
+            "20626.802"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681264.86,
+            "20517.044"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.86,
+            "20563.514"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.86,
+            "20587.207"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.86,
+            "20608.781"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681264.86,
+            "20641.15"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.86,
+            "20541.612"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-uptime.json"
+    },
+    {
+      "id": "jdbc",
+      "expr": "hikaricp_connections_active",
+      "title": "Conexiones HikariCP activas, solo cuatro servicios JDBC",
+      "url": "http://localhost:9090/api/v1/query?query=hikaricp_connections_active",
+      "ui": "http://localhost:9090/query?g0.expr=hikaricp_connections_active&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681264.863,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681264.863,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681264.863,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681264.863,
+            "0"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-jdbc.json"
+    },
+    {
+      "id": "http-exitosas",
+      "expr": "sum by (job) (http_server_requests_seconds_count{status=\"200\"})",
+      "title": "Peticiones HTTP exitosas acumuladas",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D%29",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681264.865,
+            "3756"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681264.865,
+            "1486"
+          ]
+        },
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.865,
+            "1493"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.865,
+            "1507"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.865,
+            "1555"
+          ]
+        },
+        {
+          "metric": {
+            "job": "config-server"
+          },
+          "value": [
+            1795681264.865,
+            "1342"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.865,
+            "1501"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-http-exitosas.json"
+    },
+    {
+      "id": "http-negocio-contador",
+      "expr": "sum by (job) (http_server_requests_seconds_count{status=\"200\",uri=~\"/api/.*\"})",
+      "title": "Contador HTTP exclusivamente de negocio",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28http_server_requests_seconds_count%7Bstatus%3D%22200%22%2Curi%3D%7E%22%2Fapi%2F.*%22%7D%29",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%2Curi%3D~%22%2Fapi%2F.*%22%7D)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.869,
+            "119"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.869,
+            "115"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.869,
+            "233"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.869,
+            "115"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-http-negocio-contador.json"
+    },
+    {
+      "id": "http-tasa-negocio",
+      "expr": "sum by (job) (rate(http_server_requests_seconds_count{uri=~\"/api/.*\"}[1m]))",
+      "title": "Tasa HTTP de negocio, solicitudes/segundo",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(rate(http_server_requests_seconds_count%7Buri%3D~%22%2Fapi%2F.*%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.872,
+            "0.09090909090909091"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.872,
+            "0.07272727272727272"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.872,
+            "0.14545454545454545"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.872,
+            "0.07272727272727272"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-http-tasa-negocio.json"
+    },
+    {
+      "id": "http-promedio-ms",
+      "expr": "1000 * sum by (job) (rate(http_server_requests_seconds_sum{uri=~\"/api/.*\"}[1m])) / sum by (job) (rate(http_server_requests_seconds_count{uri=~\"/api/.*\"}[1m]))",
+      "title": "Latencia HTTP promedio de negocio, milisegundos",
+      "url": "http://localhost:9090/api/v1/query?query=1000+*+sum+by+%28job%29+%28rate%28http_server_requests_seconds_sum%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29+%2F+sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29",
+      "ui": "http://localhost:9090/query?g0.expr=1000%20*%20sum%20by%20(job)%20(rate(http_server_requests_seconds_sum%7Buri%3D~%22%2Fapi%2F.*%22%7D%5B1m%5D))%20%2F%20sum%20by%20(job)%20(rate(http_server_requests_seconds_count%7Buri%3D~%22%2Fapi%2F.*%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681264.874,
+            "8.013600000000004"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681264.874,
+            "11.639150000000015"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681264.874,
+            "3.926312499999987"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681264.874,
+            "13.607699999999994"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-http-promedio-ms.json"
+    },
+    {
+      "id": "resilience4j",
+      "expr": "resilience4j_circuitbreaker_calls_seconds_count{job=~\"producto-service|cliente-service|pedido-service\"}",
+      "title": "CircuitBreaker por job, name y kind",
+      "url": "http://localhost:9090/api/v1/query?query=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D%7E%22producto-service%7Ccliente-service%7Cpedido-service%22%7D",
+      "ui": "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%7D&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 9,
+      "values": [
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "kind": "failed",
+            "name": "pedidoService"
+          },
+          "value": [
+            1795681264.876,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "kind": "ignored",
+            "name": "pedidoService"
+          },
+          "value": [
+            1795681264.876,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "kind": "successful",
+            "name": "pedidoService"
+          },
+          "value": [
+            1795681264.876,
+            "4"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "failed",
+            "name": "categoriaService"
+          },
+          "value": [
+            1795681264.876,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "ignored",
+            "name": "categoriaService"
+          },
+          "value": [
+            1795681264.876,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "successful",
+            "name": "categoriaService"
+          },
+          "value": [
+            1795681264.876,
+            "174"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "failed",
+            "name": "productoService"
+          },
+          "value": [
+            1795681264.876,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "ignored",
+            "name": "productoService"
+          },
+          "value": [
+            1795681264.876,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "successful",
+            "name": "productoService"
+          },
+          "value": [
+            1795681264.876,
+            "56"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-resilience4j.json"
+    },
+    {
+      "id": "resilience4j-cerrados",
+      "expr": "resilience4j_circuitbreaker_state{job=~\"producto-service|cliente-service|pedido-service\",state=\"closed\"}",
+      "title": "Estado CLOSED de los circuitos",
+      "url": "http://localhost:9090/api/v1/query?query=resilience4j_circuitbreaker_state%7Bjob%3D%7E%22producto-service%7Ccliente-service%7Cpedido-service%22%2Cstate%3D%22closed%22%7D",
+      "ui": "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_state%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%2Cstate%3D%22closed%22%7D&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 3,
+      "values": [
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_state",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "name": "pedidoService",
+            "state": "closed"
+          },
+          "value": [
+            1795681264.881,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_state",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "name": "categoriaService",
+            "state": "closed"
+          },
+          "value": [
+            1795681264.881,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_state",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "name": "productoService",
+            "state": "closed"
+          },
+          "value": [
+            1795681264.881,
+            "1"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-resilience4j-cerrados.json"
+    },
+    {
+      "id": "resilience4j-retry",
+      "expr": "resilience4j_retry_calls_total{job=~\"producto-service|pedido-service\"}",
+      "title": "Retry real por name y kind",
+      "url": "http://localhost:9090/api/v1/query?query=resilience4j_retry_calls_total%7Bjob%3D%7E%22producto-service%7Cpedido-service%22%7D",
+      "ui": "http://localhost:9090/query?g0.expr=resilience4j_retry_calls_total%7Bjob%3D~%22producto-service%7Cpedido-service%22%7D&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 8,
+      "values": [
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "failed_with_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681264.883,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "failed_without_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681264.883,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "successful_with_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681264.883,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "successful_without_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681264.883,
+            "174"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "failed_with_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681264.883,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "failed_without_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681264.883,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "successful_with_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681264.883,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "successful_without_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681264.883,
+            "56"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-resilience4j-retry.json"
+    },
+    {
+      "id": "gateway-tasa",
+      "expr": "sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\"}[1m]))",
+      "title": "Gateway: tasa por routeId",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job%2C%20routeId)%20(rate(spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "categoria-service"
+          },
+          "value": [
+            1795681264.886,
+            "0.01818181818181818"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "cliente-service"
+          },
+          "value": [
+            1795681264.886,
+            "0.01818181818181818"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "pedido-service"
+          },
+          "value": [
+            1795681264.886,
+            "0.01818181818181818"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "producto-service"
+          },
+          "value": [
+            1795681264.886,
+            "0.01818181818181818"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-gateway-tasa.json"
+    },
+    {
+      "id": "gateway-contador",
+      "expr": "sum by (routeId) (spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\",httpStatusCode=\"200\"})",
+      "title": "Contadores reales de las cuatro rutas Gateway",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28routeId%29+%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%2ChttpStatusCode%3D%22200%22%7D%29",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(routeId)%20(spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%2ChttpStatusCode%3D%22200%22%7D)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "routeId": "categoria-service"
+          },
+          "value": [
+            1795681264.887,
+            "55"
+          ]
+        },
+        {
+          "metric": {
+            "routeId": "cliente-service"
+          },
+          "value": [
+            1795681264.887,
+            "55"
+          ]
+        },
+        {
+          "metric": {
+            "routeId": "pedido-service"
+          },
+          "value": [
+            1795681264.887,
+            "55"
+          ]
+        },
+        {
+          "metric": {
+            "routeId": "producto-service"
+          },
+          "value": [
+            1795681264.887,
+            "55"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-gateway-contador.json"
+    },
+    {
+      "id": "gateway-promedio-ms",
+      "expr": "1000 * sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_sum{job=\"gateway-service\"}[1m])) / sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\"}[1m]))",
+      "title": "Gateway: latencia promedio por routeId, milisegundos",
+      "url": "http://localhost:9090/api/v1/query?query=1000+*+sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_sum%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29+%2F+sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29",
+      "ui": "http://localhost:9090/query?g0.expr=1000%20*%20sum%20by%20(job%2C%20routeId)%20(rate(spring_cloud_gateway_requests_seconds_sum%7Bjob%3D%22gateway-service%22%7D%5B1m%5D))%20%2F%20sum%20by%20(job%2C%20routeId)%20(rate(spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "categoria-service"
+          },
+          "value": [
+            1795681264.891,
+            "15.352699999999997"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "cliente-service"
+          },
+          "value": [
+            1795681264.891,
+            "10.296899999999944"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "pedido-service"
+          },
+          "value": [
+            1795681264.891,
+            "11.901200000000058"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "producto-service"
+          },
+          "value": [
+            1795681264.891,
+            "20.611399999999943"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-antes-gateway-promedio-ms.json"
+    }
+  ],
+  "QueriesAfter": [
+    {
+      "id": "up",
+      "expr": "up",
+      "title": "Disponibilidad de los siete targets",
+      "url": "http://localhost:9090/api/v1/query?query=up&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=up&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-up.json"
+    },
+    {
+      "id": "count-up",
+      "expr": "count(up)",
+      "title": "Total de targets",
+      "url": "http://localhost:9090/api/v1/query?query=count%28up%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=count(up)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 1,
+      "values": [
+        {
+          "metric": {},
+          "value": [
+            1795681391.401,
+            "7"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-count-up.json"
+    },
+    {
+      "id": "sum-up",
+      "expr": "sum(up)",
+      "title": "Targets UP",
+      "url": "http://localhost:9090/api/v1/query?query=sum%28up%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum(up)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 1,
+      "values": [
+        {
+          "metric": {},
+          "value": [
+            1795681391.401,
+            "7"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-sum-up.json"
+    },
+    {
+      "id": "down",
+      "expr": "count(up == 0) or vector(0)",
+      "title": "Targets DOWN",
+      "url": "http://localhost:9090/api/v1/query?query=count%28up+%3D%3D+0%29+or+vector%280%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=count(up%20%3D%3D%200)%20or%20vector(0)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 1,
+      "values": [
+        {
+          "metric": {},
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-down.json"
+    },
+    {
+      "id": "memoria-jvm",
+      "expr": "sum by (job) (jvm_memory_used_bytes) / 1024 / 1024",
+      "title": "Memoria JVM, MiB",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28jvm_memory_used_bytes%29+%2F+1024+%2F+1024&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(jvm_memory_used_bytes)%20%2F%201024%20%2F%201024&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681391.401,
+            "176.79816436767578"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681391.401,
+            "164.235595703125"
+          ]
+        },
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "207.09337615966797"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "259.4508514404297"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "181.70889282226562"
+          ]
+        },
+        {
+          "metric": {
+            "job": "config-server"
+          },
+          "value": [
+            1795681391.401,
+            "175.8615493774414"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "219.29468536376953"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-memoria-jvm.json"
+    },
+    {
+      "id": "cpu",
+      "expr": "100 * process_cpu_usage",
+      "title": "CPU del proceso, porcentaje",
+      "url": "http://localhost:9090/api/v1/query?query=100+*+process_cpu_usage&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=100%20*%20process_cpu_usage&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681391.401,
+            "0.052031940345215556"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.13060081490227765"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.10412849524288052"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.07810054359577842"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.052123128299327304"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681391.401,
+            "0.0782768445541399"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.10397793631446228"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-cpu.json"
+    },
+    {
+      "id": "hilos",
+      "expr": "jvm_threads_live_threads",
+      "title": "Threads Java activos",
+      "url": "http://localhost:9090/api/v1/query?query=jvm_threads_live_threads&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=jvm_threads_live_threads&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681391.401,
+            "32"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681391.401,
+            "46"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "36"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "38"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "34"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681391.401,
+            "25"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "jvm_threads_live_threads",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "38"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-hilos.json"
+    },
+    {
+      "id": "uptime",
+      "expr": "process_uptime_seconds",
+      "title": "Tiempo de actividad, segundos",
+      "url": "http://localhost:9090/api/v1/query?query=process_uptime_seconds&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=process_uptime_seconds&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681391.401,
+            "20751.794"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681391.401,
+            "20642.041"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "20688.515"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "20712.208"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "20733.781"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795681391.401,
+            "20766.146"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "process_uptime_seconds",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "20666.624"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-uptime.json"
+    },
+    {
+      "id": "jdbc",
+      "expr": "hikaricp_connections_active",
+      "title": "Conexiones HikariCP activas, solo cuatro servicios JDBC",
+      "url": "http://localhost:9090/api/v1/query?query=hikaricp_connections_active&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=hikaricp_connections_active&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "hikaricp_connections_active",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "pool": "HikariPool-1"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-jdbc.json"
+    },
+    {
+      "id": "http-exitosas",
+      "expr": "sum by (job) (http_server_requests_seconds_count{status=\"200\"})",
+      "title": "Peticiones HTTP exitosas acumuladas",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 7,
+      "values": [
+        {
+          "metric": {
+            "job": "eureka-server"
+          },
+          "value": [
+            1795681391.401,
+            "3824"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service"
+          },
+          "value": [
+            1795681391.401,
+            "1608"
+          ]
+        },
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "1566"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "1580"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "1676"
+          ]
+        },
+        {
+          "metric": {
+            "job": "config-server"
+          },
+          "value": [
+            1795681391.401,
+            "1369"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "1574"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-http-exitosas.json"
+    },
+    {
+      "id": "http-negocio-contador",
+      "expr": "sum by (job) (http_server_requests_seconds_count{status=\"200\",uri=~\"/api/.*\"})",
+      "title": "Contador HTTP exclusivamente de negocio",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28http_server_requests_seconds_count%7Bstatus%3D%22200%22%2Curi%3D%7E%22%2Fapi%2F.*%22%7D%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%2Curi%3D~%22%2Fapi%2F.*%22%7D)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "167"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "163"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "329"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "163"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-http-negocio-contador.json"
+    },
+    {
+      "id": "http-tasa-negocio",
+      "expr": "sum by (job) (rate(http_server_requests_seconds_count{uri=~\"/api/.*\"}[1m]))",
+      "title": "Tasa HTTP de negocio, solicitudes/segundo",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(rate(http_server_requests_seconds_count%7Buri%3D~%22%2Fapi%2F.*%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.36363636363636365"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.36363636363636365"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.7272727272727273"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.36363636363636365"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-http-tasa-negocio.json"
+    },
+    {
+      "id": "http-promedio-ms",
+      "expr": "1000 * sum by (job) (rate(http_server_requests_seconds_sum{uri=~\"/api/.*\"}[1m])) / sum by (job) (rate(http_server_requests_seconds_count{uri=~\"/api/.*\"}[1m]))",
+      "title": "Latencia HTTP promedio de negocio, milisegundos",
+      "url": "http://localhost:9090/api/v1/query?query=1000+*+sum+by+%28job%29+%28rate%28http_server_requests_seconds_sum%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29+%2F+sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=1000%20*%20sum%20by%20(job)%20(rate(http_server_requests_seconds_sum%7Buri%3D~%22%2Fapi%2F.*%22%7D%5B1m%5D))%20%2F%20sum%20by%20(job)%20(rate(http_server_requests_seconds_count%7Buri%3D~%22%2Fapi%2F.*%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "3.116795"
+          ]
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "11.017914999999995"
+          ]
+        },
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "3.3771499999999977"
+          ]
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "12.090409999999993"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-http-promedio-ms.json"
+    },
+    {
+      "id": "resilience4j",
+      "expr": "resilience4j_circuitbreaker_calls_seconds_count{job=~\"producto-service|cliente-service|pedido-service\"}",
+      "title": "CircuitBreaker por job, name y kind",
+      "url": "http://localhost:9090/api/v1/query?query=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D%7E%22producto-service%7Ccliente-service%7Cpedido-service%22%7D&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%7D&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 9,
+      "values": [
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "kind": "failed",
+            "name": "pedidoService"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "kind": "ignored",
+            "name": "pedidoService"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "kind": "successful",
+            "name": "pedidoService"
+          },
+          "value": [
+            1795681391.401,
+            "4"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "failed",
+            "name": "categoriaService"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "ignored",
+            "name": "categoriaService"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "successful",
+            "name": "categoriaService"
+          },
+          "value": [
+            1795681391.401,
+            "246"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "failed",
+            "name": "productoService"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "ignored",
+            "name": "productoService"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_calls_seconds_count",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "successful",
+            "name": "productoService"
+          },
+          "value": [
+            1795681391.401,
+            "80"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-resilience4j.json"
+    },
+    {
+      "id": "resilience4j-cerrados",
+      "expr": "resilience4j_circuitbreaker_state{job=~\"producto-service|cliente-service|pedido-service\",state=\"closed\"}",
+      "title": "Estado CLOSED de los circuitos",
+      "url": "http://localhost:9090/api/v1/query?query=resilience4j_circuitbreaker_state%7Bjob%3D%7E%22producto-service%7Ccliente-service%7Cpedido-service%22%2Cstate%3D%22closed%22%7D&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_state%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%2Cstate%3D%22closed%22%7D&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 3,
+      "values": [
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_state",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service",
+            "name": "pedidoService",
+            "state": "closed"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_state",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "name": "categoriaService",
+            "state": "closed"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_circuitbreaker_state",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "name": "productoService",
+            "state": "closed"
+          },
+          "value": [
+            1795681391.401,
+            "1"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-resilience4j-cerrados.json"
+    },
+    {
+      "id": "resilience4j-retry",
+      "expr": "resilience4j_retry_calls_total{job=~\"producto-service|pedido-service\"}",
+      "title": "Retry real por name y kind",
+      "url": "http://localhost:9090/api/v1/query?query=resilience4j_retry_calls_total%7Bjob%3D%7E%22producto-service%7Cpedido-service%22%7D&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=resilience4j_retry_calls_total%7Bjob%3D~%22producto-service%7Cpedido-service%22%7D&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 8,
+      "values": [
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "failed_with_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "failed_without_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "successful_with_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service",
+            "kind": "successful_without_retry",
+            "name": "categoriaRetry"
+          },
+          "value": [
+            1795681391.401,
+            "246"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "failed_with_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "failed_without_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "successful_with_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681391.401,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "resilience4j_retry_calls_total",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service",
+            "kind": "successful_without_retry",
+            "name": "clienteRetry"
+          },
+          "value": [
+            1795681391.401,
+            "80"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-resilience4j-retry.json"
+    },
+    {
+      "id": "gateway-tasa",
+      "expr": "sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\"}[1m]))",
+      "title": "Gateway: tasa por routeId",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(job%2C%20routeId)%20(rate(spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.16363636363636366"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.16363636363636366"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.16363636363636366"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "0.16363636363636366"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-gateway-tasa.json"
+    },
+    {
+      "id": "gateway-contador",
+      "expr": "sum by (routeId) (spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\",httpStatusCode=\"200\"})",
+      "title": "Contadores reales de las cuatro rutas Gateway",
+      "url": "http://localhost:9090/api/v1/query?query=sum+by+%28routeId%29+%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%2ChttpStatusCode%3D%22200%22%7D%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=sum%20by%20(routeId)%20(spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%2ChttpStatusCode%3D%22200%22%7D)&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "routeId": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "79"
+          ]
+        },
+        {
+          "metric": {
+            "routeId": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "79"
+          ]
+        },
+        {
+          "metric": {
+            "routeId": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "79"
+          ]
+        },
+        {
+          "metric": {
+            "routeId": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "79"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-gateway-contador.json"
+    },
+    {
+      "id": "gateway-promedio-ms",
+      "expr": "1000 * sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_sum{job=\"gateway-service\"}[1m])) / sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\"}[1m]))",
+      "title": "Gateway: latencia promedio por routeId, milisegundos",
+      "url": "http://localhost:9090/api/v1/query?query=1000+*+sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_sum%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29+%2F+sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29&time=1795681391.401",
+      "ui": "http://localhost:9090/query?g0.expr=1000%20*%20sum%20by%20(job%2C%20routeId)%20(rate(spring_cloud_gateway_requests_seconds_sum%7Bjob%3D%22gateway-service%22%7D%5B1m%5D))%20%2F%20sum%20by%20(job%2C%20routeId)%20(rate(spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D))&g0.tab=table&g0.range_input=5m",
+      "http": 200,
+      "resultType": "vector",
+      "series": 4,
+      "values": [
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "categoria-service"
+          },
+          "value": [
+            1795681391.401,
+            "8.066122222222225"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "cliente-service"
+          },
+          "value": [
+            1795681391.401,
+            "6.643633333333326"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "pedido-service"
+          },
+          "value": [
+            1795681391.401,
+            "7.433799999999996"
+          ]
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "producto-service"
+          },
+          "value": [
+            1795681391.401,
+            "17.103155555555563"
+          ]
+        }
+      ],
+      "empty": false,
+      "nonFinite": [],
+      "warnings": [],
+      "evidence": "consulta-despues-gateway-promedio-ms.json"
+    }
+  ],
+  "Traffic": [
+    {
+      "round": 1,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:04.902Z"
+    },
+    {
+      "round": 1,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:04.924Z"
+    },
+    {
+      "round": 1,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:04.933Z"
+    },
+    {
+      "round": 1,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:04.945Z"
+    },
+    {
+      "round": 1,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:04.968Z"
+    },
+    {
+      "round": 2,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:09.935Z"
+    },
+    {
+      "round": 2,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:09.957Z"
+    },
+    {
+      "round": 2,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:09.967Z"
+    },
+    {
+      "round": 2,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:09.978Z"
+    },
+    {
+      "round": 2,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:09.998Z"
+    },
+    {
+      "round": 3,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:14.930Z"
+    },
+    {
+      "round": 3,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:14.956Z"
+    },
+    {
+      "round": 3,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:14.965Z"
+    },
+    {
+      "round": 3,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:14.974Z"
+    },
+    {
+      "round": 3,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:14.995Z"
+    },
+    {
+      "round": 4,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:19.932Z"
+    },
+    {
+      "round": 4,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:19.951Z"
+    },
+    {
+      "round": 4,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:19.961Z"
+    },
+    {
+      "round": 4,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:19.973Z"
+    },
+    {
+      "round": 4,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:19.992Z"
+    },
+    {
+      "round": 5,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:24.918Z"
+    },
+    {
+      "round": 5,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:24.939Z"
+    },
+    {
+      "round": 5,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:24.950Z"
+    },
+    {
+      "round": 5,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:24.961Z"
+    },
+    {
+      "round": 5,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:24.980Z"
+    },
+    {
+      "round": 6,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:29.929Z"
+    },
+    {
+      "round": 6,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:29.953Z"
+    },
+    {
+      "round": 6,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:29.962Z"
+    },
+    {
+      "round": 6,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:29.974Z"
+    },
+    {
+      "round": 6,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:29.998Z"
+    },
+    {
+      "round": 7,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:34.904Z"
+    },
+    {
+      "round": 7,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:34.925Z"
+    },
+    {
+      "round": 7,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:34.939Z"
+    },
+    {
+      "round": 7,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:34.953Z"
+    },
+    {
+      "round": 7,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:34.975Z"
+    },
+    {
+      "round": 8,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:39.918Z"
+    },
+    {
+      "round": 8,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:39.942Z"
+    },
+    {
+      "round": 8,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:39.951Z"
+    },
+    {
+      "round": 8,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:39.960Z"
+    },
+    {
+      "round": 8,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:39.982Z"
+    },
+    {
+      "round": 9,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:44.912Z"
+    },
+    {
+      "round": 9,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:44.931Z"
+    },
+    {
+      "round": 9,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:44.941Z"
+    },
+    {
+      "round": 9,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:44.952Z"
+    },
+    {
+      "round": 9,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:44.972Z"
+    },
+    {
+      "round": 10,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:49.922Z"
+    },
+    {
+      "round": 10,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:49.947Z"
+    },
+    {
+      "round": 10,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:49.956Z"
+    },
+    {
+      "round": 10,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:49.964Z"
+    },
+    {
+      "round": 10,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:49.985Z"
+    },
+    {
+      "round": 11,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:54.904Z"
+    },
+    {
+      "round": 11,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:54.923Z"
+    },
+    {
+      "round": 11,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:54.931Z"
+    },
+    {
+      "round": 11,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:54.943Z"
+    },
+    {
+      "round": 11,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:54.963Z"
+    },
+    {
+      "round": 12,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:59.917Z"
+    },
+    {
+      "round": 12,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:59.934Z"
+    },
+    {
+      "round": 12,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:59.944Z"
+    },
+    {
+      "round": 12,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:59.954Z"
+    },
+    {
+      "round": 12,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:21:59.975Z"
+    },
+    {
+      "round": 13,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:05.017Z"
+    },
+    {
+      "round": 13,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:05.039Z"
+    },
+    {
+      "round": 13,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:05.051Z"
+    },
+    {
+      "round": 13,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:05.064Z"
+    },
+    {
+      "round": 13,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:05.086Z"
+    },
+    {
+      "round": 14,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:09.910Z"
+    },
+    {
+      "round": 14,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:09.931Z"
+    },
+    {
+      "round": 14,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:09.940Z"
+    },
+    {
+      "round": 14,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:09.951Z"
+    },
+    {
+      "round": 14,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:09.968Z"
+    },
+    {
+      "round": 15,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:14.915Z"
+    },
+    {
+      "round": 15,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:14.937Z"
+    },
+    {
+      "round": 15,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:14.948Z"
+    },
+    {
+      "round": 15,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:14.958Z"
+    },
+    {
+      "round": 15,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:14.979Z"
+    },
+    {
+      "round": 16,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:19.911Z"
+    },
+    {
+      "round": 16,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:19.931Z"
+    },
+    {
+      "round": 16,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:19.941Z"
+    },
+    {
+      "round": 16,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:19.952Z"
+    },
+    {
+      "round": 16,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:19.970Z"
+    },
+    {
+      "round": 17,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:24.909Z"
+    },
+    {
+      "round": 17,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:24.927Z"
+    },
+    {
+      "round": 17,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:24.937Z"
+    },
+    {
+      "round": 17,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:24.949Z"
+    },
+    {
+      "round": 17,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:24.966Z"
+    },
+    {
+      "round": 18,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:29.923Z"
+    },
+    {
+      "round": 18,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:29.950Z"
+    },
+    {
+      "round": 18,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:29.959Z"
+    },
+    {
+      "round": 18,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:29.968Z"
+    },
+    {
+      "round": 18,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:29.987Z"
+    },
+    {
+      "round": 19,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:34.902Z"
+    },
+    {
+      "round": 19,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:34.924Z"
+    },
+    {
+      "round": 19,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:34.932Z"
+    },
+    {
+      "round": 19,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:34.942Z"
+    },
+    {
+      "round": 19,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:34.963Z"
+    },
+    {
+      "round": 20,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:39.922Z"
+    },
+    {
+      "round": 20,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:39.949Z"
+    },
+    {
+      "round": 20,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:39.958Z"
+    },
+    {
+      "round": 20,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:39.966Z"
+    },
+    {
+      "round": 20,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:39.986Z"
+    },
+    {
+      "round": 21,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:44.917Z"
+    },
+    {
+      "round": 21,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:44.937Z"
+    },
+    {
+      "round": 21,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:44.947Z"
+    },
+    {
+      "round": 21,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:44.957Z"
+    },
+    {
+      "round": 21,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:44.977Z"
+    },
+    {
+      "round": 22,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:49.916Z"
+    },
+    {
+      "round": 22,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:49.938Z"
+    },
+    {
+      "round": 22,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:49.946Z"
+    },
+    {
+      "round": 22,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:49.956Z"
+    },
+    {
+      "round": 22,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:49.980Z"
+    },
+    {
+      "round": 23,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:54.912Z"
+    },
+    {
+      "round": 23,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:54.936Z"
+    },
+    {
+      "round": 23,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:54.945Z"
+    },
+    {
+      "round": 23,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:54.955Z"
+    },
+    {
+      "round": 23,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:54.978Z"
+    },
+    {
+      "round": 24,
+      "url": "http://localhost:8080/api/categorias",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:59.911Z"
+    },
+    {
+      "round": 24,
+      "url": "http://localhost:8080/api/productos",
+      "http": 200,
+      "items": 2,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:59.929Z"
+    },
+    {
+      "round": 24,
+      "url": "http://localhost:8080/api/clientes",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:59.940Z"
+    },
+    {
+      "round": 24,
+      "url": "http://localhost:8080/api/pedidos",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:59.951Z"
+    },
+    {
+      "round": 24,
+      "url": "http://localhost:8085/api/pedidos?detallado=true",
+      "http": 200,
+      "items": 1,
+      "unexpectedFallback": false,
+      "timestamp": "2026-11-26T08:22:59.973Z"
+    }
+  ],
+  "Ranges": [
+    {
+      "id": "up",
+      "expr": "up",
+      "url": "http://localhost:9090/api/v1/query_range?query=up&start=1795681264.892&end=1795681391.401&step=5s",
+      "http": 200,
+      "series": 7,
+      "points": [
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "points": 26,
+          "nonFinite": 0
+        }
+      ],
+      "evidence": "query-range-up.json"
+    },
+    {
+      "id": "http-tasa-negocio",
+      "expr": "sum by (job) (rate(http_server_requests_seconds_count{uri=~\"/api/.*\"}[1m]))",
+      "url": "http://localhost:9090/api/v1/query_range?query=sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29&start=1795681264.892&end=1795681391.401&step=5s",
+      "http": 200,
+      "series": 4,
+      "points": [
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        }
+      ],
+      "evidence": "query-range-http-tasa-negocio.json"
+    },
+    {
+      "id": "http-promedio-ms",
+      "expr": "1000 * sum by (job) (rate(http_server_requests_seconds_sum{uri=~\"/api/.*\"}[1m])) / sum by (job) (rate(http_server_requests_seconds_count{uri=~\"/api/.*\"}[1m]))",
+      "url": "http://localhost:9090/api/v1/query_range?query=1000+*+sum+by+%28job%29+%28rate%28http_server_requests_seconds_sum%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29+%2F+sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29&start=1795681264.892&end=1795681391.401&step=5s",
+      "http": 200,
+      "series": 4,
+      "points": [
+        {
+          "metric": {
+            "job": "categoria-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "cliente-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "pedido-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "producto-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        }
+      ],
+      "evidence": "query-range-http-promedio-ms.json"
+    },
+    {
+      "id": "gateway-tasa",
+      "expr": "sum by (job, routeId) (rate(spring_cloud_gateway_requests_seconds_count{job=\"gateway-service\"}[1m]))",
+      "url": "http://localhost:9090/api/v1/query_range?query=sum+by+%28job%2C+routeId%29+%28rate%28spring_cloud_gateway_requests_seconds_count%7Bjob%3D%22gateway-service%22%7D%5B1m%5D%29%29&start=1795681264.892&end=1795681391.401&step=5s",
+      "http": 200,
+      "series": 4,
+      "points": [
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "categoria-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "cliente-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "pedido-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        },
+        {
+          "metric": {
+            "job": "gateway-service",
+            "routeId": "producto-service"
+          },
+          "points": 26,
+          "nonFinite": 0
+        }
+      ],
+      "evidence": "query-range-gateway-tasa.json"
+    }
+  ],
+  "CounterComparison": [
+    {
+      "job": "config-server",
+      "before": 1342,
+      "after": 1369,
+      "delta": 27,
+      "increased": true
+    },
+    {
+      "job": "eureka-server",
+      "before": 3756,
+      "after": 3824,
+      "delta": 68,
+      "increased": true
+    },
+    {
+      "job": "gateway-service",
+      "before": 1486,
+      "after": 1608,
+      "delta": 122,
+      "increased": true
+    },
+    {
+      "job": "categoria-service",
+      "before": 1555,
+      "after": 1676,
+      "delta": 121,
+      "increased": true
+    },
+    {
+      "job": "producto-service",
+      "before": 1507,
+      "after": 1580,
+      "delta": 73,
+      "increased": true
+    },
+    {
+      "job": "cliente-service",
+      "before": 1493,
+      "after": 1566,
+      "delta": 73,
+      "increased": true
+    },
+    {
+      "job": "pedido-service",
+      "before": 1501,
+      "after": 1574,
+      "delta": 73,
+      "increased": true
+    }
+  ],
+  "Completed": true,
+  "Flags": {
+    "listenAddress": "127.0.0.1:9090",
+    "adminApiEnabled": "false",
+    "lifecycleEnabled": "false",
+    "retention": "1d"
+  },
+  "TrafficStart": "2026-11-26T08:21:04.892Z",
+  "TrafficEnd": "2026-11-26T08:23:11.401Z",
+  "BusinessCounterComparison": [
+    {
+      "job": "cliente-service",
+      "before": 119,
+      "after": 167,
+      "delta": 48
+    },
+    {
+      "job": "producto-service",
+      "before": 115,
+      "after": 163,
+      "delta": 48
+    },
+    {
+      "job": "categoria-service",
+      "before": 233,
+      "after": 329,
+      "delta": 96
+    },
+    {
+      "job": "pedido-service",
+      "before": 115,
+      "after": 163,
+      "delta": 48
+    }
+  ],
+  "GatewayCounterComparison": [
+    {
+      "routeId": "categoria-service",
+      "before": 55,
+      "after": 79,
+      "delta": 24
+    },
+    {
+      "routeId": "cliente-service",
+      "before": 55,
+      "after": 79,
+      "delta": 24
+    },
+    {
+      "routeId": "pedido-service",
+      "before": 55,
+      "after": 79,
+      "delta": 24
+    },
+    {
+      "routeId": "producto-service",
+      "before": 55,
+      "after": 79,
+      "delta": 24
+    }
+  ],
+  "FinalTargets": {
+    "status": "success",
+    "data": {
+      "activeTargets": [
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8082",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "categoria-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "scrapePool": "categoria-service",
+          "scrapeUrl": "http://127.0.0.1:8082/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8082/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:06.8286815-05:00",
+          "lastScrapeDuration": 0.0376426,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8084",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "cliente-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "scrapePool": "cliente-service",
+          "scrapeUrl": "http://127.0.0.1:8084/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8084/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:06.4885038-05:00",
+          "lastScrapeDuration": 0.0475902,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8888",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "config-server"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "scrapePool": "config-server",
+          "scrapeUrl": "http://127.0.0.1:8888/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8888/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:07.8456348-05:00",
+          "lastScrapeDuration": 0.0319079,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8761",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "eureka-server"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "scrapePool": "eureka-server",
+          "scrapeUrl": "http://127.0.0.1:8761/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8761/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:09.4542831-05:00",
+          "lastScrapeDuration": 0.0403831,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8080",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "gateway-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "scrapePool": "gateway-service",
+          "scrapeUrl": "http://127.0.0.1:8080/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8080/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:11.372062-05:00",
+          "lastScrapeDuration": 0.0507979,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8085",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "pedido-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "scrapePool": "pedido-service",
+          "scrapeUrl": "http://127.0.0.1:8085/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8085/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:07.9959819-05:00",
+          "lastScrapeDuration": 0.0659722,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        },
+        {
+          "discoveredLabels": {
+            "__address__": "127.0.0.1:8083",
+            "__always_scrape_classic_histograms__": "false",
+            "__convert_classic_histograms_to_nhcb__": "false",
+            "__metrics_path__": "/actuator/prometheus",
+            "__scheme__": "http",
+            "__scrape_interval__": "5s",
+            "__scrape_native_histograms__": "false",
+            "__scrape_timeout__": "4s",
+            "job": "producto-service"
+          },
+          "labels": {
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "scrapePool": "producto-service",
+          "scrapeUrl": "http://127.0.0.1:8083/actuator/prometheus",
+          "globalUrl": "http://DESKTOP-Q5VORSI:8083/actuator/prometheus",
+          "lastError": "",
+          "lastScrape": "2026-11-26T03:23:06.6781321-05:00",
+          "lastScrapeDuration": 0.0440496,
+          "health": "up",
+          "scrapeInterval": "5s",
+          "scrapeTimeout": "4s"
+        }
+      ],
+      "droppedTargets": [],
+      "droppedTargetCounts": {
+        "categoria-service": 0,
+        "cliente-service": 0,
+        "config-server": 0,
+        "eureka-server": 0,
+        "gateway-service": 0,
+        "pedido-service": 0,
+        "producto-service": 0
+      }
+    }
+  }
+}

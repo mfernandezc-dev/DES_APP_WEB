@@ -1,0 +1,8 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8080/pedido-service/actuator/health",
+    "Status":  404,
+    "Timestamp":  "2026-11-25T22:09:45.1043701-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  null
+}

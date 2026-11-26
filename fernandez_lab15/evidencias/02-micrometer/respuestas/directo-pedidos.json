@@ -1,0 +1,33 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/api/pedidos",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:55.3222643-05:00",
+    "RedactedPersonalData":  true,
+    "Body":  {
+                 "Count":  1,
+                 "Length":  1,
+                 "LongLength":  1,
+                 "Rank":  1,
+                 "SyncRoot":  [
+                                  {
+                                      "detalles":  [
+                                                       {
+                                                           "cantidad":  1,
+                                                           "idDetalle":  1,
+                                                           "idProducto":  1,
+                                                           "precio":  null
+                                                       }
+                                                   ],
+                                      "estado":  "PENDIENTE",
+                                      "fecha":  "2026-11-21",
+                                      "idCliente":  1,
+                                      "idPedido":  1,
+                                      "total":  null
+                                  }
+                              ],
+                 "IsReadOnly":  false,
+                 "IsFixedSize":  true,
+                 "IsSynchronized":  false
+             }
+}

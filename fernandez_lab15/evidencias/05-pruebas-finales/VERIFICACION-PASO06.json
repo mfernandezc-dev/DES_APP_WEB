@@ -1,0 +1,370 @@
+{
+  "Step": "06",
+  "Timestamp": "2026-11-26T13:38:07.319Z",
+  "Completed": true,
+  "Status": "PASO 06 verificado; servicios activos. Esperando autorizacion para PASO 07.",
+  "Step07Executed": false,
+  "GithubPublished": false,
+  "ReadyForStep07": true,
+  "Recovered": {
+    "TestsTimestamp": "2026-11-26T08:33:59.327Z",
+    "Actuator": 21,
+    "Exporters": 7,
+    "FunctionalRoutes": 6,
+    "PanelQueries": 17,
+    "Filters": 7,
+    "UI": true,
+    "GeneralScripts": {
+      "Completed": true,
+      "StartIdempotent": true,
+      "StopWhatIf": true,
+      "ExistingServicesRestarted": false,
+      "Timestamp": "2026-11-26T03:34:05.0433758-05:00"
+    }
+  },
+  "RecoveryFixes": {
+    "Grafana": "Reutilizar DACL privada correcta; sin cambiar credenciales ni SACL.",
+    "Prometheus": "No sobrescribir evidencia historica en arranques posteriores; original recuperado con hash identico.",
+    "NewPromtoolValidation": ".runtime/paso06/VALIDACION-PROMTOOL-recuperacion.json"
+  },
+  "Captures": {
+    "Total": 65,
+    "Previous": 59,
+    "NewBeforeInterruption": 6,
+    "CreatedDuringRecovery": 0,
+    "READMEImages": 29,
+    "ReusedInREADME": 23,
+    "AllHashesMatch": true,
+    "PreviousEvidenceFilesPreserved": 794,
+    "VisualReview": "Auditoria anterior conservada; seis imagenes nuevas y vista previa revisadas al recuperar. Datos personales de Pedido enmascarados; originales privados excluidos."
+  },
+  "Preview": {
+    "Completed": true,
+    "RegeneratedAfterRecoveryNote": true,
+    "PreviousValidPreviewPreserved": true,
+    "README_SHA256": "1b8e8e9fcc900eedb1ddbc1eafb5e093d3ee34aa504e169828ab45e476044b45",
+    "HTML_SHA256": "b969c3a635162dfcbbcd49ffa7050b318b93d3ca018602049346b02238612d01",
+    "ImagesLoaded": 29,
+    "Sections": 24,
+    "LocalOnly": true,
+    "Mermaid": "Conservado como codigo en vista local; renderizado GFM reservado a GitHub.",
+    "CurrentREADME_SHA256": "91b0a0645b39ac5a853e96d290400d0882c0c8fb1a6dc2ccc2458b05659a57c4",
+    "FormattingEquivalentAfterAuthorization": true
+  },
+  "Integrity": {
+    "Completed": true,
+    "Lab14Unchanged": true,
+    "Lab14Files": 1530,
+    "ExternalFiles": 2878,
+    "OtherLabsAndLocalConfigRepoUnchanged": true,
+    "ExternalChanged": 0,
+    "IndexSHA256": "8F774F87CFBD49BF356E4FBB00A0E431C30CD23F402C3250B8161A9301898B07",
+    "StagingUnchanged": true,
+    "HeadUnchanged": true,
+    "ExternalGitStatusUnchanged": true,
+    "Branch": "main",
+    "DatabaseSchemas": 4,
+    "DatabaseTables": 5,
+    "DatabaseHashesUnchanged": true,
+    "ReadOnlyWithRollback": true,
+    "OriginalEvidenceUnchanged": true,
+    "OperationalProofs": ".runtime/paso06/{integridad-resultado,recuperacion-sistema,bases-recuperacion}.json"
+  },
+  "Services": {
+    "Completed": true,
+    "Timestamp": "2026-11-26T13:38:10.118Z",
+    "Applications": [
+      {
+        "Service": "config-server",
+        "Port": 8888,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      },
+      {
+        "Service": "eureka-server",
+        "Port": 8761,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      },
+      {
+        "Service": "gateway-service",
+        "Port": 8080,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      },
+      {
+        "Service": "categoria-service",
+        "Port": 8082,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      },
+      {
+        "Service": "producto-service",
+        "Port": 8083,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      },
+      {
+        "Service": "cliente-service",
+        "Port": 8084,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      },
+      {
+        "Service": "pedido-service",
+        "Port": 8085,
+        "Http": 200,
+        "Status": "UP",
+        "StartupContextValid": true
+      }
+    ],
+    "Processes": [
+      {
+        "Name": "config-server",
+        "PID": 1868,
+        "Port": 8888,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "eureka-server",
+        "PID": 20000,
+        "Port": 8761,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "categoria-service",
+        "PID": 21668,
+        "Port": 8082,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "producto-service",
+        "PID": 16476,
+        "Port": 8083,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "cliente-service",
+        "PID": 2096,
+        "Port": 8084,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "pedido-service",
+        "PID": 9260,
+        "Port": 8085,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "gateway-service",
+        "PID": 8596,
+        "Port": 8080,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "prometheus",
+        "PID": 15880,
+        "Port": 9090,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      },
+      {
+        "Name": "grafana",
+        "PID": 7620,
+        "Port": 3000,
+        "Identity": true,
+        "Instances": 1,
+        "LocalhostOnly": true,
+        "ArtifactUnchanged": true
+      }
+    ],
+    "Targets": {
+      "Total": 7,
+      "UP": 7,
+      "DOWN": 0,
+      "NoErrors": true
+    },
+    "EurekaApplications": 5,
+    "Grafana": "healthy",
+    "Datasource": "OK",
+    "DashboardPanels": 18,
+    "Refresh": "5s",
+    "MariaDBRunning": true,
+    "ProcessesUnique": true,
+    "LocalhostOnly": true,
+    "SameApprovedArtifacts": true,
+    "PreviousProcessesNoLongerRunningAtRecovery": true,
+    "RestoredServices": 9,
+    "ReusedRunningLabServices": 0,
+    "Installations": 0,
+    "Builds": 0,
+    "NewBusinessTrafficRounds": 0,
+    "LeftRunning": true
+  },
+  "Documentation": {
+    "Completed": true,
+    "READMEImages": 29,
+    "ImageUsesBothDocuments": 37,
+    "RelativeReferences": 63,
+    "BrokenImages": 0,
+    "BrokenRelativeLinks": 0,
+    "CaseExact": true,
+    "GitIgnoredImages": 0,
+    "ConclusionsPerDocument": 5,
+    "ExternalLinks": "No se realiza auditoria de disponibilidad web externa; destino local Grafana verificado por API."
+  },
+  "Security": {
+    "Completed": true,
+    "Findings": [],
+    "InheritedSourcesReviewed": [
+      {
+        "File": "scripts/Iniciar-Grafana.ps1",
+        "Line": 39,
+        "Key": "secret_key",
+        "Classification": "reference"
+      }
+    ],
+    "CredentialsExcluded": true,
+    "PersonalBusinessDataRedacted": true,
+    "AuthorAttributionRetained": true,
+    "Scope": "Candidatos del checkout, reglas de alta confianza y coincidencia con clave privada Grafana; no auditoria exhaustiva del remoto config-repo"
+  },
+  "Academic": {
+    "Completed": true,
+    "MandatoryVerified": 17,
+    "GuidePDFPresent": false,
+    "Basis": "17 actividades enumeradas expresamente en la autorizacion; no se atribuye lectura de un PDF ausente",
+    "Audit": "AUDITORIA-GUIA.json",
+    "AdditionalDashboard": true,
+    "TracingClaimed": false
+  },
+  "Publication": {
+    "FileCount": 1212,
+    "TotalBytes": 14782895,
+    "PNGCount": 65,
+    "Inventory": "INVENTARIO-PUBLICACION.txt",
+    "ExactInventoryVerified": true,
+    "Strategy": "Otra copia limpia del remoto, solo inventario de Lab 15; requiere autorizacion del PASO 07."
+  },
+  "PublicationFormattingNormalization": {
+    "Authorized": true,
+    "Timestamp": "2026-11-26T14:15:17.097Z",
+    "LocationsCorrected": 82,
+    "WhitespaceCharactersRemoved": 163,
+    "FilesCorrected": 10,
+    "MarkdownHardBreaksPreserved": 6,
+    "MetricSamplesUnchanged": true,
+    "FunctionalChanges": false,
+    "PNGUnchanged": true,
+    "OriginalsBackup": ".runtime/paso07/originales-antes-correccion/fernandez_lab15/",
+    "HistoricalStep06ResultsPreserved": true,
+    "Files": [
+      {
+        "Path": "ENTREGABLE-LAB15.md",
+        "BeforeSHA256": "3b3d67b40cd36d9306894e0e1785c90e092acc30255e902e2406fff1a16d556f",
+        "AfterSHA256": "1efdc7dfaa67801ba9c863236480d95bafdff6be1048875f1220ab07d42c11f9",
+        "Locations": 3,
+        "Normalization": "Saltos Markdown de dos espacios sustituidos por <br> equivalente GFM."
+      },
+      {
+        "Path": "README.md",
+        "BeforeSHA256": "1b8e8e9fcc900eedb1ddbc1eafb5e093d3ee34aa504e169828ab45e476044b45",
+        "AfterSHA256": "91b0a0645b39ac5a853e96d290400d0882c0c8fb1a6dc2ccc2458b05659a57c4",
+        "Locations": 3,
+        "Normalization": "Saltos Markdown de dos espacios sustituidos por <br> equivalente GFM."
+      },
+      {
+        "Path": "evidencias/02-micrometer/categoria-service-prometheus.txt",
+        "BeforeSHA256": "dd47ea5154a815b9144d3cb74c4a673d4a47a34908e3243400f74281d01905ed",
+        "AfterSHA256": "0f4c30e6cbcd2c23739ca4139add1779c29b5ba9bb2886b261a17b4c8f06d04d",
+        "Locations": 10,
+        "SampleSHA256": "824b841c6f61d287f2a9d9c5823d28dda8c18b8eebd716451c5fc6b6d69fc664",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "evidencias/02-micrometer/cliente-service-prometheus.txt",
+        "BeforeSHA256": "4ac6614dcee4b2795c5d989f6ec6de923517455fab89bb7832b3c5fff563cc76",
+        "AfterSHA256": "1e45370ab2c5b7b5a1ba8ee9ccb7881ddc0f3e17fa269ff0ab414a1eff3b45a7",
+        "Locations": 10,
+        "SampleSHA256": "269d0646ea95bbf275be3c387732858613b464b5a47831da155c2e97b0fb816f",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "evidencias/02-micrometer/config-server-prometheus.txt",
+        "BeforeSHA256": "7c913234ca19914ddd40abe376473fabf4e31aa136b20586dadcd3201725dadc",
+        "AfterSHA256": "c09be8e72f4013eb68d9adbb97fe4165b6e6ca1fb52596ad9fbc908637725fb9",
+        "Locations": 14,
+        "SampleSHA256": "5d63f6f3d1681d52a9795c4d3c57906a2fa6552adf3f08a9ccc89a145a081cff",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "evidencias/02-micrometer/eureka-server-prometheus.txt",
+        "BeforeSHA256": "5fa210fc0dced3f6522aad1b4619a5d4adbbb1dbbc3145f61335ea1a53385de0",
+        "AfterSHA256": "a4f813f06f64b2452a8248df6bd48feb81810735a20d33bc03d6740529fb6299",
+        "Locations": 10,
+        "SampleSHA256": "3cd860ae92b6deea29afdeefb039e76f9aa32bf54e2d58aaeedc3f6e7595257d",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "evidencias/02-micrometer/gateway-service-prometheus.txt",
+        "BeforeSHA256": "46938eccecada388b5b9b481a279c0622af6d3413ea9bf132eaa2c5ab5f7676e",
+        "AfterSHA256": "28c2d34e4d03274d038d84ae48a935a339139dc3c85003180258667c37783b94",
+        "Locations": 11,
+        "SampleSHA256": "ea757d211213591a892ec02a02115f323289a0e66148b636136d95fd8ee113be",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "evidencias/02-micrometer/pedido-service-prometheus.txt",
+        "BeforeSHA256": "5cab3e799af041749ef549374e05c8f227ca2ee08734c83548d172006ca2482d",
+        "AfterSHA256": "e1537e67dae892a966f0a0a1e6536b999590f4fe2e267a9a0a066dc2be1e936d",
+        "Locations": 10,
+        "SampleSHA256": "550d6f893993bec89885f2e60963bf049e0cfb13ae72405ff5bbbb1222eb89aa",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "evidencias/02-micrometer/producto-service-prometheus.txt",
+        "BeforeSHA256": "4bf129d7939f7f9e6894dc2fff7df7c264ddd7a93be8880566e701e0f2045d21",
+        "AfterSHA256": "fd60c8c86cdd3866c283f7037bc883ceb799acfd05a5460103bef7cad40f709c",
+        "Locations": 10,
+        "SampleSHA256": "790485d71b45194a07380c5a7c1796f894943f47531f84416da4aeb5c2e27b7b",
+        "Normalization": "Solo espacios finales en comentarios HELP; nombres, etiquetas y valores experimentales intactos."
+      },
+      {
+        "Path": "scripts/Capturas-Grafana.mjs",
+        "BeforeSHA256": "0bcd0b89ab149ad8d41262b204f10dfcb3ae3d08e9a36e3a1b54b5e6e1cf2b85",
+        "AfterSHA256": "90a3c145bbce4c445f2676e59b24f575718e3ce01871fae7fac4b1edbf6fdd7c",
+        "Locations": 1,
+        "Normalization": "Un espacio al final de una sentencia, fuera de cadenas, regex y template literals."
+      }
+    ]
+  }
+}

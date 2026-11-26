@@ -1,0 +1,23 @@
+﻿{
+    "Version":  "13.3.2",
+    "Edition":  "OSS",
+    "Architecture":  "windows-amd64",
+    "DetectedSystemType":  "x64-based PC",
+    "OfficialPage":  "https://grafana.com/grafana/download?edition=oss\u0026platform=windows",
+    "ReleasePage":  "https://grafana.com/grafana/download/13.3.2?edition=oss\u0026platform=windows",
+    "MetadataURL":  "https://grafana.com/api/grafana/versions/13.3.2",
+    "DownloadURL":  "https://dl.grafana.com/grafana/release/13.3.2/grafana_13.3.2_44555861735_windows_amd64.tar.gz",
+    "ExpectedSHA256":  "8545e8702b219220dddf687053ddfc0503f3acd5bb80a4a401daa2d5faae1056",
+    "CalculatedSHA256":  "8545e8702b219220dddf687053ddfc0503f3acd5bb80a4a401daa2d5faae1056",
+    "SHA256Verified":  true,
+    "ArchiveBytes":  492864941,
+    "InstallDirectory":  "C:\\Grafana",
+    "Fallback":  false,
+    "Executable":  "C:\\Grafana\\bin\\grafana.exe",
+    "ExecutableSHA256":  "9EA6260EE35B5F9BFEEC30333E97C784E85C5CAAF93E59E6061B308DB70071F8",
+    "VersionOutput":  "grafana version 13.3.2",
+    "Command":  "grafana.exe server --homepath ... --config ...",
+    "Timestamp":  "2026-11-26T02:40:55.6408819-05:00",
+    "PathModified":  false,
+    "WindowsServiceRegistered":  false
+}

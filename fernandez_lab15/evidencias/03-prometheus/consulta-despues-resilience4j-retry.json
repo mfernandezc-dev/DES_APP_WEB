@@ -1,0 +1,112 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "failed_with_retry",
+          "name": "categoriaRetry"
+        },
+        "value": [
+          1795662481.084,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "failed_without_retry",
+          "name": "categoriaRetry"
+        },
+        "value": [
+          1795662481.084,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "successful_with_retry",
+          "name": "categoriaRetry"
+        },
+        "value": [
+          1795662481.084,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service",
+          "kind": "successful_without_retry",
+          "name": "categoriaRetry"
+        },
+        "value": [
+          1795662481.084,
+          "84"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "failed_with_retry",
+          "name": "clienteRetry"
+        },
+        "value": [
+          1795662481.084,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "failed_without_retry",
+          "name": "clienteRetry"
+        },
+        "value": [
+          1795662481.084,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "successful_with_retry",
+          "name": "clienteRetry"
+        },
+        "value": [
+          1795662481.084,
+          "0"
+        ]
+      },
+      {
+        "metric": {
+          "__name__": "resilience4j_retry_calls_total",
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service",
+          "kind": "successful_without_retry",
+          "name": "clienteRetry"
+        },
+        "value": [
+          1795662481.084,
+          "26"
+        ]
+      }
+    ]
+  }
+}

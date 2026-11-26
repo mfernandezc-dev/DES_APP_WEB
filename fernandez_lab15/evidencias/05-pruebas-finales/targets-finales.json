@@ -1,0 +1,199 @@
+{
+  "status": "success",
+  "data": {
+    "activeTargets": [
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8082",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "categoria-service"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8082",
+          "job": "categoria-service"
+        },
+        "scrapePool": "categoria-service",
+        "scrapeUrl": "http://127.0.0.1:8082/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8082/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:06.8286815-05:00",
+        "lastScrapeDuration": 0.0376426,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8084",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "cliente-service"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8084",
+          "job": "cliente-service"
+        },
+        "scrapePool": "cliente-service",
+        "scrapeUrl": "http://127.0.0.1:8084/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8084/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:06.4885038-05:00",
+        "lastScrapeDuration": 0.0475902,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8888",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "config-server"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8888",
+          "job": "config-server"
+        },
+        "scrapePool": "config-server",
+        "scrapeUrl": "http://127.0.0.1:8888/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8888/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:07.8456348-05:00",
+        "lastScrapeDuration": 0.0319079,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8761",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "eureka-server"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8761",
+          "job": "eureka-server"
+        },
+        "scrapePool": "eureka-server",
+        "scrapeUrl": "http://127.0.0.1:8761/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8761/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:09.4542831-05:00",
+        "lastScrapeDuration": 0.0403831,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8080",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "gateway-service"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8080",
+          "job": "gateway-service"
+        },
+        "scrapePool": "gateway-service",
+        "scrapeUrl": "http://127.0.0.1:8080/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8080/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:11.372062-05:00",
+        "lastScrapeDuration": 0.0507979,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8085",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "pedido-service"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8085",
+          "job": "pedido-service"
+        },
+        "scrapePool": "pedido-service",
+        "scrapeUrl": "http://127.0.0.1:8085/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8085/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:07.9959819-05:00",
+        "lastScrapeDuration": 0.0659722,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "127.0.0.1:8083",
+          "__always_scrape_classic_histograms__": "false",
+          "__convert_classic_histograms_to_nhcb__": "false",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_native_histograms__": "false",
+          "__scrape_timeout__": "4s",
+          "job": "producto-service"
+        },
+        "labels": {
+          "instance": "127.0.0.1:8083",
+          "job": "producto-service"
+        },
+        "scrapePool": "producto-service",
+        "scrapeUrl": "http://127.0.0.1:8083/actuator/prometheus",
+        "globalUrl": "http://DESKTOP-Q5VORSI:8083/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-11-26T03:23:06.6781321-05:00",
+        "lastScrapeDuration": 0.0440496,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "4s"
+      }
+    ],
+    "droppedTargets": [],
+    "droppedTargetCounts": {
+      "categoria-service": 0,
+      "cliente-service": 0,
+      "config-server": 0,
+      "eureka-server": 0,
+      "gateway-service": 0,
+      "pedido-service": 0,
+      "producto-service": 0
+    }
+  }
+}

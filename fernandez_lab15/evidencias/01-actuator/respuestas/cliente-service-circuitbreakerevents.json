@@ -1,0 +1,19 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/circuitbreakerevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:59.4536968-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "circuitBreakerEvents":  [
+                                              {
+                                                  "circuitBreakerName":  "pedidoService",
+                                                  "creationTime":  "2026-11-25T21:05:55.578904900-05:00[America/Lima]",
+                                                  "durationInMs":  158,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              }
+                                          ]
+             }
+}

@@ -1,0 +1,194 @@
+{
+  "method": "Chrome real + CDP por pipe + PrintWindow, ventana con URL",
+  "captures": [
+    {
+      "file": "01-descarga-prometheus.png",
+      "url": "https://prometheus.io/download/",
+      "displayedUrl": "https://prometheus.io/download/",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:13:48.387Z",
+      "bytes": 105000,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "02-version-prometheus.png",
+      "url": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/prometheus-version.txt",
+      "displayedUrl": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/prometheus-version.txt",
+      "status": null,
+      "source": "Archivo real de configuracion/salida de herramienta",
+      "timestamp": "2026-11-26T03:07:35.627Z",
+      "bytes": 28209,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "03-configuracion-prometheus.png",
+      "url": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/prometheus-configuracion.txt",
+      "displayedUrl": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/prometheus-configuracion.txt",
+      "status": null,
+      "source": "Archivo real de configuracion/salida de herramienta",
+      "timestamp": "2026-11-26T03:07:38.335Z",
+      "bytes": 45177,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "04-validacion-promtool.png",
+      "url": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/promtool-check-config.txt",
+      "displayedUrl": "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/promtool-check-config.txt",
+      "status": null,
+      "source": "Archivo real de configuracion/salida de herramienta",
+      "timestamp": "2026-11-26T03:07:40.996Z",
+      "bytes": 30498,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "05-prometheus-interfaz.png",
+      "url": "http://localhost:9090/",
+      "displayedUrl": "http://localhost:9090/query",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:07:43.881Z",
+      "bytes": 33152,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "06-consulta-up.png",
+      "url": "http://localhost:9090/query?g0.expr=up&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=up&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:07:46.844Z",
+      "bytes": 47494,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "07-targets-up.png",
+      "url": "http://localhost:9090/targets",
+      "displayedUrl": "http://localhost:9090/targets",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:13:52.284Z",
+      "bytes": 60634,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "08-total-servicios.png",
+      "url": "http://localhost:9090/query?g0.expr=count(up)&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=count(up)&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:07:53.573Z",
+      "bytes": 34600,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "09-memoria-jvm.png",
+      "url": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(jvm_memory_used_bytes)%20%2F%201024%20%2F%201024&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(jvm_memory_used_bytes)%20%2F%201024%20%2F%201024&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:07:56.574Z",
+      "bytes": 49161,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "10-uso-cpu.png",
+      "url": "http://localhost:9090/query?g0.expr=100%20*%20process_cpu_usage&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=100%20*%20process_cpu_usage&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:10:16.599Z",
+      "bytes": 53057,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "11-peticiones-http.png",
+      "url": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D)&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D)&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:10:19.350Z",
+      "bytes": 46250,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "12-grafico-peticiones.png",
+      "url": "http://localhost:9090/query?g0.expr=sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29&g0.tab=graph&g0.range_input=5m&g0.end_input=2026-11-26T03%3A08%3A01.084Z",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29&g0.tab=graph&g0.range_input=5m&g0.end_input=2026-11-26T03%3A08%3A01.084Z",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:13:58.356Z",
+      "bytes": 66340,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "13-conexiones-jdbc.png",
+      "url": "http://localhost:9090/query?g0.expr=hikaricp_connections_active&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=hikaricp_connections_active&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:14:01.130Z",
+      "bytes": 47405,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "14-resilience4j.png",
+      "url": "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%7D&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%7D&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T03:14:03.926Z",
+      "bytes": 75433,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "15-suma-servicios-up.png",
+      "url": "http://localhost:9090/query?g0.expr=sum(up)&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=sum(up)&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T07:24:26.268Z",
+      "bytes": 37643,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "16-servicios-down.png",
+      "url": "http://localhost:9090/query?g0.expr=count(up%20%3D%3D%200)%20or%20vector(0)&g0.tab=table&g0.range_input=5m",
+      "displayedUrl": "http://localhost:9090/query?g0.expr=count(up%20%3D%3D%200)%20or%20vector(0)&g0.tab=table&g0.range_input=5m",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T07:24:29.706Z",
+      "bytes": 38303,
+      "redactions": [],
+      "focus": null
+    },
+    {
+      "file": "17-targets-up-continuacion.png",
+      "url": "http://localhost:9090/targets",
+      "displayedUrl": "http://localhost:9090/targets",
+      "status": 200,
+      "source": "HTTP real",
+      "timestamp": "2026-11-26T07:26:20.012Z",
+      "bytes": 62600,
+      "redactions": [],
+      "focus": null
+    }
+  ],
+  "error": null,
+  "browser": "Chrome/158.0.8127.37"
+}

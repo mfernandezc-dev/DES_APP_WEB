@@ -1,0 +1,3 @@
+# Puerto, datasource y JPA se obtienen de config-repo.
+empresa:
+  ambiente: produccion

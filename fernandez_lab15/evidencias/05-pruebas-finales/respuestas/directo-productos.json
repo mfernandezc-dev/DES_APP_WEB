@@ -1,0 +1,42 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/api/productos",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:20:58.6745796-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "Count":  2,
+                 "Length":  2,
+                 "LongLength":  2,
+                 "Rank":  1,
+                 "SyncRoot":  [
+                                  {
+                                      "categoria":  {
+                                                        "estado":  "ACTIVO",
+                                                        "id":  1,
+                                                        "nombre":  "Laptops"
+                                                    },
+                                      "categoriaId":  1,
+                                      "id":  1,
+                                      "nombre":  "Laptop",
+                                      "precio":  2500.0,
+                                      "stock":  10
+                                  },
+                                  {
+                                      "categoria":  {
+                                                        "estado":  "ACTIVO",
+                                                        "id":  1,
+                                                        "nombre":  "Laptops"
+                                                    },
+                                      "categoriaId":  1,
+                                      "id":  2,
+                                      "nombre":  "Laptop",
+                                      "precio":  2500.0,
+                                      "stock":  10
+                                  }
+                              ],
+                 "IsReadOnly":  false,
+                 "IsFixedSize":  true,
+                 "IsSynchronized":  false
+             }
+}

@@ -1,0 +1,67 @@
+server:
+  port: 8080
+  address: 127.0.0.1
+
+spring:
+  application:
+    name: gateway-service
+
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              # Solo rutas de negocio explicitas; nunca /servicio/actuator.
+              enabled: false
+              lower-case-service-id: true
+
+          routes:
+            # CATEGORIA-SERVICE
+            - id: categoria-service
+              uri: lb://categoria-service
+              predicates:
+                - Path=/api/categorias/**
+
+            # PRODUCTO-SERVICE
+            - id: producto-service
+              uri: lb://producto-service
+              predicates:
+                - Path=/api/productos/**
+
+            # CLIENTE-SERVICE
+            - id: cliente-service
+              uri: lb://cliente-service
+              predicates:
+                - Path=/api/clientes/**
+
+            # PEDIDO-SERVICE
+            - id: pedido-service
+              uri: lb://pedido-service
+              predicates:
+                - Path=/api/pedidos/**
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    org.springframework.cloud.loadbalancer: DEBUG
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true

@@ -1,0 +1,25 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/resilience4j.bulkhead.max.allowed.concurrent.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T02:49:57.2948934-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "productoBulkhead"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The maximum number of available permissions",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  2.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.bulkhead.max.allowed.concurrent.calls"
+             }
+}

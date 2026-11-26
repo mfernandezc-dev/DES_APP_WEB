@@ -1,0 +1,88 @@
+{
+  "http": 200,
+  "body": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8761",
+            "job": "eureka-server"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8080",
+            "job": "gateway-service"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8084",
+            "job": "cliente-service"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8083",
+            "job": "producto-service"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8082",
+            "job": "categoria-service"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8888",
+            "job": "config-server"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "up",
+            "instance": "127.0.0.1:8085",
+            "job": "pedido-service"
+          },
+          "value": [
+            1795680768.196,
+            "1"
+          ]
+        }
+      ]
+    }
+  }
+}

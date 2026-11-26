@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: categoria-service
+
+  profiles:
+    active: dev
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  # Defensa local. El lanzador tambien fija validate por linea de comandos,
+  # porque los valores importados de Config Server pueden tener precedencia.
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  sql:
+    init:
+      mode: never
+
+server:
+  address: 127.0.0.1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true

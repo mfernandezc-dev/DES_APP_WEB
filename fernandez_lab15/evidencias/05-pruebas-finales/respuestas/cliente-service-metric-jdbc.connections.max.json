@@ -1,0 +1,25 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/metrics/jdbc.connections.max",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:20:59.9560537-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "dataSource"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "Maximum number of active connections that can be allocated at the same time.",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  10.0
+                                      }
+                                  ],
+                 "name":  "jdbc.connections.max"
+             }
+}

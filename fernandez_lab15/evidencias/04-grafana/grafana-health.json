@@ -1,0 +1,8 @@
+{
+  "http": 200,
+  "body": {
+    "database": "ok",
+    "version": "13.3.2",
+    "commit": "bd754986872f554d30a147ebd605a7fe15881a28"
+  }
+}

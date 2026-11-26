@@ -1,0 +1,31 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/resilience4j.circuitbreaker.not.permitted.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:20:59.2089213-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "not_permitted"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "categoriaService"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "Total number of not permitted calls",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  0.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.not.permitted.calls"
+             }
+}

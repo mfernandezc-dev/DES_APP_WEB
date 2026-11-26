@@ -1,0 +1,59 @@
+{
+  "Completed": true,
+  "Timestamp": "2026-11-26T08:07:14.351Z",
+  "Panel": 6,
+  "Query": "up",
+  "Rows": [
+    {
+      "job": "eureka-server",
+      "value": 1
+    },
+    {
+      "job": "gateway-service",
+      "value": 1
+    },
+    {
+      "job": "cliente-service",
+      "value": 1
+    },
+    {
+      "job": "producto-service",
+      "value": 1
+    },
+    {
+      "job": "categoria-service",
+      "value": 1
+    },
+    {
+      "job": "config-server",
+      "value": 1
+    },
+    {
+      "job": "pedido-service",
+      "value": 1
+    }
+  ],
+  "ProvisioningConfirmed": true,
+  "RenderTransformations": [
+    {
+      "id": "seriesToRows",
+      "options": {}
+    },
+    {
+      "id": "organize",
+      "options": {
+        "excludeByName": {
+          "Time": true
+        },
+        "indexByName": {
+          "Metric": 0,
+          "Value": 1
+        },
+        "renameByName": {
+          "Metric": "Microservicio",
+          "Value": "Estado"
+        }
+      }
+    }
+  ]
+}

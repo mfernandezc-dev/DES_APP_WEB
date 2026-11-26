@@ -1,0 +1,94 @@
+{
+  "method": "Chrome real + CDP por pipe + PrintWindow; ocultamiento de pixeles personales documentado",
+  "captures": [
+    {
+      "file": "16-prometheus-targets-up.png",
+      "path": "evidencias/readme/16-prometheus-targets-up.png",
+      "requestedUrl": "http://localhost:9090/targets",
+      "displayedUrl": "http://localhost:9090/targets",
+      "timestamp": "2026-11-26T08:26:48.365Z",
+      "bytes": 42950,
+      "redactions": [],
+      "source": "Captura nueva de ejecucion real PASO06"
+    },
+    {
+      "file": "23-grafana-dashboard-general.png",
+      "path": "evidencias/readme/23-grafana-dashboard-general.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:27:11.463Z",
+      "bytes": 171149,
+      "redactions": [],
+      "source": "Captura nueva de ejecucion real PASO06"
+    },
+    {
+      "file": "25-grafana-metricas-http.png",
+      "path": "evidencias/readme/25-grafana-metricas-http.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=1795681204892&to=1795681451401&refresh=5s&var-servicio=%24__all",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=2026-11-26T08:20:04.892Z&to=2026-11-26T08:24:11.401Z&refresh=5s&var-servicio=$__all&timezone=browser",
+      "timestamp": "2026-11-26T08:27:18.156Z",
+      "bytes": 154551,
+      "redactions": [],
+      "source": "Captura nueva de ejecucion real PASO06"
+    },
+    {
+      "file": "28-grafana-filtro-producto.png",
+      "path": "evidencias/readme/28-grafana-filtro-producto.png",
+      "requestedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=producto-service",
+      "displayedUrl": "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1&from=now-15m&to=now&refresh=5s&var-servicio=producto-service&timezone=browser",
+      "timestamp": "2026-11-26T08:27:24.840Z",
+      "bytes": 145714,
+      "redactions": [],
+      "source": "Captura nueva de ejecucion real PASO06"
+    },
+    {
+      "file": "29-gateway-productos.png",
+      "path": "evidencias/readme/29-gateway-productos.png",
+      "requestedUrl": "http://localhost:8080/api/productos",
+      "displayedUrl": "http://localhost:8080/api/productos",
+      "timestamp": "2026-11-26T08:26:53.141Z",
+      "bytes": 25124,
+      "redactions": [],
+      "source": "Captura nueva de ejecucion real PASO06"
+    },
+    {
+      "file": "30-pedido-detallado.png",
+      "path": "evidencias/readme/30-pedido-detallado.png",
+      "requestedUrl": "http://localhost:8085/api/pedidos?detallado=true",
+      "displayedUrl": "http://localhost:8085/api/pedidos?detallado=true",
+      "timestamp": "2026-11-26T08:26:58.334Z",
+      "bytes": 22472,
+      "redactions": [
+        {
+          "x": 441.984375,
+          "y": 118,
+          "width": 125.53125,
+          "height": 19,
+          "label": "nombre"
+        },
+        {
+          "x": 570.640625,
+          "y": 118,
+          "width": 146.96875,
+          "height": 19,
+          "label": "apellido"
+        },
+        {
+          "x": 863.6875,
+          "y": 118,
+          "width": 125.515625,
+          "height": 19,
+          "label": "nombre"
+        }
+      ],
+      "source": "Captura nueva de ejecucion real PASO06"
+    }
+  ],
+  "error": null,
+  "Explore": {
+    "Verified": true,
+    "Query": "up",
+    "Series": 7,
+    "OriginalScreenshotReused": "evidencias/04-grafana/07-explore-consulta-up.png"
+  }
+}

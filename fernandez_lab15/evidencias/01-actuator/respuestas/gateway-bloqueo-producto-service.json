@@ -1,0 +1,8 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8080/producto-service/actuator/health",
+    "Status":  404,
+    "Timestamp":  "2026-11-25T21:06:02.7393783-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  null
+}

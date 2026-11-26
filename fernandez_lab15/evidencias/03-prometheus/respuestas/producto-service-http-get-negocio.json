@@ -1,0 +1,45 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/http.server.requests?tag=uri:/api/productos\u0026tag=method:GET\u0026tag=status:200",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T22:09:42.1652123-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "exception",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "error",
+                                           "values":  [
+                                                          "none"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "outcome",
+                                           "values":  [
+                                                          "SUCCESS"
+                                                      ]
+                                       }
+                                   ],
+                 "baseUnit":  "seconds",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  31.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  0.9561197
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.0224949
+                                      }
+                                  ],
+                 "name":  "http.server.requests"
+             }
+}

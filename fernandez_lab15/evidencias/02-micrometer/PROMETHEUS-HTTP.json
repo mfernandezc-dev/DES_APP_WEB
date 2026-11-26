@@ -1,0 +1,6361 @@
+{
+  "Step": "03",
+  "Timestamp": "2026-11-26T02:40:15.880Z",
+  "Target": "Servicios reales localhost; sin servidor Prometheus, Docker ni mocks",
+  "HttpMethods": [
+    "GET"
+  ],
+  "Prometheus": [
+    {
+      "service": "producto-service",
+      "port": 8083,
+      "url": "http://localhost:8083/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:16.743Z",
+      "bytes": 27005,
+      "helpLines": 85,
+      "typeLines": 85,
+      "numericSamples": 188,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "7e413f4eea8e76c8193e1749acf83932c2fe223872ac4b80e630f2fdb3682ddf",
+      "publicSHA256": "4bf129d7939f7f9e6894dc2fff7df7c264ddd7a93be8880566e701e0f2045d21",
+      "evidence": "producto-service-prometheus.txt"
+    },
+    {
+      "service": "categoria-service",
+      "port": 8082,
+      "url": "http://localhost:8082/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:16.789Z",
+      "bytes": 20011,
+      "helpLines": 74,
+      "typeLines": 74,
+      "numericSamples": 139,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "29f03c0098712c496834fb6016870aecad3543894d5bd3506ea1796fe9b00851",
+      "publicSHA256": "dd47ea5154a815b9144d3cb74c4a673d4a47a34908e3243400f74281d01905ed",
+      "evidence": "categoria-service-prometheus.txt"
+    },
+    {
+      "service": "cliente-service",
+      "port": 8084,
+      "url": "http://localhost:8084/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:16.847Z",
+      "bytes": 26438,
+      "helpLines": 82,
+      "typeLines": 82,
+      "numericSamples": 185,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "ec29ba0123e27715fd745abdc77ad3da578f5379eae078e985ece38539265b55",
+      "publicSHA256": "4ac6614dcee4b2795c5d989f6ec6de923517455fab89bb7832b3c5fff563cc76",
+      "evidence": "cliente-service-prometheus.txt"
+    },
+    {
+      "service": "pedido-service",
+      "port": 8085,
+      "url": "http://localhost:8085/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:16.903Z",
+      "bytes": 26619,
+      "helpLines": 85,
+      "typeLines": 85,
+      "numericSamples": 185,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "1b6b6658034933518cea89a11181c16cfb298ee562b02ed81842b779d239b2c0",
+      "publicSHA256": "5cab3e799af041749ef549374e05c8f227ca2ee08734c83548d172006ca2482d",
+      "evidence": "pedido-service-prometheus.txt"
+    },
+    {
+      "service": "config-server",
+      "port": 8888,
+      "url": "http://localhost:8888/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:16.969Z",
+      "bytes": 59087,
+      "helpLines": 57,
+      "typeLines": 57,
+      "numericSamples": 221,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "47794c0e269ca1bf31498c2402c661ed395ea711211925fbad9187198f37f25b",
+      "publicSHA256": "7c913234ca19914ddd40abe376473fabf4e31aa136b20586dadcd3201725dadc",
+      "evidence": "config-server-prometheus.txt"
+    },
+    {
+      "service": "eureka-server",
+      "port": 8761,
+      "url": "http://localhost:8761/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:17.013Z",
+      "bytes": 16876,
+      "helpLines": 55,
+      "typeLines": 55,
+      "numericSamples": 122,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "dff86a3ee351ab4104709e9799724b204b10106bb420aae58a2b0c0cad8ef992",
+      "publicSHA256": "5fa210fc0dced3f6522aad1b4619a5d4adbbb1dbbc3145f61335ea1a53385de0",
+      "evidence": "eureka-server-prometheus.txt"
+    },
+    {
+      "service": "gateway-service",
+      "port": 8080,
+      "url": "http://localhost:8080/actuator/prometheus",
+      "status": 200,
+      "contentType": "text/plain;version=0.0.4;charset=utf-8",
+      "timestamp": "2026-11-26T02:40:17.080Z",
+      "bytes": 26696,
+      "helpLines": 56,
+      "typeLines": 56,
+      "numericSamples": 171,
+      "invalidLines": [],
+      "valid": true,
+      "redactions": [
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        },
+        {
+          "label": "path",
+          "reason": "ruta local absoluta"
+        }
+      ],
+      "originalSHA256": "52c358438d2749094edf818df6393ace82bb9fca95beb5a2315ab7944dd707e4",
+      "publicSHA256": "46938eccecada388b5b9b481a279c0622af6d3413ea9bf132eaa2c5ab5f7676e",
+      "evidence": "gateway-service-prometheus.txt"
+    }
+  ],
+  "Traffic": [
+    {
+      "round": 1,
+      "service": "categoria-service",
+      "url": "http://localhost:8080/api/categorias",
+      "status": 200,
+      "items": 2,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 1,
+      "service": "producto-service",
+      "url": "http://localhost:8080/api/productos",
+      "status": 200,
+      "items": 2,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 1,
+      "service": "cliente-service",
+      "url": "http://localhost:8080/api/clientes",
+      "status": 200,
+      "items": 1,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 1,
+      "service": "pedido-service",
+      "url": "http://localhost:8080/api/pedidos",
+      "status": 200,
+      "items": 1,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 2,
+      "service": "categoria-service",
+      "url": "http://localhost:8080/api/categorias",
+      "status": 200,
+      "items": 2,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 2,
+      "service": "producto-service",
+      "url": "http://localhost:8080/api/productos",
+      "status": 200,
+      "items": 2,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 2,
+      "service": "cliente-service",
+      "url": "http://localhost:8080/api/clientes",
+      "status": 200,
+      "items": 1,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 2,
+      "service": "pedido-service",
+      "url": "http://localhost:8080/api/pedidos",
+      "status": 200,
+      "items": 1,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 3,
+      "service": "categoria-service",
+      "url": "http://localhost:8080/api/categorias",
+      "status": 200,
+      "items": 2,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 3,
+      "service": "producto-service",
+      "url": "http://localhost:8080/api/productos",
+      "status": 200,
+      "items": 2,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 3,
+      "service": "cliente-service",
+      "url": "http://localhost:8080/api/clientes",
+      "status": 200,
+      "items": 1,
+      "unexpectedFallback": false
+    },
+    {
+      "round": 3,
+      "service": "pedido-service",
+      "url": "http://localhost:8080/api/pedidos",
+      "status": 200,
+      "items": 1,
+      "unexpectedFallback": false
+    }
+  ],
+  "HttpCounterComparison": [
+    {
+      "service": "categoria-service",
+      "metric": "http_server_requests_seconds_count",
+      "filter": {
+        "uri": "/api/categorias",
+        "method": "GET",
+        "status": "200"
+      },
+      "before": 2,
+      "after": 5,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/categorias"
+          },
+          "value": 2,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/categorias"
+          },
+          "value": 5,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "gateway-service",
+      "routeId": "categoria-service",
+      "metric": "spring_cloud_gateway_requests_seconds_count",
+      "filter": {
+        "routeId": "categoria-service",
+        "httpMethod": "GET",
+        "httpStatusCode": "200"
+      },
+      "before": 1,
+      "after": 4,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "categoria-service",
+            "routeUri": "lb://categoria-service",
+            "status": "OK"
+          },
+          "value": 1,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "categoria-service",
+            "routeUri": "lb://categoria-service",
+            "status": "OK"
+          },
+          "value": 4,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "producto-service",
+      "metric": "http_server_requests_seconds_count",
+      "filter": {
+        "uri": "/api/productos",
+        "method": "GET",
+        "status": "200"
+      },
+      "before": 2,
+      "after": 5,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/productos"
+          },
+          "value": 2,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/productos"
+          },
+          "value": 5,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "gateway-service",
+      "routeId": "producto-service",
+      "metric": "spring_cloud_gateway_requests_seconds_count",
+      "filter": {
+        "routeId": "producto-service",
+        "httpMethod": "GET",
+        "httpStatusCode": "200"
+      },
+      "before": 1,
+      "after": 4,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "producto-service",
+            "routeUri": "lb://producto-service",
+            "status": "OK"
+          },
+          "value": 1,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "producto-service",
+            "routeUri": "lb://producto-service",
+            "status": "OK"
+          },
+          "value": 4,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "cliente-service",
+      "metric": "http_server_requests_seconds_count",
+      "filter": {
+        "uri": "/api/clientes",
+        "method": "GET",
+        "status": "200"
+      },
+      "before": 2,
+      "after": 5,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/clientes"
+          },
+          "value": 2,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/clientes"
+          },
+          "value": 5,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "gateway-service",
+      "routeId": "cliente-service",
+      "metric": "spring_cloud_gateway_requests_seconds_count",
+      "filter": {
+        "routeId": "cliente-service",
+        "httpMethod": "GET",
+        "httpStatusCode": "200"
+      },
+      "before": 1,
+      "after": 4,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "cliente-service",
+            "routeUri": "lb://cliente-service",
+            "status": "OK"
+          },
+          "value": 1,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "cliente-service",
+            "routeUri": "lb://cliente-service",
+            "status": "OK"
+          },
+          "value": 4,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "pedido-service",
+      "metric": "http_server_requests_seconds_count",
+      "filter": {
+        "uri": "/api/pedidos",
+        "method": "GET",
+        "status": "200"
+      },
+      "before": 3,
+      "after": 6,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/pedidos"
+          },
+          "value": 3,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "http_server_requests_seconds_count",
+          "labels": {
+            "error": "none",
+            "exception": "none",
+            "method": "GET",
+            "outcome": "SUCCESS",
+            "status": "200",
+            "uri": "/api/pedidos"
+          },
+          "value": 6,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "gateway-service",
+      "routeId": "pedido-service",
+      "metric": "spring_cloud_gateway_requests_seconds_count",
+      "filter": {
+        "routeId": "pedido-service",
+        "httpMethod": "GET",
+        "httpStatusCode": "200"
+      },
+      "before": 1,
+      "after": 4,
+      "delta": 3,
+      "increased": true,
+      "beforeSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "pedido-service",
+            "routeUri": "lb://pedido-service",
+            "status": "OK"
+          },
+          "value": 1,
+          "finite": true
+        }
+      ],
+      "afterSeries": [
+        {
+          "name": "spring_cloud_gateway_requests_seconds_count",
+          "labels": {
+            "httpMethod": "GET",
+            "httpStatusCode": "200",
+            "outcome": "SUCCESSFUL",
+            "routeId": "pedido-service",
+            "routeUri": "lb://pedido-service",
+            "status": "OK"
+          },
+          "value": 4,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "MetricsByService": [
+    {
+      "service": "producto-service",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "hikaricp_connections",
+        "hikaricp_connections_acquire_seconds_count",
+        "hikaricp_connections_acquire_seconds_max",
+        "hikaricp_connections_acquire_seconds_sum",
+        "hikaricp_connections_active",
+        "hikaricp_connections_creation_seconds_count",
+        "hikaricp_connections_creation_seconds_max",
+        "hikaricp_connections_creation_seconds_sum",
+        "hikaricp_connections_idle",
+        "hikaricp_connections_max",
+        "hikaricp_connections_min",
+        "hikaricp_connections_pending",
+        "hikaricp_connections_timeout_total",
+        "hikaricp_connections_usage_seconds_count",
+        "hikaricp_connections_usage_seconds_max",
+        "hikaricp_connections_usage_seconds_sum",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jdbc_connections_active",
+        "jdbc_connections_idle",
+        "jdbc_connections_max",
+        "jdbc_connections_min",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_concurrent_phase_time_seconds_count",
+        "jvm_gc_concurrent_phase_time_seconds_max",
+        "jvm_gc_concurrent_phase_time_seconds_sum",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "resilience4j_bulkhead_available_concurrent_calls",
+        "resilience4j_bulkhead_max_allowed_concurrent_calls",
+        "resilience4j_circuitbreaker_buffered_calls",
+        "resilience4j_circuitbreaker_calls_seconds_count",
+        "resilience4j_circuitbreaker_calls_seconds_max",
+        "resilience4j_circuitbreaker_calls_seconds_sum",
+        "resilience4j_circuitbreaker_failure_rate",
+        "resilience4j_circuitbreaker_not_permitted_calls_total",
+        "resilience4j_circuitbreaker_slow_call_rate",
+        "resilience4j_circuitbreaker_slow_calls",
+        "resilience4j_circuitbreaker_state",
+        "resilience4j_retry_calls_total",
+        "spring_data_repository_invocations_seconds_count",
+        "spring_data_repository_invocations_seconds_max",
+        "spring_data_repository_invocations_seconds_sum",
+        "system_cpu_count",
+        "system_cpu_usage",
+        "tomcat_sessions_active_current_sessions",
+        "tomcat_sessions_active_max_sessions",
+        "tomcat_sessions_alive_max_seconds",
+        "tomcat_sessions_created_sessions_total",
+        "tomcat_sessions_expired_sessions_total",
+        "tomcat_sessions_rejected_sessions_total"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": true,
+          "applicable": true
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 18.529,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 18.463,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 31457280,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 49968264,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 8608480,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1794432,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 5875968,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 13834624,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 14925792,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 104273376,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 37,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.017648382061843364,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.2736186378861265,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 142.212,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheadevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheads"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakerevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakers"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 19,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retries"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retryevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/productos"
+              },
+              "value": 5,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/productos/{id}"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.0715275,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheadevents"
+              },
+              "value": 0.0055392,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheads"
+              },
+              "value": 0.0025046,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakerevents"
+              },
+              "value": 0.011037,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakers"
+              },
+              "value": 0.0048842,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.055826,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0040192,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.5621814,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.078646,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retries"
+              },
+              "value": 0.0023853,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retryevents"
+              },
+              "value": 0.0037307,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/productos"
+              },
+              "value": 0.5145784,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/productos/{id}"
+              },
+              "value": 0.0484717,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "samples": [
+            {
+              "name": "hikaricp_connections_active",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "samples": [
+            {
+              "name": "hikaricp_connections_max",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_active",
+          "samples": [
+            {
+              "name": "jdbc_connections_active",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_max",
+          "samples": [
+            {
+              "name": "jdbc_connections_max",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "failed",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "ignored",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "successful",
+                "name": "categoriaService"
+              },
+              "value": 12,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_bulkhead_available_concurrent_calls",
+          "samples": [
+            {
+              "name": "resilience4j_bulkhead_available_concurrent_calls",
+              "labels": {
+                "name": "categoriaBulkhead"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_bulkhead_max_allowed_concurrent_calls",
+          "samples": [
+            {
+              "name": "resilience4j_bulkhead_max_allowed_concurrent_calls",
+              "labels": {
+                "name": "categoriaBulkhead"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_buffered_calls",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_buffered_calls",
+              "labels": {
+                "kind": "failed",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_buffered_calls",
+              "labels": {
+                "kind": "successful",
+                "name": "categoriaService"
+              },
+              "value": 5,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_max",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "failed",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "ignored",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "successful",
+                "name": "categoriaService"
+              },
+              "value": 0.1512466,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "failed",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "ignored",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "successful",
+                "name": "categoriaService"
+              },
+              "value": 0.2296958,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_failure_rate",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_failure_rate",
+              "labels": {
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_not_permitted_calls_total",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_not_permitted_calls_total",
+              "labels": {
+                "kind": "not_permitted",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_slow_call_rate",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_slow_call_rate",
+              "labels": {
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_slow_calls",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_slow_calls",
+              "labels": {
+                "kind": "failed",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_slow_calls",
+              "labels": {
+                "kind": "successful",
+                "name": "categoriaService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_state",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "categoriaService",
+                "state": "closed"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "categoriaService",
+                "state": "disabled"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "categoriaService",
+                "state": "forced_open"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "categoriaService",
+                "state": "half_open"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "categoriaService",
+                "state": "metrics_only"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "categoriaService",
+                "state": "open"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_retry_calls_total",
+          "samples": [
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "failed_with_retry",
+                "name": "categoriaRetry"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "failed_without_retry",
+                "name": "categoriaRetry"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "successful_with_retry",
+                "name": "categoriaRetry"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "successful_without_retry",
+                "name": "categoriaRetry"
+              },
+              "value": 12,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service": "categoria-service",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "hikaricp_connections",
+        "hikaricp_connections_acquire_seconds_count",
+        "hikaricp_connections_acquire_seconds_max",
+        "hikaricp_connections_acquire_seconds_sum",
+        "hikaricp_connections_active",
+        "hikaricp_connections_creation_seconds_count",
+        "hikaricp_connections_creation_seconds_max",
+        "hikaricp_connections_creation_seconds_sum",
+        "hikaricp_connections_idle",
+        "hikaricp_connections_max",
+        "hikaricp_connections_min",
+        "hikaricp_connections_pending",
+        "hikaricp_connections_timeout_total",
+        "hikaricp_connections_usage_seconds_count",
+        "hikaricp_connections_usage_seconds_max",
+        "hikaricp_connections_usage_seconds_sum",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jdbc_connections_active",
+        "jdbc_connections_idle",
+        "jdbc_connections_max",
+        "jdbc_connections_min",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_concurrent_phase_time_seconds_count",
+        "jvm_gc_concurrent_phase_time_seconds_max",
+        "jvm_gc_concurrent_phase_time_seconds_sum",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "spring_data_repository_invocations_seconds_count",
+        "spring_data_repository_invocations_seconds_max",
+        "spring_data_repository_invocations_seconds_sum",
+        "system_cpu_count",
+        "system_cpu_usage",
+        "tomcat_sessions_active_current_sessions",
+        "tomcat_sessions_active_max_sessions",
+        "tomcat_sessions_alive_max_seconds",
+        "tomcat_sessions_created_sessions_total",
+        "tomcat_sessions_expired_sessions_total",
+        "tomcat_sessions_rejected_sessions_total"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": false,
+          "applicable": false
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 15.743,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 15.674,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 38797312,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 40422928,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 5689712,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1778816,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 4280960,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 11265792,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 14450008,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 100033496,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 33,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.011013698715108426,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.2714625963092705,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 163.689,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 9,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/categorias"
+              },
+              "value": 5,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/categorias/{id}"
+              },
+              "value": 12,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.065626,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.045244,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0033586,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.5084782,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.055593,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/categorias"
+              },
+              "value": 0.269504,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/categorias/{id}"
+              },
+              "value": 0.0702757,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "samples": [
+            {
+              "name": "hikaricp_connections_active",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "samples": [
+            {
+              "name": "hikaricp_connections_max",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_active",
+          "samples": [
+            {
+              "name": "jdbc_connections_active",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_max",
+          "samples": [
+            {
+              "name": "jdbc_connections_max",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service": "cliente-service",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "hikaricp_connections",
+        "hikaricp_connections_acquire_seconds_count",
+        "hikaricp_connections_acquire_seconds_max",
+        "hikaricp_connections_acquire_seconds_sum",
+        "hikaricp_connections_active",
+        "hikaricp_connections_creation_seconds_count",
+        "hikaricp_connections_creation_seconds_max",
+        "hikaricp_connections_creation_seconds_sum",
+        "hikaricp_connections_idle",
+        "hikaricp_connections_max",
+        "hikaricp_connections_min",
+        "hikaricp_connections_pending",
+        "hikaricp_connections_timeout_total",
+        "hikaricp_connections_usage_seconds_count",
+        "hikaricp_connections_usage_seconds_max",
+        "hikaricp_connections_usage_seconds_sum",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jdbc_connections_active",
+        "jdbc_connections_idle",
+        "jdbc_connections_max",
+        "jdbc_connections_min",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_concurrent_phase_time_seconds_count",
+        "jvm_gc_concurrent_phase_time_seconds_max",
+        "jvm_gc_concurrent_phase_time_seconds_sum",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "resilience4j_circuitbreaker_buffered_calls",
+        "resilience4j_circuitbreaker_calls_seconds_count",
+        "resilience4j_circuitbreaker_calls_seconds_max",
+        "resilience4j_circuitbreaker_calls_seconds_sum",
+        "resilience4j_circuitbreaker_failure_rate",
+        "resilience4j_circuitbreaker_not_permitted_calls_total",
+        "resilience4j_circuitbreaker_slow_call_rate",
+        "resilience4j_circuitbreaker_slow_calls",
+        "resilience4j_circuitbreaker_state",
+        "spring_data_repository_invocations_seconds_count",
+        "spring_data_repository_invocations_seconds_max",
+        "spring_data_repository_invocations_seconds_sum",
+        "system_cpu_count",
+        "system_cpu_usage",
+        "tomcat_sessions_active_current_sessions",
+        "tomcat_sessions_active_max_sessions",
+        "tomcat_sessions_alive_max_seconds",
+        "tomcat_sessions_created_sessions_total",
+        "tomcat_sessions_expired_sessions_total",
+        "tomcat_sessions_rejected_sessions_total"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": true,
+          "applicable": true
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 18.507,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 18.429,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 58720256,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 47460240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 11974768,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1804672,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 5743872,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 13718272,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 15399888,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 106939816,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 37,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.007508196908794845,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.29112021261748766,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 118.805,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheadevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheads"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakerevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakers"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 16,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retries"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retryevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/clientes"
+              },
+              "value": 5,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/clientes/pedidos/{id}"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/clientes/{id}"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.0698665,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheadevents"
+              },
+              "value": 0.0047349,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheads"
+              },
+              "value": 0.0042843,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakerevents"
+              },
+              "value": 0.0094288,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakers"
+              },
+              "value": 0.0054526,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.0434893,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0059052,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.5865155,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.0718981,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retries"
+              },
+              "value": 0.0032545,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retryevents"
+              },
+              "value": 0.0050304,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/clientes"
+              },
+              "value": 0.2809438,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/clientes/pedidos/{id}"
+              },
+              "value": 0.1836989,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/clientes/{id}"
+              },
+              "value": 0.0341913,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "samples": [
+            {
+              "name": "hikaricp_connections_active",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "samples": [
+            {
+              "name": "hikaricp_connections_max",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_active",
+          "samples": [
+            {
+              "name": "jdbc_connections_active",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_max",
+          "samples": [
+            {
+              "name": "jdbc_connections_max",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "failed",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "ignored",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "successful",
+                "name": "pedidoService"
+              },
+              "value": 1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_buffered_calls",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_buffered_calls",
+              "labels": {
+                "kind": "failed",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_buffered_calls",
+              "labels": {
+                "kind": "successful",
+                "name": "pedidoService"
+              },
+              "value": 1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_max",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "failed",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "ignored",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "successful",
+                "name": "pedidoService"
+              },
+              "value": 0.1654406,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "failed",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "ignored",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "successful",
+                "name": "pedidoService"
+              },
+              "value": 0.1654406,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_failure_rate",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_failure_rate",
+              "labels": {
+                "name": "pedidoService"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_not_permitted_calls_total",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_not_permitted_calls_total",
+              "labels": {
+                "kind": "not_permitted",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_slow_call_rate",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_slow_call_rate",
+              "labels": {
+                "name": "pedidoService"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_slow_calls",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_slow_calls",
+              "labels": {
+                "kind": "failed",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_slow_calls",
+              "labels": {
+                "kind": "successful",
+                "name": "pedidoService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_state",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "pedidoService",
+                "state": "closed"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "pedidoService",
+                "state": "disabled"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "pedidoService",
+                "state": "forced_open"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "pedidoService",
+                "state": "half_open"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "pedidoService",
+                "state": "metrics_only"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "pedidoService",
+                "state": "open"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service": "pedido-service",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "hikaricp_connections",
+        "hikaricp_connections_acquire_seconds_count",
+        "hikaricp_connections_acquire_seconds_max",
+        "hikaricp_connections_acquire_seconds_sum",
+        "hikaricp_connections_active",
+        "hikaricp_connections_creation_seconds_count",
+        "hikaricp_connections_creation_seconds_max",
+        "hikaricp_connections_creation_seconds_sum",
+        "hikaricp_connections_idle",
+        "hikaricp_connections_max",
+        "hikaricp_connections_min",
+        "hikaricp_connections_pending",
+        "hikaricp_connections_timeout_total",
+        "hikaricp_connections_usage_seconds_count",
+        "hikaricp_connections_usage_seconds_max",
+        "hikaricp_connections_usage_seconds_sum",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jdbc_connections_active",
+        "jdbc_connections_idle",
+        "jdbc_connections_max",
+        "jdbc_connections_min",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_concurrent_phase_time_seconds_count",
+        "jvm_gc_concurrent_phase_time_seconds_max",
+        "jvm_gc_concurrent_phase_time_seconds_sum",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "resilience4j_bulkhead_available_concurrent_calls",
+        "resilience4j_bulkhead_max_allowed_concurrent_calls",
+        "resilience4j_circuitbreaker_buffered_calls",
+        "resilience4j_circuitbreaker_calls_seconds_count",
+        "resilience4j_circuitbreaker_calls_seconds_max",
+        "resilience4j_circuitbreaker_calls_seconds_sum",
+        "resilience4j_circuitbreaker_failure_rate",
+        "resilience4j_circuitbreaker_not_permitted_calls_total",
+        "resilience4j_circuitbreaker_slow_call_rate",
+        "resilience4j_circuitbreaker_slow_calls",
+        "resilience4j_circuitbreaker_state",
+        "resilience4j_retry_calls_total",
+        "spring_data_repository_invocations_seconds_count",
+        "spring_data_repository_invocations_seconds_max",
+        "spring_data_repository_invocations_seconds_sum",
+        "system_cpu_count",
+        "system_cpu_usage",
+        "tomcat_sessions_active_current_sessions",
+        "tomcat_sessions_active_max_sessions",
+        "tomcat_sessions_alive_max_seconds",
+        "tomcat_sessions_created_sessions_total",
+        "tomcat_sessions_expired_sessions_total",
+        "tomcat_sessions_rejected_sessions_total"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": true,
+          "applicable": true
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 18.655,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 18.591,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 62914560,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 48821584,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 7224808,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1819776,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 5212672,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 12492160,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 15654480,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 109000176,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 37,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.011475497004693315,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.31124042410182295,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 95.447,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheadevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheads"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakerevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakers"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 19,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retries"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retryevents"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/pedidos"
+              },
+              "value": 6,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/pedidos/{id}"
+              },
+              "value": 1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.0647989,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheadevents"
+              },
+              "value": 0.0051373,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/bulkheads"
+              },
+              "value": 0.0029797,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakerevents"
+              },
+              "value": 0.0082572,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/circuitbreakers"
+              },
+              "value": 0.0046168,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.047565,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0039168,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.6123075,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.0691435,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retries"
+              },
+              "value": 0.0022269,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/retryevents"
+              },
+              "value": 0.0035373,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/pedidos"
+              },
+              "value": 0.5965675,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/api/pedidos/{id}"
+              },
+              "value": 0.0516149,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "samples": [
+            {
+              "name": "hikaricp_connections_active",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "samples": [
+            {
+              "name": "hikaricp_connections_max",
+              "labels": {
+                "pool": "HikariPool-1"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_active",
+          "samples": [
+            {
+              "name": "jdbc_connections_active",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jdbc_connections_max",
+          "samples": [
+            {
+              "name": "jdbc_connections_max",
+              "labels": {
+                "name": "dataSource"
+              },
+              "value": 10,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "failed",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "ignored",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_count",
+              "labels": {
+                "kind": "successful",
+                "name": "productoService"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_bulkhead_available_concurrent_calls",
+          "samples": [
+            {
+              "name": "resilience4j_bulkhead_available_concurrent_calls",
+              "labels": {
+                "name": "productoBulkhead"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_bulkhead_max_allowed_concurrent_calls",
+          "samples": [
+            {
+              "name": "resilience4j_bulkhead_max_allowed_concurrent_calls",
+              "labels": {
+                "name": "productoBulkhead"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_buffered_calls",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_buffered_calls",
+              "labels": {
+                "kind": "failed",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_buffered_calls",
+              "labels": {
+                "kind": "successful",
+                "name": "productoService"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_max",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "failed",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "ignored",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_max",
+              "labels": {
+                "kind": "successful",
+                "name": "productoService"
+              },
+              "value": 0.0724984,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "failed",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "ignored",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_calls_seconds_sum",
+              "labels": {
+                "kind": "successful",
+                "name": "productoService"
+              },
+              "value": 0.0894205,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_failure_rate",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_failure_rate",
+              "labels": {
+                "name": "productoService"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_not_permitted_calls_total",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_not_permitted_calls_total",
+              "labels": {
+                "kind": "not_permitted",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_slow_call_rate",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_slow_call_rate",
+              "labels": {
+                "name": "productoService"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_slow_calls",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_slow_calls",
+              "labels": {
+                "kind": "failed",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_slow_calls",
+              "labels": {
+                "kind": "successful",
+                "name": "productoService"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_circuitbreaker_state",
+          "samples": [
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "productoService",
+                "state": "closed"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "productoService",
+                "state": "disabled"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "productoService",
+                "state": "forced_open"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "productoService",
+                "state": "half_open"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "productoService",
+                "state": "metrics_only"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_circuitbreaker_state",
+              "labels": {
+                "name": "productoService",
+                "state": "open"
+              },
+              "value": 0,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "resilience4j_retry_calls_total",
+          "samples": [
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "failed_with_retry",
+                "name": "clienteRetry"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "failed_without_retry",
+                "name": "clienteRetry"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "successful_with_retry",
+                "name": "clienteRetry"
+              },
+              "value": 0,
+              "finite": true
+            },
+            {
+              "name": "resilience4j_retry_calls_total",
+              "labels": {
+                "kind": "successful_without_retry",
+                "name": "clienteRetry"
+              },
+              "value": 2,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service": "config-server",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "spring_cloud_config_environment_find_active_seconds_count",
+        "spring_cloud_config_environment_find_active_seconds_max",
+        "spring_cloud_config_environment_find_active_seconds_sum",
+        "spring_cloud_config_environment_find_seconds_count",
+        "spring_cloud_config_environment_find_seconds_max",
+        "spring_cloud_config_environment_find_seconds_sum",
+        "system_cpu_count",
+        "system_cpu_usage",
+        "tomcat_sessions_active_current_sessions",
+        "tomcat_sessions_active_max_sessions",
+        "tomcat_sessions_alive_max_seconds",
+        "tomcat_sessions_created_sessions_total",
+        "tomcat_sessions_expired_sessions_total",
+        "tomcat_sessions_rejected_sessions_total"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": false,
+          "applicable": false
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 8.9,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 8.839,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 29360128,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 33243328,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 3145728,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1659264,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 5039616,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 16133248,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 7703312,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 58587936,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 26,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.015955439546320224,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.31625436281865993,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 195.197,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 4,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/{name}/{profiles}/{label:.*}"
+              },
+              "value": 32,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.0952447,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.8362991,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0033593,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.4475837,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.0581557,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/{name}/{profiles}/{label:.*}"
+              },
+              "value": 21.0987079,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service": "eureka-server",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_concurrent_phase_time_seconds_count",
+        "jvm_gc_concurrent_phase_time_seconds_max",
+        "jvm_gc_concurrent_phase_time_seconds_sum",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "system_cpu_count",
+        "system_cpu_usage",
+        "tomcat_sessions_active_current_sessions",
+        "tomcat_sessions_active_max_sessions",
+        "tomcat_sessions_alive_max_seconds",
+        "tomcat_sessions_created_sessions_total",
+        "tomcat_sessions_expired_sessions_total",
+        "tomcat_sessions_rejected_sessions_total"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": false,
+          "applicable": false
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 9.559,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 9.485,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 72351744,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 31857744,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 6815040,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1648128,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 4029184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 11607936,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 8881072,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 65010624,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 32,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.005983107457146017,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.32171549223520834,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 179.301,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 4,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "UNKNOWN"
+              },
+              "value": 21,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "POST",
+                "outcome": "SUCCESS",
+                "status": "204",
+                "uri": "UNKNOWN"
+              },
+              "value": 5,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "PUT",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "UNKNOWN"
+              },
+              "value": 15,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.0963868,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.0363554,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0032649,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.5024266,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.0529691,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "UNKNOWN"
+              },
+              "value": 0.1648113,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "POST",
+                "outcome": "SUCCESS",
+                "status": "204",
+                "uri": "UNKNOWN"
+              },
+              "value": 0.1233175,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "PUT",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "UNKNOWN"
+              },
+              "value": 0.034884,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "service": "gateway-service",
+      "sampleNames": [
+        "application_ready_time_seconds",
+        "application_started_time_seconds",
+        "disk_free_bytes",
+        "disk_total_bytes",
+        "executor_active_threads",
+        "executor_completed_tasks_total",
+        "executor_pool_core_threads",
+        "executor_pool_max_threads",
+        "executor_pool_size_threads",
+        "executor_queue_remaining_tasks",
+        "executor_queued_tasks",
+        "http_client_requests_active_seconds_count",
+        "http_client_requests_active_seconds_max",
+        "http_client_requests_active_seconds_sum",
+        "http_client_requests_seconds_count",
+        "http_client_requests_seconds_max",
+        "http_client_requests_seconds_sum",
+        "http_server_requests_active_seconds_count",
+        "http_server_requests_active_seconds_max",
+        "http_server_requests_active_seconds_sum",
+        "http_server_requests_seconds_count",
+        "http_server_requests_seconds_max",
+        "http_server_requests_seconds_sum",
+        "jvm_buffer_count_buffers",
+        "jvm_buffer_memory_used_bytes",
+        "jvm_buffer_total_capacity_bytes",
+        "jvm_classes_loaded_classes",
+        "jvm_classes_loaded_count_classes_total",
+        "jvm_classes_unloaded_classes_total",
+        "jvm_compilation_time_ms_total",
+        "jvm_gc_concurrent_phase_time_seconds_count",
+        "jvm_gc_concurrent_phase_time_seconds_max",
+        "jvm_gc_concurrent_phase_time_seconds_sum",
+        "jvm_gc_cpu_time_ns_total",
+        "jvm_gc_live_data_size_bytes",
+        "jvm_gc_max_data_size_bytes",
+        "jvm_gc_memory_allocated_bytes_total",
+        "jvm_gc_memory_promoted_bytes_total",
+        "jvm_gc_overhead",
+        "jvm_gc_pause_seconds_count",
+        "jvm_gc_pause_seconds_max",
+        "jvm_gc_pause_seconds_sum",
+        "jvm_info",
+        "jvm_memory_committed_bytes",
+        "jvm_memory_max_bytes",
+        "jvm_memory_usage_after_gc",
+        "jvm_memory_used_bytes",
+        "jvm_threads_daemon_threads",
+        "jvm_threads_live_threads",
+        "jvm_threads_peak_threads",
+        "jvm_threads_started_threads_total",
+        "jvm_threads_states_threads",
+        "logback_events_total",
+        "process_cpu_time_ns_total",
+        "process_cpu_usage",
+        "process_start_time_seconds",
+        "process_uptime_seconds",
+        "spring_cloud_gateway_requests_seconds_count",
+        "spring_cloud_gateway_requests_seconds_max",
+        "spring_cloud_gateway_requests_seconds_sum",
+        "spring_cloud_gateway_routes_count",
+        "system_cpu_count",
+        "system_cpu_usage"
+      ],
+      "reference": [
+        {
+          "name": "application_ready_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "application_started_time_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "system_cpu_usage",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "process_uptime_seconds",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "available": true,
+          "applicable": true
+        },
+        {
+          "name": "hikaricp_connections_active",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "hikaricp_connections_max",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "jdbc_connections_active",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "jdbc_connections_max",
+          "available": false,
+          "applicable": false
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "available": false,
+          "applicable": false
+        }
+      ],
+      "foundMetrics": [
+        {
+          "name": "application_ready_time_seconds",
+          "samples": [
+            {
+              "name": "application_ready_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 11.621,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "application_started_time_seconds",
+          "samples": [
+            {
+              "name": "application_started_time_seconds",
+              "labels": {
+                "main_application_class": "VerificarContexto"
+              },
+              "value": 11.617,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_used_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": 44040192,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 32272080,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": 4970320,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 1695360,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 4396672,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 12435328,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 9247312,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_used_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": 66588920,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_memory_max_bytes",
+          "samples": [
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Eden Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Old Gen"
+              },
+              "value": 402653184,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "heap",
+                "id": "G1 Survivor Space"
+              },
+              "value": -1,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-nmethods'"
+              },
+              "value": 5898240,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'non-profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "CodeHeap 'profiled nmethods'"
+              },
+              "value": 122945536,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Compressed Class Space"
+              },
+              "value": 1073741824,
+              "finite": true
+            },
+            {
+              "name": "jvm_memory_max_bytes",
+              "labels": {
+                "area": "nonheap",
+                "id": "Metaspace"
+              },
+              "value": -1,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "jvm_threads_live_threads",
+          "samples": [
+            {
+              "name": "jvm_threads_live_threads",
+              "labels": {},
+              "value": 43,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_cpu_usage",
+          "samples": [
+            {
+              "name": "process_cpu_usage",
+              "labels": {},
+              "value": 0.04851032928501053,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "system_cpu_usage",
+          "samples": [
+            {
+              "name": "system_cpu_usage",
+              "labels": {},
+              "value": 0.3435122546812106,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "process_uptime_seconds",
+          "samples": [
+            {
+              "name": "process_uptime_seconds",
+              "labels": {},
+              "value": 72.677,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_count",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "NoResourceFoundException",
+                "exception": "NoResourceFoundException",
+                "method": "GET",
+                "outcome": "CLIENT_ERROR",
+                "status": "404",
+                "uri": "/**"
+              },
+              "value": 6,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 2,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 4,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 1,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_count",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "UNKNOWN"
+              },
+              "value": 16,
+              "finite": true
+            }
+          ]
+        },
+        {
+          "name": "http_server_requests_seconds_sum",
+          "samples": [
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "NoResourceFoundException",
+                "exception": "NoResourceFoundException",
+                "method": "GET",
+                "outcome": "CLIENT_ERROR",
+                "status": "404",
+                "uri": "/**"
+              },
+              "value": 0.0453316,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator"
+              },
+              "value": 0.1143532,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/health"
+              },
+              "value": 0.0466434,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics"
+              },
+              "value": 0.0045955,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/metrics/{requiredMetricName}"
+              },
+              "value": 0.6335479,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "/actuator/prometheus"
+              },
+              "value": 0.0691374,
+              "finite": true
+            },
+            {
+              "name": "http_server_requests_seconds_sum",
+              "labels": {
+                "error": "none",
+                "exception": "none",
+                "method": "GET",
+                "outcome": "SUCCESS",
+                "status": "200",
+                "uri": "UNKNOWN"
+              },
+              "value": 1.8092079,
+              "finite": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ResilienceCalls": [
+    {
+      "service": "producto-service",
+      "metric": "resilience4j_circuitbreaker_calls_seconds_count",
+      "successful": 12,
+      "failed": 0,
+      "series": [
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "failed",
+            "name": "categoriaService"
+          },
+          "value": 0,
+          "finite": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "ignored",
+            "name": "categoriaService"
+          },
+          "value": 0,
+          "finite": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "successful",
+            "name": "categoriaService"
+          },
+          "value": 12,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "cliente-service",
+      "metric": "resilience4j_circuitbreaker_calls_seconds_count",
+      "successful": 1,
+      "failed": 0,
+      "series": [
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "failed",
+            "name": "pedidoService"
+          },
+          "value": 0,
+          "finite": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "ignored",
+            "name": "pedidoService"
+          },
+          "value": 0,
+          "finite": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "successful",
+            "name": "pedidoService"
+          },
+          "value": 1,
+          "finite": true
+        }
+      ]
+    },
+    {
+      "service": "pedido-service",
+      "metric": "resilience4j_circuitbreaker_calls_seconds_count",
+      "successful": 2,
+      "failed": 0,
+      "series": [
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "failed",
+            "name": "productoService"
+          },
+          "value": 0,
+          "finite": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "ignored",
+            "name": "productoService"
+          },
+          "value": 0,
+          "finite": true
+        },
+        {
+          "name": "resilience4j_circuitbreaker_calls_seconds_count",
+          "labels": {
+            "kind": "successful",
+            "name": "productoService"
+          },
+          "value": 2,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "Completed": true
+}

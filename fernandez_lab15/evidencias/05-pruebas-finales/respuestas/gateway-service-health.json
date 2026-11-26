@@ -1,0 +1,107 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8080/actuator/health",
+    "Status":  200,
+    "Timestamp":  "2026-11-26T03:20:58.4278281-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "components":  {
+                                    "discoveryComposite":  {
+                                                               "components":  {
+                                                                                  "discoveryClient":  {
+                                                                                                          "details":  {
+                                                                                                                          "services":  [
+                                                                                                                                           "cliente-service",
+                                                                                                                                           "producto-service",
+                                                                                                                                           "pedido-service",
+                                                                                                                                           "categoria-service",
+                                                                                                                                           "gateway-service"
+                                                                                                                                       ]
+                                                                                                                      },
+                                                                                                          "status":  "UP"
+                                                                                                      },
+                                                                                  "eureka":  {
+                                                                                                 "details":  {
+                                                                                                                 "applications":  {
+                                                                                                                                      "CLIENTE-SERVICE":  1,
+                                                                                                                                      "PRODUCTO-SERVICE":  1,
+                                                                                                                                      "PEDIDO-SERVICE":  1,
+                                                                                                                                      "GATEWAY-SERVICE":  1,
+                                                                                                                                      "CATEGORIA-SERVICE":  1
+                                                                                                                                  }
+                                                                                                             },
+                                                                                                 "description":  "Remote status from Eureka server",
+                                                                                                 "status":  "UP"
+                                                                                             }
+                                                                              },
+                                                               "status":  "UP"
+                                                           },
+                                    "diskSpace":  {
+                                                      "details":  {
+                                                                      "total":  510992052224,
+                                                                      "free":  163126808576,
+                                                                      "threshold":  10485760,
+                                                                      "path":  "C:\\Users\\USER\\Desktop\\4Â° Ciclo\\Desarrollo de  App Web\\DES_APP_WEB\\fernandez_lab15\\gateway-service\\.",
+                                                                      "exists":  true
+                                                                  },
+                                                      "status":  "UP"
+                                                  },
+                                    "livenessState":  {
+                                                          "status":  "UP"
+                                                      },
+                                    "ping":  {
+                                                 "status":  "UP"
+                                             },
+                                    "reactiveDiscoveryClients":  {
+                                                                     "components":  {
+                                                                                        "Simple Reactive Discovery Client":  {
+                                                                                                                                 "details":  {
+                                                                                                                                                 "services":  [
+
+                                                                                                                                                              ]
+                                                                                                                                             },
+                                                                                                                                 "status":  "UP"
+                                                                                                                             },
+                                                                                        "Spring Cloud Eureka Reactive Discovery Client":  {
+                                                                                                                                              "details":  {
+                                                                                                                                                              "services":  [
+                                                                                                                                                                               "cliente-service",
+                                                                                                                                                                               "producto-service",
+                                                                                                                                                                               "pedido-service",
+                                                                                                                                                                               "categoria-service",
+                                                                                                                                                                               "gateway-service"
+                                                                                                                                                                           ]
+                                                                                                                                                          },
+                                                                                                                                              "status":  "UP"
+                                                                                                                                          }
+                                                                                    },
+                                                                     "status":  "UP"
+                                                                 },
+                                    "readinessState":  {
+                                                           "status":  "UP"
+                                                       },
+                                    "refreshScope":  {
+                                                         "status":  "UP"
+                                                     },
+                                    "ssl":  {
+                                                "details":  {
+                                                                "expiringChains":  [
+
+                                                                                   ],
+                                                                "invalidChains":  [
+
+                                                                                  ],
+                                                                "validChains":  [
+
+                                                                                ]
+                                                            },
+                                                "status":  "UP"
+                                            }
+                                },
+                 "groups":  [
+                                "liveness",
+                                "readiness"
+                            ],
+                 "status":  "UP"
+             }
+}

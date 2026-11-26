@@ -1,0 +1,99 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8888/actuator",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:48.2965844-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "_links":  {
+                                "self":  {
+                                             "href":  "http://localhost:8888/actuator",
+                                             "templated":  false
+                                         },
+                                "beans":  {
+                                              "href":  "http://localhost:8888/actuator/beans",
+                                              "templated":  false
+                                          },
+                                "conditions":  {
+                                                   "href":  "http://localhost:8888/actuator/conditions",
+                                                   "templated":  false
+                                               },
+                                "configprops":  {
+                                                    "href":  "http://localhost:8888/actuator/configprops",
+                                                    "templated":  false
+                                                },
+                                "configprops-prefix":  {
+                                                           "href":  "http://localhost:8888/actuator/configprops/{prefix}",
+                                                           "templated":  true
+                                                       },
+                                "env":  {
+                                            "href":  "http://localhost:8888/actuator/env",
+                                            "templated":  false
+                                        },
+                                "env-toMatch":  {
+                                                    "href":  "http://localhost:8888/actuator/env/{toMatch}",
+                                                    "templated":  true
+                                                },
+                                "info":  {
+                                             "href":  "http://localhost:8888/actuator/info",
+                                             "templated":  false
+                                         },
+                                "loggers":  {
+                                                "href":  "http://localhost:8888/actuator/loggers",
+                                                "templated":  false
+                                            },
+                                "loggers-name":  {
+                                                     "href":  "http://localhost:8888/actuator/loggers/{name}",
+                                                     "templated":  true
+                                                 },
+                                "threaddump":  {
+                                                   "href":  "http://localhost:8888/actuator/threaddump",
+                                                   "templated":  false
+                                               },
+                                "sbom":  {
+                                             "href":  "http://localhost:8888/actuator/sbom",
+                                             "templated":  false
+                                         },
+                                "sbom-id":  {
+                                                "href":  "http://localhost:8888/actuator/sbom/{id}",
+                                                "templated":  true
+                                            },
+                                "scheduledtasks":  {
+                                                       "href":  "http://localhost:8888/actuator/scheduledtasks",
+                                                       "templated":  false
+                                                   },
+                                "mappings":  {
+                                                 "href":  "http://localhost:8888/actuator/mappings",
+                                                 "templated":  false
+                                             },
+                                "health-path":  {
+                                                    "href":  "http://localhost:8888/actuator/health/{*path}",
+                                                    "templated":  true
+                                                },
+                                "health":  {
+                                               "href":  "http://localhost:8888/actuator/health",
+                                               "templated":  false
+                                           },
+                                "prometheus":  {
+                                                   "href":  "http://localhost:8888/actuator/prometheus",
+                                                   "templated":  false
+                                               },
+                                "metrics-requiredMetricName":  {
+                                                                   "href":  "http://localhost:8888/actuator/metrics/{requiredMetricName}",
+                                                                   "templated":  true
+                                                               },
+                                "metrics":  {
+                                                "href":  "http://localhost:8888/actuator/metrics",
+                                                "templated":  false
+                                            },
+                                "refresh":  {
+                                                "href":  "http://localhost:8888/actuator/refresh",
+                                                "templated":  false
+                                            },
+                                "features":  {
+                                                 "href":  "http://localhost:8888/actuator/features",
+                                                 "templated":  false
+                                             }
+                            }
+             }
+}

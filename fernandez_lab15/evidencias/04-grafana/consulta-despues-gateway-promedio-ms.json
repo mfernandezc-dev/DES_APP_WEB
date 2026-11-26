@@ -1,0 +1,48 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {
+        "metric": {
+          "job": "gateway-service",
+          "routeId": "categoria-service"
+        },
+        "value": [
+          1795679243.617,
+          "10.228559999999996"
+        ]
+      },
+      {
+        "metric": {
+          "job": "gateway-service",
+          "routeId": "cliente-service"
+        },
+        "value": [
+          1795679243.617,
+          "12.113059999999997"
+        ]
+      },
+      {
+        "metric": {
+          "job": "gateway-service",
+          "routeId": "pedido-service"
+        },
+        "value": [
+          1795679243.617,
+          "14.184779999999996"
+        ]
+      },
+      {
+        "metric": {
+          "job": "gateway-service",
+          "routeId": "producto-service"
+        },
+        "value": [
+          1795679243.617,
+          "28.21049"
+        ]
+      }
+    ]
+  }
+}

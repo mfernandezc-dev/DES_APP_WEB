@@ -1,0 +1,32 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/metrics/resilience4j.circuitbreaker.buffered.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:05:57.2560389-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "failed",
+                                                          "successful"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "categoriaService"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The number of buffered failed calls stored in the ring buffer",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  5.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.buffered.calls"
+             }
+}

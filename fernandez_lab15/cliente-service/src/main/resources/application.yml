@@ -1,0 +1,51 @@
+
+spring:
+  application:
+    name: cliente-service
+
+  profiles:
+    active: dev
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  sql:
+    init:
+      mode: never
+
+server:
+  address: 127.0.0.1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    openfeign:
+      client:
+        config:
+          pedido-service:
+            connectTimeout: 1000
+            # Presupuesto: Retry cliente (~10s) + espera de producto (hasta 15s).
+            readTimeout: 30000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true

@@ -1,0 +1,59 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8083/actuator/circuitbreakerevents",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:56.8188565-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "circuitBreakerEvents":  [
+                                              {
+                                                  "circuitBreakerName":  "categoriaService",
+                                                  "creationTime":  "2026-11-25T21:39:54.558148600-05:00[America/Lima]",
+                                                  "durationInMs":  151,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "categoriaService",
+                                                  "creationTime":  "2026-11-25T21:39:54.568128-05:00[America/Lima]",
+                                                  "durationInMs":  7,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "categoriaService",
+                                                  "creationTime":  "2026-11-25T21:39:54.610495400-05:00[America/Lima]",
+                                                  "durationInMs":  6,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "categoriaService",
+                                                  "creationTime":  "2026-11-25T21:39:54.618674300-05:00[America/Lima]",
+                                                  "durationInMs":  8,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "categoriaService",
+                                                  "creationTime":  "2026-11-25T21:39:55.589443700-05:00[America/Lima]",
+                                                  "durationInMs":  10,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              },
+                                              {
+                                                  "circuitBreakerName":  "categoriaService",
+                                                  "creationTime":  "2026-11-25T21:39:55.809492500-05:00[America/Lima]",
+                                                  "durationInMs":  6,
+                                                  "errorMessage":  null,
+                                                  "stateTransition":  null,
+                                                  "type":  "SUCCESS"
+                                              }
+                                          ]
+             }
+}

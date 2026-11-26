@@ -1,0 +1,28 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8085/actuator/metrics/resilience4j.circuitbreaker.calls?tag=name:productoService\u0026tag=kind:failed",
+    "Status":  200,
+    "Body":  {
+                 "availableTags":  [
+
+                                   ],
+                 "baseUnit":  "seconds",
+                 "description":  "Total number of failed calls",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "COUNT",
+                                          "value":  0.0
+                                      },
+                                      {
+                                          "statistic":  "TOTAL_TIME",
+                                          "value":  0.0
+                                      },
+                                      {
+                                          "statistic":  "MAX",
+                                          "value":  0.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.calls"
+             },
+    "Timestamp":  "2026-11-25T21:16:44.2893466-05:00"
+}

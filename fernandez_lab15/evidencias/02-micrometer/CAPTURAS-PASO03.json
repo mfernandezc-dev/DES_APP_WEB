@@ -1,0 +1,202 @@
+{
+  "method": "Chrome real + CDP por pipe + PrintWindow, ventana con URL",
+  "captures": [
+    {
+      "file": "01-producto-prometheus.png",
+      "url": "http://localhost:8083/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:31.201Z",
+      "bytes": 96186,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 835.109375,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 835.125,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "02-categoria-prometheus.png",
+      "url": "http://localhost:8082/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:34.094Z",
+      "bytes": 96001,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 842.265625,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 842.265625,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "03-cliente-prometheus.png",
+      "url": "http://localhost:8084/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:37.016Z",
+      "bytes": 96133,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 827.96875,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 827.96875,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "04-pedido-prometheus.png",
+      "url": "http://localhost:8085/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:39.951Z",
+      "bytes": 96022,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 820.8125,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 820.828125,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "05-config-server-prometheus.png",
+      "url": "http://localhost:8888/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:42.839Z",
+      "bytes": 113937,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 813.671875,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 813.671875,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "06-eureka-prometheus.png",
+      "url": "http://localhost:8761/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:45.730Z",
+      "bytes": 111647,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 813.671875,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 813.671875,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "07-gateway-prometheus.png",
+      "url": "http://localhost:8080/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:48.645Z",
+      "bytes": 133826,
+      "redactions": [
+        {
+          "x": 127.359375,
+          "y": 218,
+          "width": 827.96875,
+          "height": 19,
+          "label": "path"
+        },
+        {
+          "x": 134.5,
+          "y": 263,
+          "width": 827.96875,
+          "height": 19,
+          "label": "path"
+        }
+      ],
+      "focus": null
+    },
+    {
+      "file": "08-metricas-jvm.png",
+      "url": "http://localhost:8083/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:51.436Z",
+      "bytes": 99616,
+      "redactions": [],
+      "focus": "jvm_memory_used_bytes{"
+    },
+    {
+      "file": "09-metricas-http.png",
+      "url": "http://localhost:8083/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:54.292Z",
+      "bytes": 169450,
+      "redactions": [],
+      "focus": "http_server_requests_seconds_count{"
+    },
+    {
+      "file": "10-metricas-resilience4j.png",
+      "url": "http://localhost:8083/actuator/prometheus",
+      "status": 200,
+      "timestamp": "2026-11-26T02:40:57.135Z",
+      "bytes": 122609,
+      "redactions": [],
+      "focus": "resilience4j_circuitbreaker_calls_seconds_count{"
+    }
+  ],
+  "error": null,
+  "browser": "Chrome/158.0.8127.37"
+}

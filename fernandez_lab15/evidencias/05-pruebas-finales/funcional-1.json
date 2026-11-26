@@ -1,0 +1,17 @@
+{
+  "URL": "http://localhost:8080/api/categorias",
+  "Http": 200,
+  "Redacted": true,
+  "Body": [
+    {
+      "id": 1,
+      "nombre": "[REDACTADO]",
+      "estado": "ACTIVO"
+    },
+    {
+      "id": 2,
+      "nombre": "[REDACTADO]",
+      "estado": "ACTIVO"
+    }
+  ]
+}

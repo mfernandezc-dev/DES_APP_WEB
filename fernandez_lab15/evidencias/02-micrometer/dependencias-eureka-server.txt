@@ -1,0 +1,13 @@
+com.tecsup:eureka-server:jar:0.0.1-SNAPSHOT
++- org.springframework.boot:spring-boot-starter-actuator:jar:4.1.2:compile
+|  +- io.micrometer:micrometer-observation:jar:1.17.2:compile
+|  |  \- io.micrometer:micrometer-commons:jar:1.17.2:compile
+|  \- io.micrometer:micrometer-jakarta9:jar:1.17.2:compile
+\- io.micrometer:micrometer-registry-prometheus:jar:1.17.2:compile
+   +- io.micrometer:micrometer-core:jar:1.17.2:compile
+   +- io.prometheus:prometheus-metrics-core:jar:1.7.0:compile
+   |  +- io.prometheus:prometheus-metrics-model:jar:1.7.0:compile
+   |  \- io.prometheus:prometheus-metrics-config:jar:1.7.0:compile
+   +- io.prometheus:prometheus-metrics-tracer-common:jar:1.7.0:compile
+   \- io.prometheus:prometheus-metrics-exposition-formats:jar:1.7.0:runtime
+      \- io.prometheus:prometheus-metrics-exposition-textformats:jar:1.7.0:runtime

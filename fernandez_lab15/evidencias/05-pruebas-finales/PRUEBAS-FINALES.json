@@ -1,0 +1,738 @@
+{
+  "Step": "06",
+  "Timestamp": "2026-11-26T08:33:59.327Z",
+  "Methods": [
+    "GET"
+  ],
+  "Completed": true,
+  "Actuator": [
+    {
+      "Service": "config-server",
+      "URL": "http://localhost:8888/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "config-server",
+      "URL": "http://localhost:8888/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "config-server",
+      "URL": "http://localhost:8888/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "eureka-server",
+      "URL": "http://localhost:8761/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "eureka-server",
+      "URL": "http://localhost:8761/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "eureka-server",
+      "URL": "http://localhost:8761/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "gateway-service",
+      "URL": "http://localhost:8080/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "gateway-service",
+      "URL": "http://localhost:8080/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "gateway-service",
+      "URL": "http://localhost:8080/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "categoria-service",
+      "URL": "http://localhost:8082/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "categoria-service",
+      "URL": "http://localhost:8082/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "categoria-service",
+      "URL": "http://localhost:8082/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "producto-service",
+      "URL": "http://localhost:8083/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "producto-service",
+      "URL": "http://localhost:8083/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "producto-service",
+      "URL": "http://localhost:8083/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "cliente-service",
+      "URL": "http://localhost:8084/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "cliente-service",
+      "URL": "http://localhost:8084/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "cliente-service",
+      "URL": "http://localhost:8084/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "pedido-service",
+      "URL": "http://localhost:8085/actuator",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    },
+    {
+      "Service": "pedido-service",
+      "URL": "http://localhost:8085/actuator/health",
+      "Http": 200,
+      "Health": "UP",
+      "Valid": true
+    },
+    {
+      "Service": "pedido-service",
+      "URL": "http://localhost:8085/actuator/metrics",
+      "Http": 200,
+      "Health": null,
+      "Valid": true
+    }
+  ],
+  "PrometheusEndpoints": [
+    {
+      "Service": "config-server",
+      "URL": "http://localhost:8888/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    },
+    {
+      "Service": "eureka-server",
+      "URL": "http://localhost:8761/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    },
+    {
+      "Service": "gateway-service",
+      "URL": "http://localhost:8080/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    },
+    {
+      "Service": "categoria-service",
+      "URL": "http://localhost:8082/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    },
+    {
+      "Service": "producto-service",
+      "URL": "http://localhost:8083/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    },
+    {
+      "Service": "cliente-service",
+      "URL": "http://localhost:8084/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    },
+    {
+      "Service": "pedido-service",
+      "URL": "http://localhost:8085/actuator/prometheus",
+      "Http": 200,
+      "ContentType": "text/plain;version=0.0.4;charset=utf-8",
+      "Valid": true
+    }
+  ],
+  "Functional": [
+    {
+      "URL": "http://localhost:8080/api/categorias",
+      "Http": 200,
+      "Items": 2,
+      "UnexpectedFallback": false,
+      "Valid": true
+    },
+    {
+      "URL": "http://localhost:8080/api/productos",
+      "Http": 200,
+      "Items": 2,
+      "UnexpectedFallback": false,
+      "Valid": true
+    },
+    {
+      "URL": "http://localhost:8080/api/clientes",
+      "Http": 200,
+      "Items": 1,
+      "UnexpectedFallback": false,
+      "Valid": true
+    },
+    {
+      "URL": "http://localhost:8080/api/pedidos",
+      "Http": 200,
+      "Items": 1,
+      "UnexpectedFallback": false,
+      "Valid": true
+    },
+    {
+      "URL": "http://localhost:8085/api/pedidos?detallado=true",
+      "Http": 200,
+      "Items": 1,
+      "UnexpectedFallback": false,
+      "Valid": true
+    },
+    {
+      "URL": "http://localhost:8084/api/clientes/pedidos/1",
+      "Http": 200,
+      "Items": null,
+      "UnexpectedFallback": false,
+      "Valid": true
+    }
+  ],
+  "AdministrativeProxy": [
+    {
+      "URL": "http://localhost:8080/config-server/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    },
+    {
+      "URL": "http://localhost:8080/eureka-server/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    },
+    {
+      "URL": "http://localhost:8080/gateway-service/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    },
+    {
+      "URL": "http://localhost:8080/categoria-service/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    },
+    {
+      "URL": "http://localhost:8080/producto-service/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    },
+    {
+      "URL": "http://localhost:8080/cliente-service/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    },
+    {
+      "URL": "http://localhost:8080/pedido-service/actuator/prometheus",
+      "Http": 404,
+      "Blocked": true
+    }
+  ],
+  "Protections": [
+    {
+      "Service": "categoria-service",
+      "Property": "spring.jpa.hibernate.ddl-auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "categoria-service",
+      "Property": "spring.jpa.properties.hibernate.hbm2ddl.auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "categoria-service",
+      "Property": "spring.datasource.hikari.read-only",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "categoria-service",
+      "Property": "spring.datasource.hikari.connection-init-sql",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "producto-service",
+      "Property": "spring.jpa.hibernate.ddl-auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "producto-service",
+      "Property": "spring.jpa.properties.hibernate.hbm2ddl.auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "producto-service",
+      "Property": "spring.datasource.hikari.read-only",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "producto-service",
+      "Property": "spring.datasource.hikari.connection-init-sql",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "cliente-service",
+      "Property": "spring.jpa.hibernate.ddl-auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "cliente-service",
+      "Property": "spring.jpa.properties.hibernate.hbm2ddl.auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "cliente-service",
+      "Property": "spring.datasource.hikari.read-only",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "cliente-service",
+      "Property": "spring.datasource.hikari.connection-init-sql",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "pedido-service",
+      "Property": "spring.jpa.hibernate.ddl-auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "pedido-service",
+      "Property": "spring.jpa.properties.hibernate.hbm2ddl.auto",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "pedido-service",
+      "Property": "spring.datasource.hikari.read-only",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    },
+    {
+      "Service": "pedido-service",
+      "Property": "spring.datasource.hikari.connection-init-sql",
+      "Http": 200,
+      "Source": "commandLineArgs",
+      "ValuesHidden": true,
+      "StartupActualContextValid": true
+    }
+  ],
+  "MetricQueries": [
+    {
+      "Expression": "sum by (job) (jvm_memory_used_bytes)",
+      "Http": 200,
+      "Series": 7,
+      "Jobs": [
+        "eureka-server",
+        "gateway-service",
+        "cliente-service",
+        "producto-service",
+        "categoria-service",
+        "config-server",
+        "pedido-service"
+      ]
+    },
+    {
+      "Expression": "process_cpu_usage",
+      "Http": 200,
+      "Series": 7,
+      "Jobs": [
+        "eureka-server",
+        "gateway-service",
+        "cliente-service",
+        "producto-service",
+        "categoria-service",
+        "config-server",
+        "pedido-service"
+      ]
+    },
+    {
+      "Expression": "http_server_requests_seconds_count",
+      "Http": 200,
+      "Series": 81,
+      "Jobs": [
+        "eureka-server",
+        "gateway-service",
+        "cliente-service",
+        "producto-service",
+        "categoria-service",
+        "config-server",
+        "pedido-service"
+      ]
+    },
+    {
+      "Expression": "hikaricp_connections_active",
+      "Http": 200,
+      "Series": 4,
+      "Jobs": [
+        "cliente-service",
+        "producto-service",
+        "categoria-service",
+        "pedido-service"
+      ]
+    },
+    {
+      "Expression": "resilience4j_circuitbreaker_calls_seconds_count",
+      "Http": 200,
+      "Series": 9,
+      "Jobs": [
+        "cliente-service",
+        "producto-service",
+        "pedido-service"
+      ]
+    }
+  ],
+  "Eureka": {
+    "Http": 200,
+    "Applications": [
+      {
+        "Name": "CLIENTE-SERVICE",
+        "Status": "UP",
+        "IP": "127.0.0.1"
+      },
+      {
+        "Name": "PRODUCTO-SERVICE",
+        "Status": "UP",
+        "IP": "127.0.0.1"
+      },
+      {
+        "Name": "PEDIDO-SERVICE",
+        "Status": "UP",
+        "IP": "127.0.0.1"
+      },
+      {
+        "Name": "GATEWAY-SERVICE",
+        "Status": "UP",
+        "IP": "127.0.0.1"
+      },
+      {
+        "Name": "CATEGORIA-SERVICE",
+        "Status": "UP",
+        "IP": "127.0.0.1"
+      }
+    ]
+  },
+  "PrometheusHealth": {
+    "Http": 200
+  },
+  "PrometheusReady": {
+    "Http": 200
+  },
+  "Targets": {
+    "Count": 7,
+    "UP": 7,
+    "DOWN": 0,
+    "NoErrors": true
+  },
+  "GrafanaHealth": {
+    "http": 200,
+    "body": {
+      "database": "ok",
+      "version": "13.3.2",
+      "commit": "bd754986872f554d30a147ebd605a7fe15881a28"
+    }
+  },
+  "DatasourceHealth": {
+    "http": 200,
+    "body": {
+      "details": {
+        "application": "Prometheus",
+        "features": {
+          "rulerApiEnabled": false
+        }
+      },
+      "message": "Successfully queried the Prometheus API.",
+      "status": "OK"
+    }
+  },
+  "Datasource": {
+    "UID": "prometheus-lab15",
+    "URL": "http://127.0.0.1:9090",
+    "ReadOnly": true,
+    "Default": true,
+    "Interval": "5s"
+  },
+  "Dashboard": {
+    "UID": "lab15-observabilidad",
+    "Panels": 18,
+    "DataPanels": 17,
+    "Provisioned": true,
+    "Refresh": "5s"
+  },
+  "GrafanaUp": {
+    "http": 200,
+    "body": {
+      "status": "success",
+      "data": {
+        "resultType": "vector",
+        "result": [
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8761",
+              "job": "eureka-server"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          },
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8080",
+              "job": "gateway-service"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          },
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8084",
+              "job": "cliente-service"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          },
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8083",
+              "job": "producto-service"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          },
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8082",
+              "job": "categoria-service"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          },
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8888",
+              "job": "config-server"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          },
+          {
+            "metric": {
+              "__name__": "up",
+              "instance": "127.0.0.1:8085",
+              "job": "pedido-service"
+            },
+            "value": [
+              1795682042.383,
+              "1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "Filter": {
+    "Selected": "producto-service",
+    "Jobs": [
+      "producto-service"
+    ]
+  },
+  "Processes": [
+    {
+      "Name": "config-server",
+      "PID": 26512,
+      "Port": 8888,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "eureka-server",
+      "PID": 19156,
+      "Port": 8761,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "categoria-service",
+      "PID": 12236,
+      "Port": 8082,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "producto-service",
+      "PID": 25256,
+      "Port": 8083,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "cliente-service",
+      "PID": 3672,
+      "Port": 8084,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "pedido-service",
+      "PID": 11016,
+      "Port": 8085,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "gateway-service",
+      "PID": 2604,
+      "Port": 8080,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "prometheus",
+      "PID": 10868,
+      "Port": 9090,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    },
+    {
+      "Name": "grafana",
+      "PID": 27568,
+      "Port": 3000,
+      "Identity": true,
+      "Instances": 1,
+      "LocalhostOnly": true,
+      "ArtifactUnchanged": true
+    }
+  ]
+}

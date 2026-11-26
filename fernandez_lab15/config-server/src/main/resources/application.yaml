@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mfernandezc-dev/config-repo
+          # Lab 15: referencia inmutable; no modifica config-repo ni Lab 14.
+          default-label: 39a22fc2d854d3549ce77cbb347cd20101b0d13f
+          clone-on-start: true
+
+server:
+  port: 8888
+  address: 127.0.0.1
+
+# Exposicion completa solo para el laboratorio local.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true

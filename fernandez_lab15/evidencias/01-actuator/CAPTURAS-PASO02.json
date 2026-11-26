@@ -1,0 +1,133 @@
+{
+  "method": "Chrome real + CDP por pipe + PrintWindow, ventana con URL",
+  "captures": [
+    {
+      "file": "01-producto-actuator.png",
+      "url": "http://localhost:8083/actuator",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:04.719Z",
+      "bytes": 128780
+    },
+    {
+      "file": "02-producto-health.png",
+      "url": "http://localhost:8083/actuator/health",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:06.550Z",
+      "bytes": 50221
+    },
+    {
+      "file": "03-producto-metrics.png",
+      "url": "http://localhost:8083/actuator/metrics",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:08.318Z",
+      "bytes": 59885
+    },
+    {
+      "file": "04-categoria-actuator.png",
+      "url": "http://localhost:8082/actuator",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:10.108Z",
+      "bytes": 66559
+    },
+    {
+      "file": "05-categoria-health.png",
+      "url": "http://localhost:8082/actuator/health",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:11.902Z",
+      "bytes": 49876
+    },
+    {
+      "file": "06-categoria-metrics.png",
+      "url": "http://localhost:8082/actuator/metrics",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:13.666Z",
+      "bytes": 51376
+    },
+    {
+      "file": "07-cliente-actuator.png",
+      "url": "http://localhost:8084/actuator",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:15.455Z",
+      "bytes": 129937
+    },
+    {
+      "file": "08-cliente-health.png",
+      "url": "http://localhost:8084/actuator/health",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:17.295Z",
+      "bytes": 50771
+    },
+    {
+      "file": "09-cliente-metrics.png",
+      "url": "http://localhost:8084/actuator/metrics",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:19.105Z",
+      "bytes": 57516
+    },
+    {
+      "file": "10-pedido-actuator.png",
+      "url": "http://localhost:8085/actuator",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:20.857Z",
+      "bytes": 129156
+    },
+    {
+      "file": "11-pedido-health.png",
+      "url": "http://localhost:8085/actuator/health",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:22.668Z",
+      "bytes": 50471
+    },
+    {
+      "file": "12-pedido-metrics.png",
+      "url": "http://localhost:8085/actuator/metrics",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:24.452Z",
+      "bytes": 60968
+    },
+    {
+      "file": "13-eureka-servicios.png",
+      "url": "http://localhost:8761/",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:26.416Z",
+      "bytes": 85581
+    },
+    {
+      "file": "14-gateway-actuator.png",
+      "url": "http://localhost:8080/actuator",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:28.203Z",
+      "bytes": 67103
+    },
+    {
+      "file": "15-config-server-health.png",
+      "url": "http://localhost:8888/actuator/health",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:31.441Z",
+      "bytes": 42500
+    },
+    {
+      "file": "16-gateway-pruebas.png",
+      "url": "http://localhost:8080/api/categorias",
+      "status": 200,
+      "timestamp": "2026-11-26T02:05:33.585Z",
+      "bytes": 21359
+    },
+    {
+      "file": "17-metrica-http-requests.png",
+      "url": "http://localhost:8083/actuator/metrics/http.server.requests",
+      "status": 200,
+      "timestamp": "2026-11-26T02:11:10.048Z",
+      "bytes": 37152
+    },
+    {
+      "file": "18-metrica-jvm-memory.png",
+      "url": "http://localhost:8083/actuator/metrics/jvm.memory.used",
+      "status": 200,
+      "timestamp": "2026-11-26T02:11:12.697Z",
+      "bytes": 29410
+    }
+  ],
+  "error": null,
+  "browser": "Chrome/158.0.8127.37"
+}

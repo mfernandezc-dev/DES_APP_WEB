@@ -1,0 +1,1314 @@
+﻿{
+    "Timestamp":  "2026-11-26T03:28:31.9905247-05:00",
+    "ReportedTotal":  59,
+    "ActualTotal":  59,
+    "Counts":  [
+                   {
+                       "Directory":  "evidencias/01-actuator",
+                       "Expected":  18,
+                       "Actual":  18
+                   },
+                   {
+                       "Directory":  "evidencias/02-micrometer",
+                       "Expected":  10,
+                       "Actual":  10
+                   },
+                   {
+                       "Directory":  "evidencias/03-prometheus",
+                       "Expected":  17,
+                       "Actual":  17
+                   },
+                   {
+                       "Directory":  "evidencias/04-grafana",
+                       "Expected":  14,
+                       "Actual":  14
+                   }
+               ],
+    "AllTechnicalChecksPassed":  true,
+    "Captures":  [
+                     {
+                         "File":  "evidencias/01-actuator/01-producto-actuator.png",
+                         "SHA256":  "44D9CBFD198A13A77E1DF7A8F0174A5B409639E2E8B1089EF210E322A4F2E80B",
+                         "Bytes":  128780,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  80,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator",
+                         "Timestamp":  "2026-11-26T02:05:04.719Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/02-producto-health.png",
+                         "SHA256":  "24AF85CF268175854C62C2915ECB0411E6849518ACA523E2D82A181AD027165C",
+                         "Bytes":  50221,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  76,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/health",
+                         "Timestamp":  "2026-11-26T02:05:06.550Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/03-producto-metrics.png",
+                         "SHA256":  "9C8669A05F0A0E7F3868AC5C59E07A9F2E8BDDB903170DCA935FC5FCA267451A",
+                         "Bytes":  59885,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  78,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/metrics",
+                         "Timestamp":  "2026-11-26T02:05:08.318Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/04-categoria-actuator.png",
+                         "SHA256":  "2D324FDDF8A7B0625585CEB116A12F25E0BE57B9FDA16428DEE37A05825E2A7A",
+                         "Bytes":  66559,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  74,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8082/actuator",
+                         "Timestamp":  "2026-11-26T02:05:10.108Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/05-categoria-health.png",
+                         "SHA256":  "F1720C217DF0A7176FA663A1FF331D9E4AD818A299100602E13F4EE0E2C2A463",
+                         "Bytes":  49876,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  75,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8082/actuator/health",
+                         "Timestamp":  "2026-11-26T02:05:11.902Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/06-categoria-metrics.png",
+                         "SHA256":  "FE2C94F4E6EE020E597B3CB908A53FFE757BF31D6E54C04137E2CCC579C8C887",
+                         "Bytes":  51376,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  75,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8082/actuator/metrics",
+                         "Timestamp":  "2026-11-26T02:05:13.666Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/07-cliente-actuator.png",
+                         "SHA256":  "952860ED332C6FA67E67D3B720C6069DA20D261B6C61974F1C407AA3B3A3C016",
+                         "Bytes":  129937,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  80,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8084/actuator",
+                         "Timestamp":  "2026-11-26T02:05:15.455Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/08-cliente-health.png",
+                         "SHA256":  "87FC6891C787768F4A3014AB7E7637AB6FC41EAC4ED3DA1B56BEF1106A5EB6B1",
+                         "Bytes":  50771,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  76,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8084/actuator/health",
+                         "Timestamp":  "2026-11-26T02:05:17.295Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/09-cliente-metrics.png",
+                         "SHA256":  "5A071E0A347623A127B0C6352F5E231DF186348196F330F2920DDBE40F035F85",
+                         "Bytes":  57516,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  75,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8084/actuator/metrics",
+                         "Timestamp":  "2026-11-26T02:05:19.105Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/10-pedido-actuator.png",
+                         "SHA256":  "6D087C3693A6A307007702CA0A88D753FDBE2CDE5708746A99B4AB0212F46685",
+                         "Bytes":  129156,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  79,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8085/actuator",
+                         "Timestamp":  "2026-11-26T02:05:20.857Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/11-pedido-health.png",
+                         "SHA256":  "1335BDD2A10B6ABD24F5CC3D2D59CB826F278D02094A1602479773EBA8799A7F",
+                         "Bytes":  50471,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  75,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8085/actuator/health",
+                         "Timestamp":  "2026-11-26T02:05:22.668Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/12-pedido-metrics.png",
+                         "SHA256":  "23C4F89E1E01F91E9D43FBE1DC6C0B4FECE3D2AEF7096804F33AC187BA3A2397",
+                         "Bytes":  60968,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  80,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8085/actuator/metrics",
+                         "Timestamp":  "2026-11-26T02:05:24.452Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/13-eureka-servicios.png",
+                         "SHA256":  "92F853D232A9DDBC537437EA39102CFCFD5D7BF31FC1D00E3AD40AB56A3A3DF7",
+                         "Bytes":  85581,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  304,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8761/",
+                         "Timestamp":  "2026-11-26T02:05:26.416Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/14-gateway-actuator.png",
+                         "SHA256":  "3BAAAC4C0153CD20B27B1E376733C769DAC53F2487F8D0D3C99836196B63CCC9",
+                         "Bytes":  67103,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  75,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8080/actuator",
+                         "Timestamp":  "2026-11-26T02:05:28.203Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/15-config-server-health.png",
+                         "SHA256":  "5BAD73304911E4BE9A229E1CEBC064E28036A011DEB57F95A70C22E4AA5F9688",
+                         "Bytes":  42500,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  72,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8888/actuator/health",
+                         "Timestamp":  "2026-11-26T02:05:31.441Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/16-gateway-pruebas.png",
+                         "SHA256":  "0403FD703F9FE05E3AEF31FDD08F86AEAAE43B304EC2F95322A2A765F3CD8561",
+                         "Bytes":  21359,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  58,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8080/api/categorias",
+                         "Timestamp":  "2026-11-26T02:05:33.585Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/17-metrica-http-requests.png",
+                         "SHA256":  "F9BD5E7FB1E393D5E54A09A5E5D81EE6CA4687EA397F0F644D405CACC3EA47B1",
+                         "Bytes":  37152,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  70,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/metrics/http.server.requests",
+                         "Timestamp":  "2026-11-26T02:11:10.048Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/01-actuator/18-metrica-jvm-memory.png",
+                         "SHA256":  "5230884B0E1E983B9919E259511BEB1319FD24CD08E197840A6BBABF8EBA5717",
+                         "Bytes":  29410,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  65,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/metrics/jvm.memory.used",
+                         "Timestamp":  "2026-11-26T02:11:12.697Z",
+                         "Redactions":  [
+                                            null
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/01-producto-prometheus.png",
+                         "SHA256":  "C313BDB92A853961F88B920DFA16C81ECEB7DC84CF0BD5712D1A308BF333A597",
+                         "Bytes":  96186,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  79,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:31.201Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  835.109375,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  835.125,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/02-categoria-prometheus.png",
+                         "SHA256":  "64B1E7D2DF7DF427358EED8644C300F101FDDD7BF4F4D1443EBBB471322C33A7",
+                         "Bytes":  96001,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  79,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8082/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:34.094Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  842.265625,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  842.265625,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/03-cliente-prometheus.png",
+                         "SHA256":  "D249D6FAA240783F25477DA440AFD44F6A5783816C45579C5F64613260850F78",
+                         "Bytes":  96133,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  79,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8084/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:37.016Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  827.96875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  827.96875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/04-pedido-prometheus.png",
+                         "SHA256":  "3F9E0389E625D21A9981134DE38657C1C8A5A445DDD7F1A77B6BF41D6A5F098E",
+                         "Bytes":  96022,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  79,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8085/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:39.951Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  820.8125,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  820.828125,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/05-config-server-prometheus.png",
+                         "SHA256":  "6F1D6A9C46B2865D45DC51C2ADD6E48476E0A0982D835A09BD1FBC0BF7582E24",
+                         "Bytes":  113937,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  82,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8888/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:42.839Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  813.671875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  813.671875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/06-eureka-prometheus.png",
+                         "SHA256":  "1DEEEA1F8F10D0ADDB2E2F354F945D8F9CE328E4D5EB65812A5504C203F895AE",
+                         "Bytes":  111647,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  83,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8761/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:45.730Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  813.671875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  813.671875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/07-gateway-prometheus.png",
+                         "SHA256":  "900C2F15FFB49D7EA895B2AFF2207471525FC3F1769285D6089BED3FD2D7693D",
+                         "Bytes":  133826,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  87,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8080/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:48.645Z",
+                         "Redactions":  [
+                                            {
+                                                "x":  127.359375,
+                                                "y":  218,
+                                                "width":  827.96875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            },
+                                            {
+                                                "x":  134.5,
+                                                "y":  263,
+                                                "width":  827.96875,
+                                                "height":  19,
+                                                "label":  "path"
+                                            }
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/08-metricas-jvm.png",
+                         "SHA256":  "80060BBAEE51E3758C1E44FD7A9C281E4844C9B7A4BCCCFA37FAB96A27EA9D04",
+                         "Bytes":  99616,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  68,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:51.436Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/09-metricas-http.png",
+                         "SHA256":  "8F38125E230AF59659BB8D95A849B2B7F1907D4822B4D478861834D8BC510070",
+                         "Bytes":  169450,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  67,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:54.292Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/02-micrometer/10-metricas-resilience4j.png",
+                         "SHA256":  "A2F038D838150F8D9396F0B54230D6457ED2A719E7711FF18BA0A48C9697AA66",
+                         "Bytes":  122609,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  69,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:8083/actuator/prometheus",
+                         "Timestamp":  "2026-11-26T02:40:57.135Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/01-descarga-prometheus.png",
+                         "SHA256":  "7F9F8F152C7A7C5D1F1074C13D456151F0D6EBC8D7F877715519B7922C35CDF0",
+                         "Bytes":  105000,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  215,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "https://prometheus.io/download/",
+                         "Timestamp":  "2026-11-26T03:13:48.387Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/02-version-prometheus.png",
+                         "SHA256":  "3CB42ACDCE3441CD1312D4EA78881F6A2DD38EE8A02BA816931D6BF6930A8A96",
+                         "Bytes":  28209,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  57,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/prometheus-version.txt",
+                         "Timestamp":  "2026-11-26T03:07:35.627Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/03-configuracion-prometheus.png",
+                         "SHA256":  "5F5ED1D78317493BF1FC2C28E83635B4C28B43B0F0B508FAB7C05D5B7FF573DC",
+                         "Bytes":  45177,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  56,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/prometheus-configuracion.txt",
+                         "Timestamp":  "2026-11-26T03:07:38.335Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/04-validacion-promtool.png",
+                         "SHA256":  "05184D8A12E247F10E3A634B2392233234664A7615278AD59DBE727E460B352C",
+                         "Bytes":  30498,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  58,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/03-prometheus/promtool-check-config.txt",
+                         "Timestamp":  "2026-11-26T03:07:40.996Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/05-prometheus-interfaz.png",
+                         "SHA256":  "A19648CCD52382A0C6F3790FA0911F8D9CF0E3C55D9682E1870B1BEC81C6123F",
+                         "Bytes":  33152,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  117,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query",
+                         "Timestamp":  "2026-11-26T03:07:43.881Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/06-consulta-up.png",
+                         "SHA256":  "13A6108FD7D4060EA3243F28B18D2C095271ADAE5853D4085159FBA2D1982576",
+                         "Bytes":  47494,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  135,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=up\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:07:46.844Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/07-targets-up.png",
+                         "SHA256":  "B4BF754033B0351253AB04697D4BD4A3E057D353B1E07322B5BB704F49ACBCAD",
+                         "Bytes":  60634,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  190,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/targets",
+                         "Timestamp":  "2026-11-26T03:13:52.284Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/08-total-servicios.png",
+                         "SHA256":  "BCA08F58A2DCC5537296B40652771007458AA6BEF33A0B573A8C61E9E6B20C04",
+                         "Bytes":  34600,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  102,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=count(up)\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:07:53.573Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/09-memoria-jvm.png",
+                         "SHA256":  "5672C80F7C59F023FD85082027B2CB05634BEB8D8FC7969CAC3A1511CE4927B3",
+                         "Bytes":  49161,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  143,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(jvm_memory_used_bytes)%20%2F%201024%20%2F%201024\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:07:56.574Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/10-uso-cpu.png",
+                         "SHA256":  "9BD9B58622B6FD8BDEA0ED4984442F7058139B2FD58E277012A367E9866E670B",
+                         "Bytes":  53057,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  143,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=100%20*%20process_cpu_usage\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:10:16.599Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/11-peticiones-http.png",
+                         "SHA256":  "F7E4E2B8A49E1E08B32272722A22B8134305C6EA45CDC2C0F161C7E18E09EBEB",
+                         "Bytes":  46250,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  139,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=sum%20by%20(job)%20(http_server_requests_seconds_count%7Bstatus%3D%22200%22%7D)\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:10:19.350Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/12-grafico-peticiones.png",
+                         "SHA256":  "9681308FFA93DCA088B24748CDB5DAAAC79C774C04A5A0E90E43AF9A320BE5B7",
+                         "Bytes":  66340,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  152,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=sum+by+%28job%29+%28rate%28http_server_requests_seconds_count%7Buri%3D%7E%22%2Fapi%2F.*%22%7D%5B1m%5D%29%29\u0026g0.tab=graph\u0026g0.range_input=5m\u0026g0.end_input=2026-11-26T03%3A08%3A01.084Z",
+                         "Timestamp":  "2026-11-26T03:13:58.356Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/13-conexiones-jdbc.png",
+                         "SHA256":  "6013D939C66C9FA6535BB2F5A71C25D68E4C4F966F98A006A16F3C8933DDFD32",
+                         "Bytes":  47405,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  143,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=hikaricp_connections_active\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:14:01.130Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/14-resilience4j.png",
+                         "SHA256":  "A31E05D636C66DBF75840843BA451E9706D45EB6A7AB12A09CAC0CF0AC9C620C",
+                         "Bytes":  75433,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  184,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=resilience4j_circuitbreaker_calls_seconds_count%7Bjob%3D~%22producto-service%7Ccliente-service%7Cpedido-service%22%7D\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T03:14:03.926Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/15-suma-servicios-up.png",
+                         "SHA256":  "1064AE76C1C059EA6FF5684CB11FE960F471147E63156611998B9B2A79E809E1",
+                         "Bytes":  37643,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  104,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=sum(up)\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T07:24:26.268Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/16-servicios-down.png",
+                         "SHA256":  "CDE1F515BD3829F484BB6B7D8CF294E8614C70C153D6CF67ABA02A54C0F297EB",
+                         "Bytes":  38303,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  112,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/query?g0.expr=count(up%20%3D%3D%200)%20or%20vector(0)\u0026g0.tab=table\u0026g0.range_input=5m",
+                         "Timestamp":  "2026-11-26T07:24:29.706Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/03-prometheus/17-targets-up-continuacion.png",
+                         "SHA256":  "B84B63DCC1C750FE1ABE1159D4B2E43EF9DDEB9057EBA787A3454D763802A120",
+                         "Bytes":  62600,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  192,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:9090/targets",
+                         "Timestamp":  "2026-11-26T07:26:20.012Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/01-descarga-grafana.png",
+                         "SHA256":  "A7BF9DD22338F1511E3092F5760506BC398CF55E9952B74F0CC6B00A34D4A66D",
+                         "Bytes":  105329,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  390,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "https://grafana.com/grafana/download/13.3.2?edition=oss\u0026platform=windows",
+                         "Timestamp":  "2026-11-26T07:49:11.265Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/02-version-grafana.png",
+                         "SHA256":  "A52017DECDB65D8FEE54AF2231F2B27B46D16E5007E732C5D1DEB04C8051C5EB",
+                         "Bytes":  22091,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  37,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "file:///C:/Users/USER/Desktop/4%C2%B0%20Ciclo/Desarrollo%20de%20%20App%20Web/DES_APP_WEB/fernandez_lab15/evidencias/04-grafana/grafana-version.txt",
+                         "Timestamp":  "2026-11-26T07:53:21.859Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/03-grafana-login.png",
+                         "SHA256":  "903D04A0EFF9379834A65943F52A61273EAFD8F781D93C2F95CBABD19FA0EC5D",
+                         "Bytes":  640965,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  4598,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/login",
+                         "Timestamp":  "2026-11-26T07:53:26.938Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/04-grafana-inicio.png",
+                         "SHA256":  "25396CB93DFEDA9E2CD2DB50B0139C4156E7F8FF58F5B69D1FEAC34186FF3DC0",
+                         "Bytes":  114568,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  521,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/",
+                         "Timestamp":  "2026-11-26T07:53:35.827Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/05-datasource-prometheus.png",
+                         "SHA256":  "D8F5059C4E84D0519A8C1084C811D68D6E9E87CA1A6D7981BE3E0E31AC375AEB",
+                         "Bytes":  92969,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  396,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/connections/datasources/edit/prometheus-lab15",
+                         "Timestamp":  "2026-11-26T07:53:41.681Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/06-conexion-prometheus-correcta.png",
+                         "SHA256":  "7BC155539C620580271F203F3E340E7F5764AFF255891B15555715FE802AC2DC",
+                         "Bytes":  23566,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  65,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/api/datasources/uid/prometheus-lab15/health",
+                         "Timestamp":  "2026-11-26T07:53:45.924Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/07-explore-consulta-up.png",
+                         "SHA256":  "7522CE7D6BA01CFB025C91DF87BE8A7C95E3B0B53777F5ADE9CB1470320E2A63",
+                         "Bytes":  124895,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  384,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/explore?schemaVersion=1\u0026panes=%7B%22r3w%22%3A%7B%22datasource%22%3A%22prometheus-lab15%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22expr%22%3A%22up%22%2C%22instant%22%3Atrue%2C%22range%22%3Afalse%2C%22editorMode%22%3A%22code%22%2C%22datasource%22%3A%7B%22type%22%3A%22prometheus%22%2C%22uid%22%3A%22prometheus-lab15%22%7D%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-15m%22%2C%22to%22%3A%22now%22%7D%2C%22compact%22%3Afalse%7D%7D\u0026orgId=1",
+                         "Timestamp":  "2026-11-26T07:54:04.855Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/08-dashboard-general.png",
+                         "SHA256":  "F10D52373848E983720D6C8420F1CEA084962198ADDDEAB16C0F0B3474D4ADAD",
+                         "Bytes":  171102,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  630,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:10:28.674Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/09-estado-microservicios.png",
+                         "SHA256":  "88CA23B465F8FDAC892482991ADDADBADA024E736C383D8936A35C98B9E688F9",
+                         "Bytes":  137598,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  420,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:10:34.563Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/10-memoria-cpu.png",
+                         "SHA256":  "7457E604EEBB4FB5E3E97B13E4546D3E4FA5CC9DFBD965546B7ACDAF1F17387C",
+                         "Bytes":  158902,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  507,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:08:14.421Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/11-metricas-http.png",
+                         "SHA256":  "B5CAEF31C1B27A9AF929EEFF361BE0B32457B5F3D633BD890D98BA01231E71B6",
+                         "Bytes":  152725,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  491,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=2026-11-26T07:44:17.109Z\u0026to=2026-11-26T07:48:23.617Z\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:08:20.343Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/12-conexiones-jdbc.png",
+                         "SHA256":  "91056C85A5D263F21D66B8AE703F7B55DB65C1E52F4BD8CD7EBAFB37FE272404",
+                         "Bytes":  113673,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  359,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:08:26.267Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/13-resilience4j.png",
+                         "SHA256":  "6212F82BF46631EDC05FED929C4B488C33F5A4CC00F2936C65FD2B11A8590C23",
+                         "Bytes":  142878,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  415,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=2026-11-26T07:44:17.109Z\u0026to=2026-11-26T07:48:23.617Z\u0026refresh=5s\u0026var-servicio=$__all\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:08:32.324Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     },
+                     {
+                         "File":  "evidencias/04-grafana/14-filtro-microservicio.png",
+                         "SHA256":  "C9D11E7A979F4D98A7D79D9F206C7D882A9948A6CF3C9E3EEAA4D7F1FB69ECEF",
+                         "Bytes":  137996,
+                         "Width":  1500,
+                         "Height":  850,
+                         "PNGDecoded":  true,
+                         "SampledColors":  392,
+                         "NonEmpty":  true,
+                         "ManifestMatched":  true,
+                         "BytesMatch":  true,
+                         "URL":  "http://localhost:3000/d/lab15-observabilidad/lab-15-observabilidad-de-microservicios?orgId=1\u0026from=now-15m\u0026to=now\u0026refresh=5s\u0026var-servicio=producto-service\u0026timezone=browser",
+                         "Timestamp":  "2026-11-26T08:08:38.347Z",
+                         "Redactions":  [
+
+                                        ],
+                         "TechnicalValid":  true,
+                         "OriginalPreserved":  true,
+                         "VisualReview":  "Vista de auditoria + metadatos originales; muestras de texto y datos personales revisadas por actividad"
+                     }
+                 ],
+    "PrivateReviewSheets":  [
+                                ".runtime/paso06/revision-capturas-1.png",
+                                ".runtime/paso06/revision-capturas-2.png",
+                                ".runtime/paso06/revision-capturas-3.png",
+                                ".runtime/paso06/revision-capturas-4.png",
+                                ".runtime/paso06/revision-capturas-5.png",
+                                ".runtime/paso06/revision-capturas-6.png",
+                                ".runtime/paso06/revision-capturas-7.png",
+                                ".runtime/paso06/revision-capturas-8.png",
+                                ".runtime/paso06/revision-capturas-9.png",
+                                ".runtime/paso06/revision-capturas-10.png"
+                            ],
+    "Scope":  "PNG, resolucion, pixeles no vacios, procedencia y bytes del manifiesto; revision visual de las imagenes, sin afirmar que un analizador de pixeles demuestra por si solo autenticidad o ausencia de secretos"
+}

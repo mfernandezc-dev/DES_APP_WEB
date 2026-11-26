@@ -1,0 +1,32 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/metrics/resilience4j.circuitbreaker.slow.calls",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:58.4684158-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "kind",
+                                           "values":  [
+                                                          "successful",
+                                                          "failed"
+                                                      ]
+                                       },
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "pedidoService"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The number of slow successful which were slower than a certain threshold",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  0.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.slow.calls"
+             }
+}

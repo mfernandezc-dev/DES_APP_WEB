@@ -1,0 +1,2 @@
+Checking C:\Users\USER\Desktop\4° Ciclo\Desarrollo de  App Web\DES_APP_WEB\fernandez_lab15\observabilidad\prometheus\prometheus.yml
+ SUCCESS: C:\Users\USER\Desktop\4° Ciclo\Desarrollo de  App Web\DES_APP_WEB\fernandez_lab15\observabilidad\prometheus\prometheus.yml is valid prometheus config file syntax

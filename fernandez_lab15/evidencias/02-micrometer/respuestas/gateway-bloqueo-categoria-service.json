@@ -1,0 +1,8 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8080/categoria-service/actuator/health",
+    "Status":  404,
+    "Timestamp":  "2026-11-25T21:40:01.6742607-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  null
+}

@@ -1,0 +1,25 @@
+﻿{
+    "Method":  "GET",
+    "Url":  "http://localhost:8084/actuator/metrics/resilience4j.circuitbreaker.slow.call.rate",
+    "Status":  200,
+    "Timestamp":  "2026-11-25T21:39:58.4504966-05:00",
+    "RedactedPersonalData":  false,
+    "Body":  {
+                 "availableTags":  [
+                                       {
+                                           "tag":  "name",
+                                           "values":  [
+                                                          "pedidoService"
+                                                      ]
+                                       }
+                                   ],
+                 "description":  "The slow call of the circuit breaker",
+                 "measurements":  [
+                                      {
+                                          "statistic":  "VALUE",
+                                          "value":  -1.0
+                                      }
+                                  ],
+                 "name":  "resilience4j.circuitbreaker.slow.call.rate"
+             }
+}

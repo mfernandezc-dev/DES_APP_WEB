@@ -1,0 +1,78 @@
+
+spring:
+  application:
+    name: pedido-service
+
+  profiles:
+    active: dev
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  sql:
+    init:
+      mode: never
+
+server:
+  address: 127.0.0.1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+resilience4j:
+  circuitbreaker:
+    circuitBreakerAspectOrder: 1
+    instances:
+      productoService:
+        ignoreExceptions:
+          - io.github.resilience4j.bulkhead.BulkheadFullException
+          - feign.FeignException$NotFound
+  bulkhead:
+    instances:
+      productoBulkhead:
+        maxConcurrentCalls: 2
+        maxWaitDuration: 1s
+  retry:
+    instances:
+      clienteRetry:
+        maxAttempts: 3
+        waitDuration: 2s
+        retryExceptions:
+          - feign.RetryableException
+          - feign.FeignException$InternalServerError
+          - feign.FeignException$BadGateway
+          - feign.FeignException$ServiceUnavailable
+          - feign.FeignException$GatewayTimeout
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    openfeign:
+      client:
+        config:
+          cliente-service:
+            connectTimeout: 1000
+            readTimeout: 2000
+          producto-service:
+            connectTimeout: 1000
+            readTimeout: 15000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true

@@ -1,0 +1,220 @@
+{
+  "Completed": true,
+  "Timestamp": "2026-11-26T13:33:43.075Z",
+  "README_SHA256": "1b8e8e9fcc900eedb1ddbc1eafb5e093d3ee34aa504e169828ab45e476044b45",
+  "Renderer": "Renderizador local sin dependencias: encabezados, listas, tablas, codigo, enlaces e imagenes; Mermaid como codigo",
+  "GithubPublished": false,
+  "Images": [
+    {
+      "alt": "Dashboard general de Grafana con datos reales",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Cinco aplicaciones registradas en Eureka",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Índice Actuator de Producto",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Salud de Producto Service",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Catálogo de métricas de Producto",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Categoria con health UP",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Cliente con health UP",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Pedido con health UP",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Exposición Prometheus de Producto",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Exposición Prometheus de Categoria",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Exposición Prometheus de Cliente",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Exposición Prometheus de Pedido",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Configuración real de Prometheus",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Validación promtool satisfactoria",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Siete targets UP en Prometheus",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Consulta PromQL up con siete resultados",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Memoria JVM por microservicio en Prometheus",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Tasa HTTP real en Prometheus",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Inicio autenticado de Grafana",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Datasource Prometheus provisionado en Grafana",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Conexión Grafana Prometheus correcta",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Grafana Explore con siete series up igual a uno",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Dashboard con memoria JVM y CPU reales",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Gráficos HTTP con tráfico real del PASO 06",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Conexiones HikariCP activas y máximas",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Métricas reales de Resilience4j en Grafana",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Filtro de Producto con métricas reales",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "GET real de productos mediante Gateway",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    },
+    {
+      "alt": "Pedido detallado real con datos personales protegidos",
+      "loaded": true,
+      "width": 1500,
+      "height": 850
+    }
+  ],
+  "Sections": [
+    "1. Presentación",
+    "2. Objetivos",
+    "3. Tecnologías utilizadas y versiones efectivas",
+    "4. Arquitectura de microservicios",
+    "5. Diagrama Mermaid compatible con GitHub",
+    "6. Estructura del proyecto",
+    "7. Requisitos previos",
+    "8. Configuración de bases de datos",
+    "9. Config Server y Eureka",
+    "10. Servicios y puertos",
+    "11. Orden de ejecución y comandos PowerShell",
+    "12. Implementación de Spring Boot Actuator",
+    "13. Integración de Micrometer Prometheus",
+    "14. Instalación y configuración de Prometheus",
+    "15. Consultas PromQL y explicación",
+    "16. Instalación y configuración de Grafana",
+    "17. Conexión del datasource",
+    "18. Dashboard personalizado",
+    "19. Pruebas funcionales",
+    "20. Evidencias organizadas por actividad",
+    "21. Tabla de resultados finales",
+    "22. Observaciones, seguridad y publicación pendiente",
+    "23. Cinco conclusiones",
+    "24. Autor"
+  ],
+  "ContentHeight": 41222,
+  "FullScreenshot": ".runtime/paso06/README-vista-previa-completa.png",
+  "WindowScreenshot": ".runtime/paso06/README-vista-previa-ventana.png",
+  "FormattingNormalization": {
+    "AppliedAt": "2026-11-26T14:15:17.097Z",
+    "CurrentREADME_SHA256": "91b0a0645b39ac5a853e96d290400d0882c0c8fb1a6dc2ccc2458b05659a57c4",
+    "OriginalRenderedREADME_SHA256": "1b8e8e9fcc900eedb1ddbc1eafb5e093d3ee34aa504e169828ab45e476044b45",
+    "PresentationEquivalent": true,
+    "Reason": "Solo sustitucion de tres saltos de linea Markdown por <br>; captura local anterior conservada, no repetida.",
+    "NewScreenshotTaken": false
+  }
+}

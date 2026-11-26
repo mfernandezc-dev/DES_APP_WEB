@@ -1,0 +1,22 @@
+{
+  "URL": "http://localhost:8080/api/pedidos",
+  "Http": 200,
+  "Redacted": true,
+  "Body": [
+    {
+      "detalles": [
+        {
+          "cantidad": 1,
+          "idDetalle": 1,
+          "idProducto": 1,
+          "precio": null
+        }
+      ],
+      "estado": "PENDIENTE",
+      "fecha": "2026-11-21",
+      "idCliente": 1,
+      "idPedido": 1,
+      "total": null
+    }
+  ]
+}
