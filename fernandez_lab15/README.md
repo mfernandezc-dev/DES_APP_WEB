@@ -769,6 +769,3 @@ publicación. **No se ha clonado esa copia ni ejecutado add, commit o push.**
 **Institución:** TECSUP<br>
 **Curso:** Desarrollo de Aplicaciones Web<br>
 **Trabajo:** Laboratorio 15 — Implementación de Observabilidad.
-
-PASO 06 concluido. Servicios conservados en ejecución. **PASO 07 requiere
-nueva autorización; no se ha publicado en GitHub.**
